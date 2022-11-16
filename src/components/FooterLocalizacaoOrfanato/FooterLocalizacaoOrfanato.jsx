@@ -55,26 +55,24 @@ const FooterLocalizacaoOrfanato = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="footerDivisoriaJuntosMudamosVidaHome">
-        <svg
-          className="linhaDivisoriaJuntosMudamosVidasHome"
-          width="1155"
-          height="3"
-          viewBox="0 0 1155 3"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <line
-            x1="1.5"
-            y1="1.5"
-            x2="1153.5"
-            y2="1.5"
-            stroke="#E6E6E6"
-            strokeWidth="3"
-            strokeLinecap="round"
-          />
-        </svg>
+        <div className="containerMapaLocalizacaoOrfanatoMobile">
+          <div class="mapouter">
+            <div class="gmap_canvas">
+              <iframe
+                width="300"
+                height="439"
+                id="gmap_canvas"
+                src="https://maps.google.com/maps?q=Recanto%20cristo%20vivo&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+              ></iframe>
+
+              <br />
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );

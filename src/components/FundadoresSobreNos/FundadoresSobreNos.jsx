@@ -11,7 +11,7 @@ import "slick-carousel/slick/slick-theme.css";
 const FundadoresSobreNos = () => {
   var settings = {
     infinite: true,
-    slidesToShow: 3,
+    slidesToShow: 1,
 
     slidesToScroll: 1,
     swipeToSlide: true,

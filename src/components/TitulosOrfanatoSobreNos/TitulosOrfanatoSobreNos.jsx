@@ -144,6 +144,7 @@ const TitulosOrfanatoSobreNos = () => {
       <div className="containerPrincipalTitulosOrfanatoSobreNos">
         <div className="containerElipsesTitulos stb_line_singleTitulosSobreNos">
           <a
+            style={{ marginRight: "2.5rem" }}
             href="#"
             className="gsapContainerDummyTitulosOrfanatoSobrenos stb-item"
           >
@@ -164,6 +165,7 @@ const TitulosOrfanatoSobreNos = () => {
             </div>
           </a>
           <a
+            style={{ marginRight: "2.5rem" }}
             href="#"
             className="gsapContainerDummyTitulosOrfanatoSobrenos stb-item"
           >
@@ -184,6 +186,7 @@ const TitulosOrfanatoSobreNos = () => {
             </div>
           </a>
           <a
+            style={{ marginRight: "2.5rem" }}
             href="#"
             className="gsapContainerDummyTitulosOrfanatoSobrenos stb-item"
           >
@@ -204,6 +207,7 @@ const TitulosOrfanatoSobreNos = () => {
             </div>
           </a>
           <a
+            style={{ marginRight: "2.5rem" }}
             href="#"
             className="gsapContainerDummyTitulosOrfanatoSobrenos stb-item"
           >
@@ -224,6 +228,7 @@ const TitulosOrfanatoSobreNos = () => {
             </div>
           </a>
           <a
+            style={{ marginRight: "2.5rem" }}
             href="#"
             className="gsapContainerDummyTitulosOrfanatoSobrenos stb-item"
           >
@@ -244,6 +249,7 @@ const TitulosOrfanatoSobreNos = () => {
             </div>
           </a>
           <a
+            style={{ marginRight: "2.5rem" }}
             href="#"
             className="gsapContainerDummyTitulosOrfanatoSobrenos stb-item"
           >

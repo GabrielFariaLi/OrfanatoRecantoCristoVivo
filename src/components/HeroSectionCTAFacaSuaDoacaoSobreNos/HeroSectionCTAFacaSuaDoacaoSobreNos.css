@@ -41,3 +41,10 @@
   transition: 0.3s ease-in-out;
   background: var(--primary-red);
 }
+
+@media (max-width: 559px) {
+  .containerPrincipalHeroSectionCTASobreNos {
+    background-size: cover;
+    margin-bottom: 70px;
+  }
+}

@@ -165,6 +165,7 @@ const HeroSectionDoacaoPorItem = () => {
             veja nossa lista de desejos
           </div>
         </div>
+
         <div className="horizontalTextoInfinitoAnimacao">
           <div className="containerTextoInfinito">
             <div className="stb_line_single">

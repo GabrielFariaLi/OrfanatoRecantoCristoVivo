@@ -209,3 +209,42 @@ export const fundadoresSobreNos = [
     funcao: "Função atual",
   },
 ];
+
+export const projetosSobreNos = [
+  {
+    id: 0,
+    img: "/imgs/imagemConhecaAlgunsProjetosSobreNos1.png",
+    primeiroTitulo: "Lorem ipsum",
+    segundoTitulo: "Sed ut perspiciatis unde omnis iste natus error sit ",
+  },
+  {
+    id: 1,
+    img: "/imgs/imagemConhecaAlgunsProjetosSobreNos2.png",
+    primeiroTitulo: "Lorem ipsum",
+    segundoTitulo: "Sed ut perspiciatis unde omnis iste natus error sit ",
+  },
+  {
+    id: 2,
+    img: "/imgs/imagemConhecaAlgunsProjetosSobreNos3.png",
+    primeiroTitulo: "Lorem ipsum",
+    segundoTitulo: "Sed ut perspiciatis unde omnis iste natus error sit ",
+  },
+  {
+    id: 3,
+    img: "/imgs/imagemConhecaAlgunsProjetosSobreNos4.png",
+    primeiroTitulo: "Lorem ipsum",
+    segundoTitulo: "Sed ut perspiciatis unde omnis iste natus error sit ",
+  },
+  {
+    id: 4,
+    img: "/imgs/imagemConhecaAlgunsProjetosSobreNos3.png",
+    primeiroTitulo: "Lorem ipsum",
+    segundoTitulo: "Sed ut perspiciatis unde omnis iste natus error sit ",
+  },
+  {
+    id: 5,
+    img: "/imgs/imagemConhecaAlgunsProjetosSobreNos2.png",
+    primeiroTitulo: "Lorem ipsum",
+    segundoTitulo: "Sed ut perspiciatis unde omnis iste natus error sit ",
+  },
+];

@@ -74,3 +74,31 @@
   height: 168.76px;
   margin: 0px 0px 0px 66px;
 }
+
+@media (max-width: 480px) {
+  .containerPrincipalOpcoesDoacaoPorPix {
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .containerOpcaoChavePix {
+    max-width: 330px;
+    padding: 29px 20px;
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 40px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+  }
+  .containerOpcaoQRCodePix {
+    margin-top: 20px;
+    max-width: 330px;
+
+    padding: 0px 27px 0px 21px;
+  }
+
+  .pixQRCodeOpcoes {
+    margin-left: 10px;
+  }
+}

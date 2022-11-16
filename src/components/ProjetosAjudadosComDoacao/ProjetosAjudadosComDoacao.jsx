@@ -100,7 +100,10 @@ const ProjetosAjudadosComDoacao = () => {
             </div>
             {dropdownProjetoFlag[item.id] === true ? (
               <div className="containerImagemRightUnidadeProjetoDoacao">
-                <img src="/imgs/imagemProjetoAjudadosDoacoes.png" />
+                <img
+                  className="ImagemRightUnidadeProjetoDoacao"
+                  src="/imgs/imagemProjetoAjudadosDoacoes.png"
+                />
               </div>
             ) : null}
           </div>

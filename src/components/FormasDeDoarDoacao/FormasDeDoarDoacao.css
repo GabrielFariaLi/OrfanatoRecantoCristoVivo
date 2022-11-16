@@ -74,12 +74,15 @@
 }
 
 @media (max-width: 480px) {
+  .containerPrincipalFormasDeDoarDoacao {
+    height: 270vh;
+  }
   .containerCardFormasDeDoacao {
     width: 280px !important;
-    height: 200px;
   }
 
   .containerConjuntoDeCardsFormasDeDoacao {
+    flex-direction: column;
   }
 
   .slickSliderContainerFormasDoar {

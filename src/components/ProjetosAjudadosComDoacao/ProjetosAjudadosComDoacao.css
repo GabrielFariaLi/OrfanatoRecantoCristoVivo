@@ -139,3 +139,59 @@
   align-items: center;
   background-color: var(--text-white);
 }
+
+@media (max-width: 480px) {
+  .containerTituloProjetosAjudados {
+    max-width: 100vw;
+  }
+
+  .tituloPrincipalProjetosAjudados {
+    font-size: 24px;
+    text-align: center;
+    width: 90vw;
+  }
+
+  .descTituloPrincipalProjetosAjudados {
+    width: 90vw;
+    font-size: 13px;
+  }
+
+  .containerEfetivosProjetos {
+    max-width: 100vw;
+  }
+
+  .containerUnidadeProjetoDoacao {
+    width: 100vw;
+    position: relative;
+  }
+
+  .tituloUnidadeProjetoDoacao {
+    font-size: 24px;
+    font-weight: 600;
+    z-index: 3 !important;
+    color: var(--text-black);
+  }
+
+  .containerTituloUnidadeProjetoDoacao {
+    padding-left: 30px;
+  }
+
+  .containerDescricaoUnidadeProjetoDoacao {
+    width: 100vw;
+    z-index: 2;
+  }
+
+  .containerImagemRightUnidadeProjetoDoacao {
+    bottom: 0;
+    position: absolute;
+  }
+
+  .ImagemRightUnidadeProjetoDoacao {
+    width: 251px;
+    height: 123px;
+    bottom: 0;
+    position: absolute;
+    right: 10%;
+    z-index: 1;
+  }
+}

@@ -23,8 +23,10 @@
 .containerTextoHeroSectionDoacaoPorPix {
   margin-right: auto;
   margin-left: 15%;
+  z-index: 2;
 }
 .containerIphoneHeroSectionDoacaoPorPix {
+  z-index: 1;
   position: absolute;
   margin-left: auto;
   transform: rotate(11.52deg);

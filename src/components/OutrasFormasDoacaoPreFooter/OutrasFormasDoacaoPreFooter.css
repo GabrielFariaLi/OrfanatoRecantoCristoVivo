@@ -1,0 +1,9 @@
+@media (max-width: 480px) {
+  .containerPrincipalFormasDeDoarDoacao {
+    height: 210vh;
+    margin-bottom: auto;
+  }
+
+  .containerPrincipalOutrasFormasDoacaoPreFooter {
+  }
+}

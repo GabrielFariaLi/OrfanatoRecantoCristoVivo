@@ -11,9 +11,12 @@ import NossaEquipeHome from "../components/NossaEquipeHomePage/NossaEquipeHome";
 import FooterLocalizacaoOrfanato from "../components/FooterLocalizacaoOrfanato/FooterLocalizacaoOrfanato";
 
 import Footer from "../components/Footer/Footer";
+const DivSobreNosPrincipal = styled.div`
+  background: var(--text-white);
+`;
 const SobreNos = () => {
   return (
-    <>
+    <DivSobreNosPrincipal>
       <Navbar />
       <HeroSectionSobreNos />
       <BreveDescricaoSectionSobreNos />
@@ -25,7 +28,7 @@ const SobreNos = () => {
       <FooterLocalizacaoOrfanato />
 
       <Footer />
-    </>
+    </DivSobreNosPrincipal>
   );
 };
 

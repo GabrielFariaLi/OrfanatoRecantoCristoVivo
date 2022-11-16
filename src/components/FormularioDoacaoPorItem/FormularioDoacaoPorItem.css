@@ -112,3 +112,33 @@
   border: 2px solid var(--primary-red);
   transition: 0.3s ease-in-out;
 }
+
+@media (max-width: 480px) {
+  .tituloFormularioDoacaoItem {
+    max-width: 100vw;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .containerFormularioDoacaoItemFlex {
+    padding-left: 10%;
+
+    flex-direction: column;
+    max-width: 100vw;
+  }
+
+  .inputFormularioInfoPessoaisDoacaoItem {
+    max-width: 350px;
+    margin-right: 45%;
+  }
+
+  .containerPrincipalFormularioDoacaoItem {
+    height: 200vh;
+  }
+
+  .inputFormularioOqueGostariaDeDoarDoacaoItem {
+    max-width: 350px;
+    margin-right: 45%;
+  }
+}
