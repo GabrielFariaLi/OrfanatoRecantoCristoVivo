@@ -1,0 +1,114 @@
+.containerPrincipalFormularioDoacaoItem {
+  height: 729px;
+  background-color: var(--text-white);
+  border-radius: 32px 32px 0px 0px;
+  padding-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+}
+.containerFormularioDoacaoItemFlex {
+  gap: 33px;
+}
+
+.tituloFormularioDoacaoItem {
+  justify-self: start;
+  width: 499px;
+  color: var(--text-black);
+  margin-top: 113px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 63.5px;
+  margin-bottom: 57px;
+}
+
+.containerInformacoesPessoaisFormulario {
+  display: flex;
+  flex-direction: column;
+  min-width: 569px;
+}
+
+.labelInputFormularioDoacaoItem {
+  margin-bottom: 13px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21.17px;
+  color: var(--text-black);
+}
+
+.inputFormularioInfoPessoaisDoacaoItem {
+  margin-bottom: 30px;
+  height: 56px;
+  border: none;
+  padding-left: 22px;
+  /* Brancos, cinzas e preto/Branco 1 */
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  background: #e8e8e8;
+  border-radius: 3px;
+  color: #d1d1d1;
+}
+
+.inputFormularioInfoPessoaisDoacaoItem::placeholder,
+.inputFormularioOqueGostariaDeDoarDoacaoItem::placeholder {
+  color: #d1d1d1;
+}
+
+.containerOqueGostariaDeDoarFormulario {
+  display: flex;
+  width: 569px;
+  flex-direction: column;
+}
+
+.inputFormularioOqueGostariaDeDoarDoacaoItem {
+  margin-bottom: 32px;
+  resize: none;
+  padding-top: 12px;
+  padding-right: 26px;
+  height: 218.77px;
+  border: none;
+  padding-left: 26px;
+  /* Brancos, cinzas e preto/Branco 1 */
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  background: #e8e8e8;
+  border-radius: 3px;
+  color: #d1d1d1;
+}
+
+.inputFormularioOqueGostariaDeDoarDoacaoItem::placeholder {
+  position: absolute;
+  left: 26px;
+  top: 12px;
+}
+
+.buttonEnviarMensagem {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 50px;
+  font-weight: 600;
+  font-size: 14px;
+  width: 218px;
+  height: 52px;
+  margin-bottom: 100px;
+
+  /* Azul/Azul MAIN */
+  color: var(--primary-blue);
+  border: 2px solid var(--primary-blue);
+  border-radius: 70px;
+}
+
+.buttonEnviarMensagem:hover {
+  color: var(--primary-red);
+  border: 2px solid var(--primary-red);
+  transition: 0.3s ease-in-out;
+}

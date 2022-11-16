@@ -1,0 +1,88 @@
+.containerPrincipalFormasDeDoarDoacao {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--text-white);
+}
+
+.containerCardFormasDeDoacao {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 370.33px;
+  height: 486px;
+
+  background: linear-gradient(0deg, #018fbf 0%, #91e3ff 100%);
+  border-radius: 8px;
+}
+
+.containerConjuntoDeCardsFormasDeDoacao {
+  margin-top: 90px;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardDoacaoVermelho {
+  background: linear-gradient(360deg, #ff284d 0%, #ff8196 100%);
+}
+
+.tituloFormaDoarDoacao {
+  color: rgba(242, 242, 242, 1);
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: auto;
+  padding-top: 41px;
+}
+
+.imagemCardFormaDoarDoacao {
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.buttonFormaDoarDoacao {
+  cursor: pointer;
+  display: flex;
+  margin-top: auto;
+  margin-bottom: 29px;
+  /* Brancos, cinzas e preto/Branco MAIN */
+
+  padding: 12px 50px;
+  border: 2px solid #f2f2f2;
+  border-radius: 50px;
+  color: var(--text-white);
+  letter-spacing: 0.3;
+  background: transparent;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.setaDoeAgoraDoacao {
+  width: 7px;
+  height: 14px;
+  align-self: center;
+  justify-self: center;
+  margin-left: 10px;
+}
+
+@media (max-width: 480px) {
+  .containerCardFormasDeDoacao {
+    width: 280px !important;
+    height: 200px;
+  }
+
+  .containerConjuntoDeCardsFormasDeDoacao {
+  }
+
+  .slickSliderContainerFormasDoar {
+    display: flex;
+  }
+}

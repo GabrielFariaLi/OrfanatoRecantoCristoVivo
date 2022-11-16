@@ -1,0 +1,256 @@
+.tituloNossaEstruturaHome {
+  color: var(--primary-blue);
+  display: flex;
+  margin-bottom: 20px;
+}
+.containerPrincipalNossaEstruturaHome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--text-white);
+}
+
+.containerTextoRightNossaEstruturaHome {
+  height: 400px;
+  width: 535px;
+}
+
+.buttonContainerNossaEstruturaHome {
+  min-width: 253px;
+  min-height: 52px;
+  border: 2px solid var(--primary-blue);
+  color: var(--primary-blue);
+  border-radius: 50px;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.buttonContainerNossaEstruturaHome:hover {
+  border: 2px solid var(--primary-red);
+  color: var(--primary-red);
+}
+
+/* GALERIA FOTOS ---------------------------*/
+.containerPrincipalGaleriaFotosNossaEstruturaHome {
+  position: relative;
+  width: 672px;
+  height: 546px;
+  margin-bottom: 5%;
+}
+
+.fotoEstruturaHome1 {
+  position: absolute;
+  width: 527px;
+  height: 396px;
+  top: calc(100% - 450px);
+  right: calc(100% - 620px);
+  background: url("../../../public/imgs/nossaEstruturaHome1.png");
+  border-radius: 30px 30px 20px 20px;
+  z-index: 5;
+  animation: mudarFoto1 infinite 10s;
+}
+.fotoEstruturaHome2 {
+  position: absolute;
+  width: 527px;
+  height: 396px;
+  top: calc(100% - 450px);
+  right: calc(100% - 620px);
+  filter: saturate(0);
+  background: url("../../../public/imgs/nossaEstruturaHome2.png");
+  border-radius: 30px 30px 20px 20px;
+  transform: rotate(-4.8deg);
+  z-index: 2;
+  animation: mudarFoto2 infinite 5s;
+  animation-delay: 5s;
+}
+.fotoEstruturaHome3 {
+  position: absolute;
+  width: 527px;
+  height: 396px;
+  filter: saturate(0);
+  top: calc(100% - 450px);
+  right: calc(100% - 620px);
+
+  background: url("../../../public/imgs/nossaEstruturaHome3.png");
+  border-radius: 30px 30px 20px 20px;
+  transform: rotate(-12.7deg);
+  z-index: 1;
+  animation: mudarFoto3 infinite 5s;
+  animation-delay: 2s;
+}
+/* FIM - GALERIA FOTOS ---------------------------*/
+
+/* ANIMAÇÃO FOTOS SITE */
+
+@keyframes mudarFoto1 {
+  from {
+    top: calc(100% - 450px);
+    right: calc(100% - 620px);
+  }
+  to {
+    top: calc(100% - 450px);
+    right: calc(100% - 620px);
+    transform: rotate(-12.7deg);
+    filter: saturate(0);
+    z-index: 1;
+  }
+}
+
+@keyframes mudarFoto2 {
+  from {
+    top: calc(100% - 450px);
+    right: calc(100% - 620px);
+  }
+  to {
+    top: calc(100% - 450px);
+    right: calc(100% - 620px);
+    transform: rotate(0);
+    z-index: 3;
+    filter: saturate(1);
+  }
+}
+
+@keyframes mudarFoto3 {
+  from {
+    top: calc(100% - 450px);
+    right: calc(100% - 620px);
+  }
+  to {
+    top: calc(100% - 450px);
+    right: calc(100% - 620px);
+    transform: rotate(0);
+    filter: saturate(1);
+    z-index: 3;
+  }
+}
+
+@media (max-width: 1132px) {
+  .containerPrincipalNossaEstruturaHome {
+    padding: 0px 75px;
+  }
+
+  .fotoEstruturaHome1,
+  .fotoEstruturaHome2,
+  .fotoEstruturaHome3 {
+    margin: auto;
+
+    bottom: 0;
+    left: 0;
+    top: calc(100% - 150px);
+    right: calc(100% - 620px);
+
+    margin-top: 30px;
+    margin-right: 100px;
+    text-align: center;
+  }
+
+  .containerTextoRightNossaEstruturaHome {
+    z-index: 9;
+  }
+}
+
+@media (max-width: 900px) {
+  .containerPrincipalNossaEstruturaHome {
+    flex-direction: column;
+  }
+
+  .fotoEstruturaHome1,
+  .fotoEstruturaHome2,
+  .fotoEstruturaHome3 {
+    margin: auto;
+
+    bottom: 0;
+    left: 0;
+    top: calc(100% - 450px);
+    right: calc(100% - 620px);
+
+    margin-top: 0px;
+    margin-right: 0px;
+    text-align: center;
+  }
+
+  .containerTextoRightNossaEstruturaHome {
+    z-index: 9;
+
+    padding: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .containerPrincipalNossaEstruturaHome {
+    flex-direction: column;
+    border: 2px solid red;
+  }
+
+  .containerTextoRightNossaEstruturaHome {
+    padding: 7px 15px 7px 15px;
+    width: 294px;
+    height: 468px;
+    transform: translateX(1rem);
+  }
+
+  .containerPrincipalGaleriaFotosNossaEstruturaHome {
+    width: 100vw;
+  }
+
+  .fotoEstruturaHome1,
+  .fotoEstruturaHome2,
+  .fotoEstruturaHome3 {
+    width: 330px;
+    height: 199px;
+    margin: auto;
+
+    bottom: 0;
+    left: 0;
+    top: calc(100% - 450px);
+    right: calc(100% - 620px);
+
+    margin-top: 0px;
+    margin-right: 260px;
+    text-align: center;
+  }
+
+  @keyframes mudarFoto1 {
+    from {
+      top: calc(100% - 450px);
+      right: calc(100% - 620px);
+    }
+    to {
+      top: calc(100% - 450px);
+      right: calc(100% - 620px);
+      transform: rotate(-12.7deg);
+      filter: saturate(0);
+      z-index: 1;
+    }
+  }
+
+  @keyframes mudarFoto2 {
+    from {
+      top: calc(100% - 450px);
+      right: calc(100% - 620px);
+    }
+    to {
+      top: calc(100% - 450px);
+      right: calc(100% - 620px);
+      transform: rotate(0);
+      z-index: 3;
+      filter: saturate(1);
+    }
+  }
+
+  @keyframes mudarFoto3 {
+    from {
+      top: calc(100% - 450px);
+      right: calc(100% - 620px);
+    }
+    to {
+      top: calc(100% - 450px);
+      right: calc(100% - 620px);
+      transform: rotate(0);
+      filter: saturate(1);
+      z-index: 3;
+    }
+  }
+}

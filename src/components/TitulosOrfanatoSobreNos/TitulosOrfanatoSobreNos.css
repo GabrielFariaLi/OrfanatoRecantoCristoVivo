@@ -1,0 +1,98 @@
+.containerPrincipalTitulosOrfanatoSobreNos {
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-blue);
+  overflow-x: scroll;
+}
+
+.containerElipsesTitulos {
+  display: flex;
+  gap: 150px;
+  width: 150%;
+  margin-left: 70%;
+  margin-top: 115px;
+}
+
+.elipseTituloOrfanatoSobreNos {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-width: 204.9px;
+  height: 208.8px;
+}
+.imagemElipseContornoTitulosOrfanatoSobreNos {
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: rotacao 30s ease-in-out infinite;
+}
+
+.primeiroTituloHeadingOrfanatoSobreNos {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.segundoTituloHeadingOrfanatoSobreNos {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.descricaoTituloHeadingOrfanatoSobreNos {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.17px;
+  text-align: center;
+}
+
+.containerHeadingBootomTitulosOrfanatoSobreNos {
+  margin-right: auto;
+  margin-left: 190px;
+}
+
+.titulosHeadingBottom {
+  line-height: 74.09px;
+  font-weight: 700;
+  font-size: 56px;
+  margin-top: 105px;
+}
+
+/* ANIMATIONS ----------------------------------*/
+@keyframes rotacao {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 480px) {
+  /* MARQUEEE ----------------------------------*/
+
+  .containerTextoInfinito {
+    z-index: 1;
+  }
+
+  .gsapContainerDummyTitulosOrfanatoSobrenos {
+    color: var(--text-white);
+  }
+
+  .stb_line_singleTitulosSobreNos {
+    white-space: nowrap;
+    padding: 0;
+    will-change: transform;
+  }
+  .stb-item {
+    padding: 0;
+    cursor: auto;
+    display: inline-block;
+    margin-right: 2.5rem;
+  }
+  .stb-item:hover {
+  }
+}

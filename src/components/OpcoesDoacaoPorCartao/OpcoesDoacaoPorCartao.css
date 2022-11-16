@@ -1,0 +1,59 @@
+.containerPrincipalOpcoesDoacaoPorCartao {
+  height: 579px;
+  background-color: var(--text-white);
+  border-radius: 32px 32px 0px 0px;
+  padding-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+}
+.containerCaixasOpcoes {
+  margin-top: 100px;
+  gap: 20px;
+}
+
+.containerOpcaoValorCartao {
+  width: 218px;
+  height: 242px;
+  background: #ffffff;
+  border-radius: 10px;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 45px 36px;
+}
+
+.paragrafoOpcaoValorCartao {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.17px;
+  color: var(--text-black);
+}
+
+.containerValorEmDinheiro {
+  gap: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-black);
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42.34px;
+  padding: 13px 0px 32px 0px;
+}
+
+.containerButtonSelecionarValorCartao {
+  padding: 10.2767px 42.8194px;
+  color: var(--text-white);
+  /* Azul/Azul MAIN */
+  cursor: pointer;
+  background: var(--primary-blue);
+  border-radius: 59.9472px;
+}

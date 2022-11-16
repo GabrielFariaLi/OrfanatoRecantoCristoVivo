@@ -1,0 +1,134 @@
+.containerSejaVoluntarioHome {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--text-white);
+  /* border: solid 2px red; */
+}
+
+.containerTextoRightSejaVoluntarioHome {
+  min-width: 526px;
+  display: flex;
+  flex-direction: column;
+}
+.descContainerSejaVoluntarioHome {
+  max-width: 405px;
+  color: var(--text-black);
+  margin: 32px 0px;
+}
+.buttonContainerSejaVoluntarioHome {
+  max-width: 242px;
+  min-height: 52px;
+  background-color: var(--primary-blue);
+  border: 2px solid var(--primary-blue);
+  color: var(--text-white);
+  border-radius: 50px;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.buttonContainerSejaVoluntarioHome:hover {
+  background-color: var(--primary-red);
+  border: 2px solid var(--primary-red);
+  color: var(--text-white);
+}
+
+.containerInfoTextoVoluntarioHome {
+  padding: 88px 58px;
+  width: 594px;
+  height: 568px;
+  background: #f1f1f1;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 21px;
+  transform: translateX(4rem);
+  z-index: 1;
+}
+
+.containerImagemSejaVoluntarioHome {
+  width: 621px;
+  height: 706px;
+
+  background: url("../../../public/imgs/sejaVoluntarioHomePage.png");
+  transform: matrix(1, 0, 0, 1, 0, 0);
+
+  border-radius: 21px;
+}
+
+@media (max-width: 929px) {
+  .containerSejaVoluntarioHome {
+    padding: 0px 50px;
+    position: relative;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .containerInfoTextoVoluntarioHome {
+    padding: 7px 15px 7px 15px;
+    width: 494px;
+    height: 468px;
+    transform: translateX(1rem);
+  }
+
+  .containerImagemSejaVoluntarioHome {
+    position: absolute;
+    width: 90vw;
+
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+
+    height: 400px;
+  }
+
+  .containerTextoRightSejaVoluntarioHome {
+    padding: 25px;
+  }
+
+  .subTituloContainerSobreNos {
+    font-size: 30px;
+  }
+
+  .descContainerSejaVoluntarioHome {
+    font-size: 20px;
+    max-width: 404px;
+  }
+}
+
+@media (max-width: 480px) {
+  .containerSejaVoluntarioHome {
+    padding: 0;
+    position: relative;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .containerInfoTextoVoluntarioHome {
+    padding: 7px 15px 7px 15px;
+    width: 294px;
+    height: 468px;
+    transform: translateX(1rem);
+  }
+
+  .containerImagemSejaVoluntarioHome {
+    position: absolute;
+    width: 95vw;
+
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1) rotate(5.2deg);
+
+    height: 400px;
+  }
+
+  .containerTextoRightSejaVoluntarioHome {
+    padding: 0;
+  }
+
+  .subTituloContainerSobreNos {
+    font-size: 30px;
+  }
+
+  .descContainerSejaVoluntarioHome {
+    font-size: 20px;
+    max-width: 274px;
+  }
+}

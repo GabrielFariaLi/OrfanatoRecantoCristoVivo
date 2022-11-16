@@ -1,0 +1,110 @@
+.containerGeralJuntosMudamosVidasHome {
+  width: 100%;
+  height: fit-content;
+  padding: 54px 0px 0px 0px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, #018fbf 0%, #015673 111.49%);
+}
+.footerDivisoriaJuntosMudamosVidaHome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #018fbf 0%, #015673 111.49%);
+}
+
+.linhaDivisoriaJuntosMudamosVidasHome {
+  flex-basis: 100%;
+}
+.containerConteudosJuntosMudamosVidas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tituloJuntoMudamos {
+  display: flex;
+  font-size: 45.68px;
+  font-weight: 600;
+}
+
+.roletaNomesAjudados {
+  max-width: 282px;
+  height: 360px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 45.68px;
+  margin-left: 15px;
+  margin-right: 43px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.juntosP {
+  font-style: italic;
+  margin-right: -7px;
+}
+
+.nomeCriancasAjudadas {
+  align-self: center;
+  justify-self: center;
+  margin-top: 7px;
+}
+
+.atualItemRoleta {
+  padding-left: 10px;
+  align-self: center;
+  justify-self: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+.itemUmaUnidadeDistanciaRoleta {
+  color: rgba(255, 255, 255, 0.5);
+}
+.itemDuasUnidadeDistanciaRoleta {
+  color: rgba(255, 255, 255, 0.1);
+}
+
+.roletaNomesAjudados {
+}
+.buttonNosAjude {
+  min-width: 253px;
+  min-height: 52px;
+  border: none;
+  color: var(--primary-blue);
+  border-radius: 50px;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.buttonNosAjude:hover {
+  color: var(--primary-red);
+}
+
+@media (max-width: 1100px) {
+  .tituloJuntoMudamos {
+    flex-direction: column;
+    padding-bottom: 55px;
+  }
+}
+
+@media (max-width: 480px) {
+  .containerConteudosJuntosMudamosVidas {
+    flex-direction: column;
+  }
+
+  .tituloJuntoMudamos {
+    flex-direction: column;
+    padding-bottom: 0px;
+  }
+
+  .buttonNosAjude {
+    margin-top: 30px;
+  }
+}

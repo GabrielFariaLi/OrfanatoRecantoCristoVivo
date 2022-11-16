@@ -1,0 +1,214 @@
+.divPrincipalHeroLanding {
+  width: 100vw;
+  position: relative;
+  background-color: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6));
+}
+
+/* INTRO -----------------------------------*/
+.containerIntroWebsite {
+  position: absolute;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-blue);
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+}
+
+.backgroundVermelho {
+  position: absolute;
+  background-color: var(--primary-red);
+  width: 100vw;
+  height: 100vh;
+  z-index: 99999;
+}
+
+.containerTextoPrincipalLoading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-weight: 500;
+  font-size: 16px;
+  transform: translate(-50%, -50%);
+}
+
+.tituloORCVIntro {
+  transform: translateY(100%);
+  display: inline-block;
+}
+
+/* lineup class and keyframes */
+.lineUp {
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+/* FIM INTRO -----------------------------------*/
+
+.paragrafoLandingPageRecanto {
+  font-weight: 400;
+  font-size: 16px;
+  align-self: center;
+  padding-top: 25px;
+  padding-left: 50px;
+}
+
+.videoLandingPage {
+  width: 100vw;
+  opacity: 0.8;
+}
+
+.containerTituloLandingPage {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 558px;
+}
+
+.h1TituloLandingPage {
+  font-weight: 600;
+  line-height: 70px;
+  font-size: 89.48px;
+}
+
+.segundoTituloLandingPage > .h1TituloLandingPage {
+  line-height: 90px;
+}
+
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.primeiroTituloLandingPage {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.descaSaibaMaisRodela {
+  position: absolute;
+  animation: rotation 20s infinite linear;
+  bottom: calc(0% + 285px);
+  right: calc(0% + 4.7rem);
+}
+
+.coracaoDescaSaibaMais {
+  position: absolute;
+  bottom: calc(0% + 328px);
+  right: calc(0% + 7.2rem);
+  animation: beating 2s ease-in alternate infinite;
+}
+.setaDescaMais {
+  position: absolute;
+  bottom: calc(0% + 105px);
+  right: calc(0% + 6.7rem);
+  animation: scrollDown 0.5s ease-in alternate infinite;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes scrollDown {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(18px);
+  }
+}
+
+@keyframes beating {
+  from {
+    transform: scale(0.5, 0.5);
+  }
+  to {
+    transform: scale(1, 1);
+  }
+}
+
+@media (max-width: 980px) {
+  .opcoesDoacaoHomePageSetaIcon3 {
+  }
+}
+
+@media (max-width: 559px) {
+  .primeiroTituloLandingPage {
+    align-self: center;
+  }
+  .segundoTituloLandingPage {
+    align-self: center;
+    line-height: 10px;
+  }
+  .containerTituloLandingPage {
+    width: 100vw;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .paragrafoLandingPageRecanto {
+    text-justify: center;
+    padding: 0;
+    margin-left: 10px;
+    max-width: 145px;
+  }
+
+  .h1TituloLandingPage {
+    line-height: 35px;
+    font-size: calc(89.48px / 2);
+  }
+
+  #terceiroTituloLandingPage {
+    line-height: 35px;
+  }
+  .segundoTituloLandingPage > .h1TituloLandingPage {
+    line-height: calc(89.48px / 2);
+  }
+
+  #primeiroTituloLandingPage {
+    margin-top: 20px;
+  }
+
+  .descaSaibaMaisRodela {
+    bottom: calc(0% + 235px);
+    right: calc(0% + 0.7rem);
+  }
+
+  .coracaoDescaSaibaMais {
+    bottom: calc(0% + 278px);
+    right: calc(0% + 3.2rem);
+  }
+  .setaDescaMais {
+    bottom: calc(0% + 55px);
+    right: calc(0% + 2.7rem);
+  }
+}

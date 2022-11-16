@@ -1,0 +1,316 @@
+.containerComoDoarHome {
+  padding-top: 100px;
+  display: flex;
+  height: 820px;
+  background-color: var(--text-white);
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+
+  /* border: 1px solid red; */
+  padding-bottom: 100px;
+}
+
+.flex {
+  display: flex;
+}
+
+.containerTextoRightComoDoarHome {
+  min-width: 526px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 92px;
+  cursor: pointer;
+}
+
+.containerFotosRightComoDoarHome {
+  height: 576px;
+
+  width: 586px;
+  position: relative;
+}
+
+.tituloContainerComoDoarHome {
+  color: var(--primary-blue);
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.buttonContainerComoDoarHome {
+  background: transparent;
+  max-width: 242px;
+  min-height: 52px;
+  border: 2px solid var(--primary-blue);
+  color: var(--primary-blue);
+  border-radius: 50px;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.buttonContainerComoDoarHome:hover {
+  border: 2px solid var(--primary-red);
+  color: var(--primary-red);
+}
+
+.imagemDoacoesHome {
+  transition: 0.2s ease-in-out;
+  position: absolute;
+  background: url("../../../public/imgs/comoDoarHome1.jpg") center;
+  width: 586px;
+  height: 576px;
+  border-radius: 0px 130px;
+  z-index: 3;
+}
+
+.imagemDoacoesHome2 {
+  transition: 0.2s ease-in-out;
+  position: absolute;
+  background: url("../../../public/imgs/comoDoarHome2.jpg") center;
+  width: 586px;
+  height: 576px;
+  border-radius: 0px 130px;
+  z-index: 2;
+}
+
+.imagemDoacoesHome3 {
+  transition: 0.2s ease-in-out;
+  z-index: 1;
+  position: absolute;
+  background: url("../../../public/imgs/comoDoarHome3.jpg") center;
+  width: 586px;
+  height: 576px;
+  border-radius: 0px 130px;
+}
+
+.opcoesDoacaoHomePage {
+  font-size: 48px;
+  font-weight: 600px;
+  margin-bottom: 25px;
+  line-height: 10px;
+  color: var(--text-gray);
+  transition: 0.2s ease-in-out;
+}
+
+.opcoesDoacaoHomePage:hover,
+.opcoesDoacaoHomePage:hover .opcoesDoacaoHomePageSetaIcon,
+.opcoesDoacaoHomePage:hover .imagemDoacoesHome {
+  opacity: 1;
+  color: var(--text-black);
+}
+
+.opcoesDoacaoHomePage2 {
+  font-size: 48px;
+  font-weight: 600px;
+  margin-bottom: 25px;
+  line-height: 10px;
+  color: var(--text-gray);
+}
+
+.opcoesDoacaoHomePage2:hover,
+.opcoesDoacaoHomePage2:hover .opcoesDoacaoHomePageSetaIcon2,
+.opcoesDoacaoHomePage2:hover .imagemDoacoesHome2 {
+  color: var(--text-black);
+  opacity: 1;
+}
+
+.opcoesDoacaoHomePage3 {
+  font-size: 48px;
+  font-weight: 600px;
+  margin-bottom: 25px;
+  line-height: 10px;
+  color: var(--text-gray);
+}
+
+.opcoesDoacaoHomePage3:hover,
+.opcoesDoacaoHomePage3:hover .opcoesDoacaoHomePageSetaIcon3 {
+  opacity: 1;
+  color: var(--text-black);
+}
+
+.opcoesDoacaoHomePageSetaIcon {
+  transition: 0.2s ease-in-out;
+  opacity: 0;
+}
+
+.opcoesDoacaoHomePageSetaIcon2 {
+  transition: 0.2s ease-in-out;
+  opacity: 0;
+}
+
+.opcoesDoacaoHomePageSetaIcon3 {
+  transition: 0.2s ease-in-out;
+  opacity: 0;
+}
+/*  MOBILE -----------------------------------*/
+.containerComoDoarHomeMobile {
+  display: none;
+  height: 100vh;
+  background-color: var(--text-white);
+  /* border: 2px solid red; */
+}
+
+/* MEDIA QUERIE ---------------------------------------- */
+@media (max-width: 1132px) {
+}
+
+@media (max-width: 1132px) {
+  .containerComoDoarHome {
+    flex-direction: column;
+    align-items: center;
+
+    height: 900px;
+  }
+
+  .containerFotosRightComoDoarHome {
+    margin: 0 0 0 20%;
+    min-height: 420px;
+    justify-self: center;
+    align-self: center;
+  }
+
+  .opcoesDoacaoHomePage,
+  .opcoesDoacaoHomePage2,
+  .opcoesDoacaoHomePage3 {
+    line-height: 40px;
+  }
+
+  .imagemDoacoesHome,
+  .imagemDoacoesHome2,
+  .imagemDoacoesHome3 {
+    align-self: center;
+    width: 418px;
+    height: 408px;
+  }
+}
+
+@media (max-width: 666px) {
+  .containerComoDoarHome {
+    display: none;
+  }
+
+  .containerComoDoarHomeMobile {
+    display: block;
+
+    background-color: var(--text-white);
+  }
+
+  .containerOpcoesDoarMobile {
+  }
+
+  .containerOpcoesDoarMobile1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hrComoDoarMobile {
+    align-self: center;
+    justify-self: center;
+    width: 90vw;
+    height: 3px;
+    background: black;
+    border: none;
+    margin-bottom: 50px;
+  }
+  .containerImagemOpcaoDoarMobileHome {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .containerDescricaoOpcaoDoarMobileHome {
+    position: absolute;
+    color: var(--text-black);
+    width: 300px;
+    height: 122px;
+    background-color: white;
+    box-shadow: 0px 0px 23px rgb(0 0 0 / 15%);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+  }
+  .containerOpcaoDoarMobile {
+    position: relative;
+  }
+
+  .tituloComoDoarMobile {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  .containerComoDoarHome {
+  }
+
+  .tituloComoDoarMobile {
+    text-justify: center;
+    color: var(--text-black);
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .containerSubTituloComoDoarMobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .subTituloComoDoarMobile {
+    justify-self: center;
+    font-size: 50px;
+    font-weight: 600;
+    color: var(--text-black);
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--text-black);
+  }
+
+  .containerFotosRightComoDoarHome {
+  }
+
+  .hrComoDoarMobile {
+    align-self: center;
+    justify-self: center;
+    width: 90vw;
+    height: 3px;
+    background: black;
+    border: none;
+    margin-bottom: 50px;
+  }
+  .containerImagemOpcaoDoarMobileHome {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .containerDescricaoOpcaoDoarMobileHome {
+    position: absolute;
+    color: var(--text-black);
+    width: 300px;
+    height: 122px;
+    background-color: white;
+    box-shadow: 0px 0px 23px rgb(0 0 0 / 15%);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+  }
+  .containerOpcaoDoarMobile {
+    position: relative;
+  }
+}

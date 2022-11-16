@@ -1,0 +1,62 @@
+.containerPrincipalHeroSectionSobreNos {
+  height: 732px;
+  width: 100%;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+      359.49deg,
+      #018fbf 17.74%,
+      rgba(1, 143, 191, 0) 94.46%
+    ),
+    url("../../../public/imgs/heroSectionSobreNos.png") center no-repeat;
+  background-size: 100%;
+}
+
+.containerTextoHeroSectionSobreNos {
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: 70px;
+  margin-left: 15%;
+  display: flex;
+  flex-direction: column;
+}
+.primeiroTituloHeroSectionSobreNos {
+  display: flex;
+  flex-direction: column;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 42.34px;
+  margin-bottom: 20px;
+}
+
+.segundoTituloHeroSectionSobreNos {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+@media (max-width: 480px) {
+  .containerPrincipalHeroSectionSobreNos {
+    background-size: cover;
+  }
+
+  .primeiroTituloHeroSectionSobreNos {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 42.34px;
+    margin-bottom: 20px;
+  }
+
+  .segundoTituloHeroSectionSobreNos {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .containerTextoHeroSectionSobreNos {
+    margin: auto;
+  }
+}

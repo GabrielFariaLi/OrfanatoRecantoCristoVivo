@@ -1,0 +1,80 @@
+.containerPrincipalBreveDescricaoSobreNos {
+  height: 523px;
+  width: 100%;
+  display: flex;
+
+  background-color: var(--text-white);
+  justify-content: center;
+  align-items: center;
+}
+
+.containerTextoLeftBreveDescricaoSobreNos {
+  width: 446px;
+  height: 212px;
+  color: var(--text-black);
+  font-size: 40px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 70px;
+}
+
+.containerTextoImpactoBreveDescricaoSobreNos {
+  display: flex;
+}
+
+.containerTextoRightBreveDescricaoSobreNos {
+  width: 546px;
+  color: var(--text-black);
+}
+
+.primeiroParagrafoBreveDescricaoSobreNos {
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.segundoParagrafoBreveDescricaoSobreNos {
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.17px;
+}
+
+.azul {
+  color: var(--primary-blue);
+}
+
+.vermelho {
+  color: var(--primary-red);
+}
+.containerTextoRightBreveDescricaoSobreNosMobile {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .containerPrincipalBreveDescricaoSobreNos {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .containerTextoLeftBreveDescricaoSobreNos {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .containerTextoRightBreveDescricaoSobreNos {
+    display: none;
+  }
+
+  .containerTextoRightBreveDescricaoSobreNosMobile {
+    display: block;
+    max-width: 320px;
+    max-height: 283px;
+    color: var(--text-black);
+    text-align: center;
+  }
+}

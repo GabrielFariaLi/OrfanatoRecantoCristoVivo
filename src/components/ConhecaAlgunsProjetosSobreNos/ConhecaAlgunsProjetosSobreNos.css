@@ -1,0 +1,126 @@
+.containerPrincipalConhecaAlgunsProjetosSobreNos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 100%;
+  background-color: var(--text-white);
+}
+.containerTituloConhecaAlgunsProjetosSobreNos {
+  margin: 60px auto 59px auto;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.primeiroTituloConhecaAlgunsProjetosSobreNos {
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--text-black);
+}
+
+.segundoTituloConhecaAlgunsProjetosSobreNos {
+  font-size: 56px;
+  font-weight: 700;
+  color: var(--text-black);
+}
+
+.containerCarouselConhecaAlgunsProjetosSobreNos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 508px;
+  min-height: 508px;
+  max-height: 508px;
+  gap: 10px;
+
+  margin-bottom: 100px;
+}
+
+.containerSliderCarouselConhecaAlgunsProjetosSobreNoS {
+  width: 1178px;
+}
+
+.cardConhecaAlgunsProjetosSobreNos {
+  min-height: 508px;
+  min-width: 285px;
+  max-height: 508px;
+  max-width: 285px;
+
+  background-size: 100%;
+  border-radius: 9px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding-left: 24px;
+  padding-right: 54px;
+}
+
+.imagemCardConhecaAlgunsProjetosSobreNos {
+  top: 0;
+  left: 0;
+  z-index: 0;
+  position: absolute;
+}
+
+.molduraCardConhecaAlgunsProjetosSobreNos {
+  min-height: 508px;
+  min-width: 285px;
+  max-height: 508px;
+  max-width: 285px;
+  top: 0;
+  left: 0;
+  padding: 0px 54px 0px 24px;
+  padding-top: 366px;
+  position: absolute;
+  z-index: 2;
+  border-radius: 9px;
+  background: linear-gradient(180deg, rgba(1, 143, 191, 0) 0%, #018fbf 100%);
+}
+
+.primeiroTituloProjetoConhecaAlgunsProjetosSobreNos {
+  margin-top: auto;
+  margin-bottom: 10px;
+  z-index: 3;
+}
+
+.segundoTituloProjetoConhecaAlgunsProjetosSobreNos {
+  margin-top: auto;
+  margin-bottom: 20px;
+  z-index: 3;
+}
+
+.buttonDirecionamentoProjetoConhecaAlgunsProjetosSobreNos {
+  margin-top: auto;
+  margin-bottom: 25px;
+  z-index: 3;
+}
+
+@media (max-width: 480px) {
+  .containerSliderCarouselConhecaAlgunsProjetosSobreNoS {
+    width: 100vw;
+  }
+  .containerPrincipalConhecaAlgunsProjetosSobreNos {
+    height: 150vh;
+  }
+
+  .containerCarouselConhecaAlgunsProjetosSobreNos {
+    width: 100vw;
+  }
+
+  .cardConhecaAlgunsProjetosSobreNos {
+    margin: auto;
+    justify-self: center;
+    align-self: center;
+    display: block !important;
+  }
+
+  .containerTituloConhecaAlgunsProjetosSobreNos {
+    text-align: center;
+  }
+}

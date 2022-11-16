@@ -1,0 +1,54 @@
+.containerPrincipalDuvidasProcessoDoacao {
+  height: 576px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: var(--text-white);
+  align-items: center;
+}
+
+.containerTextoDuvidasProcessoDoacao {
+  min-width: 463px;
+  max-width: 463px;
+  color: var(--text-black);
+}
+
+.tituloDuvidasProcessoDoacao {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 63.5px;
+}
+
+.descDuvidasProcessoDoacao {
+  margin: 20px 0px 32px 0px;
+}
+
+.buttonDuvidasProcessoDoacao {
+  /* Auto layout */
+  width: 275px;
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 50px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 28px;
+  color: #f2f2f2;
+  letter-spacing: 0.3px;
+  transition: 0.3s ease-in-out;
+  /* Azul/Azul MAIN */
+
+  background: var(--primary-blue);
+  border-radius: 70px;
+}
+
+.buttonDuvidasProcessoDoacao:hover {
+  background: var(--primary-red);
+}
+
+.containerImagemDuvidasProcessoDoacao {
+  height: 100%;
+  margin-left: 120px;
+}

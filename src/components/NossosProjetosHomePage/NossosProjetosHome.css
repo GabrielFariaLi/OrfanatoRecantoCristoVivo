@@ -1,0 +1,148 @@
+/* VARIAVEIS */
+
+.semibold48 {
+  font-weight: 600;
+  font-size: 48px;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ----------- */
+
+.containerPrincipalNossosProjetosHome {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--text-white);
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+}
+
+.tituloCarouselNossosProjetosHome {
+  display: flex;
+  flex-direction: column;
+}
+
+.tituloCarouselNossosProjetosHome {
+  margin-top: calc(100vh - 90vh);
+  margin-bottom: 80px;
+}
+
+.imagemNossosProjetosHome {
+  border-radius: 25px;
+}
+
+.faixaAnoProjetoHome {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 14px;
+
+  text-align: center;
+  width: 80px;
+  height: 23px;
+
+  /* Azul/Azul MAIN */
+
+  background: #018fbf;
+  /* Azul/Azul MAIN */
+
+  border: 1px solid #018fbf;
+  border-radius: 2px;
+}
+
+.containerCardNossosProjetosHome {
+  width: 484.53px;
+  height: 284.53px;
+  padding-left: 110px;
+}
+
+.containerCarrouselProjetosHome {
+  display: flex;
+  cursor: url("../../../public/imgs/hoverButtonNossosProjetos.png"), pointer;
+  transition: cursor 4s ease-in-out;
+  width: calc(100vw - 35vw);
+  height: 610px;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.containerNomeNossosProjetosHome {
+  padding-top: 30px;
+}
+
+.atualItemRoletaNossosProjetosHome {
+  height: 284.53px;
+  width: 440px;
+  padding-top: 50px;
+
+  transform: scale(1.5);
+}
+
+.tituloNossosProjetosHome {
+  color: var(--text-black);
+  font-size: 32px;
+  font-weight: 600;
+}
+
+@media (max-width: 1500px) {
+  .containerCardNossosProjetosHome {
+    padding-left: 115px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .atualItemRoletaNossosProjetosHome {
+    height: 484.53px;
+    width: 440px;
+    padding-top: 100px;
+    margin: 0 !important;
+    transform: scale(1.5);
+  }
+
+  .containerCardNossosProjetosHome {
+  }
+
+  .imagemNossosProjetosHome {
+  }
+}
+
+@media (max-width: 860px) {
+  .containerCardNossosProjetosHome {
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .containerCardNossosProjetosHome {
+    padding: 0px 10px;
+  }
+
+  .containerCarrouselProjetosHome {
+    height: 500px;
+  }
+}
+
+@media (max-width: 480px) {
+  .containerCarrouselProjetosHome {
+    height: 400px;
+    width: 100vw;
+  }
+
+  .containerCardNossosProjetosHome {
+    display: flex;
+    padding: 0 30px;
+
+    justify-content: center !important;
+    align-items: center;
+  }
+
+  .imagemNossosProjetosHome {
+    margin: 0 !important;
+    justify-self: center;
+  }
+
+  .containerNomeNossosProjetosHome {
+  }
+}

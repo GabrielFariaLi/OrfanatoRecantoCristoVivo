@@ -1,0 +1,89 @@
+.containerPrincipalFundadoresSobreNos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 910px;
+  width: 100%;
+  background-color: var(--text-white);
+}
+
+.containerTituloNossosFundadoresSobreNos {
+  display: flex;
+  margin-right: auto;
+  margin-left: 175px;
+}
+
+.containerSliderFundadoresSobreNos {
+  width: 100vw;
+  gap: 20px;
+}
+
+.tituloNossosFundadoresSobreNos {
+  color: var(--primary-blue);
+  margin-bottom: 32px;
+}
+
+.containerCardNossosFundadoresSobreNos {
+  gap: 20px;
+  margin-left: 190px;
+  display: flex;
+}
+
+.cardNossosFundadoresSobreNos:hover .molduraImagemNossosFundadoresSobreNos {
+  display: flex;
+}
+
+.cardNossosFundadoresSobreNos {
+  position: relative;
+  width: clamp(213px, 426px, 426px);
+  max-width: 426px;
+
+  border-radius: 7px;
+  height: clamp(229px, 557px, 557px);
+}
+
+.imagemNossosFundadoresSobreNos {
+  width: 100%;
+  height: 468px;
+
+  margin-bottom: 32px;
+}
+
+.molduraImagemNossosFundadoresSobreNos {
+  display: none;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 468px;
+  transition: 2s ease-in-out;
+  z-index: 2;
+  border-radius: 7px;
+}
+
+.textoDescImagemNossosFundadoresSobreNos {
+  max-width: 254px;
+  margin: auto auto 68px auto;
+}
+
+.molduraAzulFundadoresSobreNos {
+  background: linear-gradient(180deg, rgba(1, 143, 191, 0) 0%, #018fbf 100%);
+}
+
+.molduraVermelhoFundadoresSobreNos {
+  background: linear-gradient(180deg, rgba(255, 40, 77, 0) 0%, #ff284d 100%);
+}
+
+.nomeNossoFundadoresSobreNos {
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--text-black);
+}
+
+.funcaoNossoFundadoresSobreNos {
+  font-weight: 700;
+  color: var(--text-black);
+  font-size: 20px;
+}

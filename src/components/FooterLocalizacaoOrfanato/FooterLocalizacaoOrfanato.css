@@ -1,0 +1,62 @@
+.containerPrincipalFooterLocalizacaoOrfanato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #018fbf 0%, #015673 111.49%);
+  width: 100%;
+  height: 656px;
+}
+
+.containerTextoLocalizacaoOrfanato {
+  width: 496px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.containerTituloTextoLocalizacaoOrfanato {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.containerInfosLocalizacaoOrfanato {
+  display: flex;
+  margin-right: auto;
+  gap: 60px;
+}
+
+.tituloItemInfoLocalizacaoOrfanato {
+  margin-bottom: 11px;
+}
+
+.textoCimaInfoLocalizacao {
+  margin-top: 40px;
+}
+
+.textoCimaInfoLocalizacao2 {
+  margin-bottom: 40px;
+}
+
+.primeiraColunaInfosLocalizacaoOrfanato {
+  max-width: 171px;
+  display: flex;
+  flex-direction: column;
+}
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 439px;
+  width: 583px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  margin-left: 24px;
+  width: 600px;
+}
+
+#gmap_canvas {
+  border-radius: 33px;
+}

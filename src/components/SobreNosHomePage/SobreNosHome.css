@@ -1,0 +1,223 @@
+.containerSobreNosHome {
+  padding-top: 206px;
+  display: flex;
+  height: 1100px;
+  background-color: var(--text-white);
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.containerTextoLeftHome {
+  padding-bottom: 150px;
+  max-width: 535px;
+  display: flex;
+  flex-direction: column;
+}
+
+.containerFotosRightHome {
+  position: relative;
+  width: 635px;
+  height: 791px;
+}
+
+.subTituloContainerSobreNos {
+  color: var(--text-black);
+  font-weight: 600;
+  font-size: 48px;
+}
+
+.descContainerSobreNos {
+  font-size: 16px;
+  color: var(--text-black);
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.linhaVermelha {
+  padding-top: 25px;
+  width: 57px;
+  height: 1px;
+  border: 3px solid var(--primary-red);
+}
+
+.tituloContainerSobreNos {
+  color: var(--primary-blue);
+  display: flex;
+}
+
+.imagemFundadores {
+  position: absolute;
+  width: 377.95px;
+  height: 689.39px;
+  filter: saturate(0);
+  right: 220px;
+  bottom: calc(100% + -39.2rem);
+  background: url("../../../public/imgs/sobreNosHome1.png") center;
+  border-radius: 15.3669px;
+  transform: matrix(1, -0.11, 0.09, 0.99, 0, 0);
+  z-index: 1;
+  transition: 0.5s ease-in-out;
+}
+
+.imagemFundadores2 {
+  position: absolute;
+  width: 377.95px;
+  filter: saturate(0);
+  height: 689.39px;
+  right: 137px;
+  bottom: calc(100% + -41.2rem);
+  background: url("../../../public/imgs/sobreNosHome2.png") center;
+  border-radius: 15.3669px;
+  transform: matrix(1, -0.01, 0, 1, 0, 0);
+  z-index: 2;
+  transition: 0.5s ease-in-out;
+}
+
+.imagemFundadores3 {
+  position: absolute;
+  width: 377.95px;
+  height: 689.39px;
+  filter: saturate(0);
+  right: 0;
+
+  background: url("../../../public/imgs/sobreNosHome3.jpg") center;
+  border-radius: 15.3669px;
+  transform: matrix(1, 0.06, -0.05, 1, 0, 0);
+  transition: 0.5s ease-in-out;
+  z-index: 3;
+}
+
+.imagemFundadores:hover {
+  filter: saturate(1);
+  z-index: 4;
+  transition: 0.1s ease-in-out;
+}
+.imagemFundadores2:hover {
+  filter: saturate(1);
+  z-index: 4;
+  transition: 0.1s ease-in-out;
+}
+
+.imagemFundadores3:hover {
+  filter: saturate(1);
+  z-index: 4;
+  transition: 0.1s ease-in-out;
+}
+
+.buttonContainerSobreNos {
+  max-width: 242px;
+  min-height: 52px;
+  border: 2px solid var(--primary-blue);
+  color: var(--primary-blue);
+  border-radius: 50px;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.buttonContainerSobreNos:hover {
+  border: 2px solid var(--primary-red);
+  color: var(--primary-red);
+}
+
+@media (max-width: 1132px) {
+  .containerFotosRightHome {
+    width: 100%;
+    height: 100vh;
+  }
+  .containerSobreNosHome {
+    padding-top: 102px;
+    flex-direction: column;
+    height: 1400px;
+  }
+
+  .imagemFundadores {
+    right: calc(1% + 320px);
+  }
+
+  .imagemFundadores2 {
+    right: calc(1% + 220px);
+  }
+
+  .imagemFundadores3 {
+    right: calc(1% + 120px);
+  }
+
+  .imagemFundadores,
+  .imagemFundadores2,
+  .imagemFundadores3 {
+    width: 377.95px / 2;
+    height: 689.39px / 2;
+  }
+}
+
+@media (max-width: 780px) {
+  .imagemFundadores {
+    right: calc(1% + 250px);
+  }
+
+  .imagemFundadores2 {
+    right: calc(1% + 150px);
+  }
+
+  .imagemFundadores3 {
+    right: calc(1% + 50px);
+  }
+}
+
+@media (max-width: 666px) {
+  .containerSobreNosHome {
+    width: 100vw;
+    height: 1192px;
+  }
+
+  .imagemFundadores,
+  .imagemFundadores2,
+  .imagemFundadores3 {
+    width: calc(377.95px / 2);
+    height: calc(689.39px / 2);
+    top: 0;
+  }
+
+  .imagemFundadores {
+    top: calc(100% + -33.2rem);
+    right: calc(1% + 270px);
+  }
+
+  .imagemFundadores2 {
+    top: calc(100% + -32.2rem);
+    bottom: calc(100% + -41.2rem);
+    right: calc(1% + 170px);
+  }
+
+  .imagemFundadores3 {
+    top: calc(100% + -31.2rem);
+    right: calc(1% + 70px);
+  }
+
+  .containerTextoLeftHome {
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 480px) {
+  .containerSobreNosHome {
+    width: 100vw;
+    height: 1240px;
+  }
+  .imagemFundadores {
+    top: calc(100% + -38.2rem);
+    right: calc(0% + 170px);
+  }
+
+  .imagemFundadores2 {
+    top: calc(100% + -35.2rem);
+    bottom: calc(100% + -41.2rem);
+    right: calc(0% + 100px);
+  }
+
+  .imagemFundadores3 {
+    top: calc(100% + -31.2rem);
+    right: calc(0% + 50px);
+  }
+}

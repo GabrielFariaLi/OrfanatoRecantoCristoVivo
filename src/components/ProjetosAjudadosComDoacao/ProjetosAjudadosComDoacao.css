@@ -1,0 +1,141 @@
+.containerPrincipalProjetosAjudadosDoacao {
+  background-color: var(--text-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+  width: 100%;
+}
+
+.divisoriaProjetosAjudadosComDoacao {
+}
+
+.containerTituloProjetosAjudados {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tituloPrincipalProjetosAjudados {
+  color: var(--text-black);
+  width: 635px;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 41px;
+  margin-top: 74px;
+}
+
+.descTituloPrincipalProjetosAjudados {
+  color: var(--text-black);
+  width: 445px;
+  text-align: center;
+  margin-bottom: 74px;
+}
+
+.containerImagemDivisoriaProjetosAjudadosDoacao {
+  width: 100vw;
+  background-color: var(--text-white);
+}
+
+.imagemEfetivaDivisoria {
+  width: 100%;
+}
+
+.containerEfetivosProjetos {
+  height: fit-content;
+  background-color: var(--text-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerUnidadeProjetoDoacao {
+  display: flex;
+  align-items: center;
+  width: 1292px;
+  min-height: 174px;
+  max-height: 326px;
+  border-bottom: 1px solid black;
+  color: var(--text-black);
+}
+
+.containerTituloUnidadeProjetoDoacao {
+  position: relative;
+  padding-left: 61px;
+}
+
+.tituloUnidadeProjetoDoacao {
+  font-size: 48px;
+  font-weight: 600;
+  z-index: 3 !important;
+  color: var(--text-black);
+}
+
+.linhaProjetoAbertoDoacao {
+  bottom: 15px;
+  width: 427px;
+  height: 13px;
+  margin-top: -20px;
+  margin-left: -10px;
+  background: #18a8d9;
+  z-index: 1 !important;
+  left: 0;
+  animation: aparecendoLinha 1s ease-in-out;
+}
+
+@keyframes aparecendoLinha {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(30px);
+  }
+}
+
+.containerDescricaoUnidadeProjetoDoacao {
+  color: var(--text-black);
+  padding-left: 61px;
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 445px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+}
+
+.containerTextoLeftUnidadeProjetoDoacao {
+  display: flex;
+  flex-direction: column;
+}
+
+.containerImagemRightUnidadeProjetoDoacao {
+  width: 502px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: 61px;
+  height: 246px;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.vejaTodosProjetosButton {
+  color: var(--text-white);
+  padding: 12px 50px;
+  background: #018fbf;
+  border-radius: 70px;
+  border: none;
+}
+
+.vejaTodosProjetosButton:hover {
+  background: var(--primary-red);
+}
+
+.containerButtonVejaTodosProjetos {
+  padding: 120px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--text-white);
+}

@@ -1,0 +1,76 @@
+.containerPrincipalOpcoesDoacaoPorPix {
+  height: 500px;
+  background-color: var(--text-white);
+  border-radius: 32px 32px 0px 0px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 70px;
+  z-index: 2;
+  align-items: center;
+}
+
+.containerOpcaoChavePix {
+  width: 374px;
+  height: 234px;
+
+  background: #e8e8e8;
+  border-radius: 41px;
+}
+
+.containerOpcaoQRCodePix {
+  width: 497px;
+  height: 234px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e8e8e8;
+  border-radius: 41px;
+
+  padding: 0px 47px 0px 61px;
+}
+
+.containerOUdivisoria {
+  color: var(--text-black);
+  padding: 0px 50px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26.46px;
+}
+
+.paragrafoOpcoesDoarPix {
+  color: var(--text-black);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26.46px;
+}
+
+.containerOpcaoChavePix {
+  display: flex;
+  flex-direction: column;
+  padding: 49px 40px;
+}
+
+.buttonChavePixEmail {
+  margin-top: 32px;
+  padding: 12px 50px;
+
+  width: 295px;
+  height: 52px;
+
+  /* Azul/Azul MAIN */
+  color: var(--primary-blue);
+  border: 2px solid var(--primary-blue);
+  border-radius: 50px;
+}
+
+.buttonChavePixEmail:hover {
+  color: var(--primary-red);
+  border: 2px solid var(--primary-red);
+  transition: 0.3s ease-in-out;
+}
+
+.pixQRCodeOpcoes {
+  width: 168.76px;
+  height: 168.76px;
+  margin: 0px 0px 0px 66px;
+}
