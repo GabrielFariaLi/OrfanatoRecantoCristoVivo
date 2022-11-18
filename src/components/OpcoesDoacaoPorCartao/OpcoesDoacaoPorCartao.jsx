@@ -1,8 +1,39 @@
-import React from "react";
+import { React, useEffect, useState } from "react";
+import { loadStripe } from "@stripe/stripe-js";
 import { valoresDoacaoCartao } from "../../data.js";
 import "./OpcoesDoacaoPorCartao.css";
 
+const KEY = process.env.REACT_APP_STRIPE;
+
+let promessaStripe;
+const getStripe = () => {
+  if (!promessaStripe) {
+    promessaStripe = loadStripe(process.env.REACT_APP_STRIPE_KEY);
+  }
+
+  return promessaStripe;
+};
+
 const OpcoesDoacaoPorCartao = () => {
+  const item = {
+    price: "price_1M4y6cLrAwTcU0GGi9GATmrO",
+    quantity: 1,
+  };
+
+  const opcoesCheckout = {
+    lineItems: [item],
+    mode: "payment",
+    successUrl: `${window.location.origin}/doacaoBemSucedida`,
+    cancelUrl: `${window.location.origin}/doacaoCancelada`,
+  };
+
+  const redirecionarParaCheckout = async () => {
+    console.log("redirecionarParaCheckout");
+
+    const stripe = await getStripe();
+    const { error } = await stripe.redirectToCheckout(opcoesCheckout);
+    console.log("Stripe checkout error :( ", error);
+  };
   return (
     <>
       {" "}
@@ -54,7 +85,10 @@ const OpcoesDoacaoPorCartao = () => {
                 )}
                 {item.valor}
               </div>
-              <div className="containerButtonSelecionarValorCartao">
+              <div
+                onClick={redirecionarParaCheckout}
+                className="containerButtonSelecionarValorCartao"
+              >
                 Selecionar
               </div>
             </div>

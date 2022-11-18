@@ -42,6 +42,13 @@
   background: var(--primary-red);
 }
 
+@media (max-width: 1600px) {
+  .containerPrincipalHeroSectionCTASobreNos {
+    background-size: cover;
+    margin-bottom: 70px;
+  }
+}
+
 @media (max-width: 559px) {
   .containerPrincipalHeroSectionCTASobreNos {
     background-size: cover;

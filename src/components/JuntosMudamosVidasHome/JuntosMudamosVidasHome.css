@@ -94,6 +94,25 @@
   }
 }
 
+@media (max-width: 800px) {
+  .containerConteudosJuntosMudamosVidas {
+    flex-direction: column;
+  }
+
+  .tituloJuntoMudamos {
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  .roletaNomesAjudados {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .buttonNosAjude {
+    margin-bottom: 30px;
+  }
+}
+
 @media (max-width: 480px) {
   .containerConteudosJuntosMudamosVidas {
     flex-direction: column;

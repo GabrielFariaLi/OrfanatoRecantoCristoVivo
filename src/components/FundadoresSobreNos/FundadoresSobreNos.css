@@ -88,6 +88,19 @@
   font-size: 20px;
 }
 
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 650px) {
+  .containerTituloNossosFundadoresSobreNos {
+    margin-left: 10%;
+  }
+
+  .containerCardNossosFundadoresSobreNos {
+    margin-left: 10%;
+  }
+}
+
 @media (max-width: 559px) {
   .containerTituloNossosFundadoresSobreNos {
     display: flex;
@@ -99,13 +112,5 @@
     gap: 20px;
     margin-left: 20px;
     display: flex;
-  }
-
-  .imagemNossosFundadoresSobreNos {
-    width: 90%;
-  }
-
-  .molduraImagemNossosFundadoresSobreNos {
-    width: 90%;
   }
 }

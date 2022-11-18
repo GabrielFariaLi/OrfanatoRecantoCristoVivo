@@ -101,6 +101,48 @@
   z-index: 3;
 }
 
+@media (max-width: 1200px) {
+  .containerSliderCarouselConhecaAlgunsProjetosSobreNoS {
+    justify-content: center;
+    width: 1016px;
+    align-items: center;
+  }
+
+  .containerCarouselConhecaAlgunsProjetosSobreNos {
+    width: 599px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cardConhecaAlgunsProjetosSobreNos {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+@media (max-width: 602px) {
+  .containerSliderCarouselConhecaAlgunsProjetosSobreNoS {
+    width: 100vw;
+  }
+  .containerPrincipalConhecaAlgunsProjetosSobreNos {
+    height: 150vh;
+  }
+
+  .containerCarouselConhecaAlgunsProjetosSobreNos {
+    width: 100vw;
+  }
+
+  .cardConhecaAlgunsProjetosSobreNos {
+    margin: auto;
+    justify-self: center;
+    align-self: center;
+    display: block !important;
+  }
+
+  .containerTituloConhecaAlgunsProjetosSobreNos {
+    text-align: center;
+  }
+}
+
 @media (max-width: 480px) {
   .containerSliderCarouselConhecaAlgunsProjetosSobreNoS {
     width: 100vw;

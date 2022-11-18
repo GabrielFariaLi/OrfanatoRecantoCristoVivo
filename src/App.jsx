@@ -10,6 +10,9 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState, useEffect } from "react";
 
+//stripe
+import "stripe.js";
+
 const App = () => {
   // prevenir scroll para o lado
   useEffect(() => {

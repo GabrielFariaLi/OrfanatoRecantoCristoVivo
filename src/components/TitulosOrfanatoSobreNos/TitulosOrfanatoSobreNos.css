@@ -12,9 +12,8 @@
   display: flex;
   gap: 150px;
   width: 150%;
-  margin-left: 70%;
+
   margin-top: 115px;
-  overflow-x: scroll;
 }
 
 .elipseTituloOrfanatoSobreNos {
@@ -75,6 +74,9 @@
   100% {
     transform: rotate(360deg);
   }
+}
+
+@media (max-width: 480px) {
 }
 
 @media (max-width: 480px) {

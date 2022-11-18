@@ -123,3 +123,121 @@
     flex-direction: column;
   }
 }
+
+@media (max-width: 1200px) {
+  .containerPrincipalFooterLocalizacaoOrfanato {
+    flex-direction: column;
+    height: 180vh;
+  }
+
+  .containerMapaLocalizacaoOrfanato {
+    display: none;
+  }
+
+  .containerMapaLocalizacaoOrfanatoMobile {
+    display: block;
+  }
+
+  .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+
+    margin: auto;
+    width: 300px;
+  }
+
+  #gmap_canvas {
+    border-radius: 33px;
+  }
+
+  .containerTituloTextoLocalizacaoOrfanato {
+    font-size: 24px;
+    max-width: 100vw;
+    text-align: center;
+    margin: auto;
+    font-weight: 600;
+  }
+
+  .containerInfosLocalizacaoOrfanato {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 60px;
+  }
+
+  .primeiraColunaInfosLocalizacaoOrfanato {
+    margin: auto;
+  }
+  .segundaColunaInfosLocalizacaoOrfanato {
+    margin: auto;
+  }
+  .segundaColunaInfosLocalizacaoOrfanato {
+    margin-bottom: 40px;
+    max-width: 171px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .containerPrincipalFooterLocalizacaoOrfanato {
+    flex-direction: column;
+    height: 180vh;
+  }
+
+  .containerMapaLocalizacaoOrfanato {
+    display: none;
+  }
+
+  .containerMapaLocalizacaoOrfanatoMobile {
+    display: block;
+  }
+
+  .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+
+    margin: auto;
+    width: 300px;
+  }
+
+  #gmap_canvas {
+    border-radius: 33px;
+  }
+
+  .containerTituloTextoLocalizacaoOrfanato {
+    font-size: 24px;
+    max-width: 100vw;
+    text-align: center;
+    margin: auto;
+    font-weight: 600;
+  }
+
+  .containerInfosLocalizacaoOrfanato {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 60px;
+  }
+
+  .primeiraColunaInfosLocalizacaoOrfanato {
+    margin: auto;
+  }
+  .segundaColunaInfosLocalizacaoOrfanato {
+    margin: auto;
+  }
+  .segundaColunaInfosLocalizacaoOrfanato {
+    margin-bottom: 40px;
+    max-width: 171px;
+    display: flex;
+    flex-direction: column;
+  }
+}

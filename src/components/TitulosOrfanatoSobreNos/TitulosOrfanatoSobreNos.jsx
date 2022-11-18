@@ -289,6 +289,466 @@ const TitulosOrfanatoSobreNos = () => {
               </div>
             </div>
           </a>
+          <a
+            href="#"
+            className="gsapContainerDummyTitulosOrfanatoSobrenos stb-item"
+          >
+            <div className="elipseTituloOrfanatoSobreNos ">
+              <img
+                src="/imgs/tituloElipseRotacionando1.png"
+                className="imagemElipseContornoTitulosOrfanatoSobreNos"
+              />
+              <div className="primeiroTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="segundoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="descricaoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum dolor <br /> sit amet conse
+              </div>
+            </div>
+          </a>
+          <a
+            href="#"
+            className="gsapContainerDummyTitulosOrfanatoSobrenos stb-item"
+          >
+            <div className="elipseTituloOrfanatoSobreNos ">
+              <img
+                src="/imgs/tituloElipseRotacionando1.png"
+                className="imagemElipseContornoTitulosOrfanatoSobreNos"
+              />
+              <div className="primeiroTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="segundoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="descricaoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum dolor <br /> sit amet conse
+              </div>
+            </div>
+          </a>
+          <a
+            href="#"
+            className="gsapContainerDummyTitulosOrfanatoSobrenos stb-item"
+          >
+            <div className="elipseTituloOrfanatoSobreNos ">
+              <img
+                src="/imgs/tituloElipseRotacionando1.png"
+                className="imagemElipseContornoTitulosOrfanatoSobreNos"
+              />
+              <div className="primeiroTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="segundoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="descricaoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum dolor <br /> sit amet conse
+              </div>
+            </div>
+          </a>
+          <a
+            href="#"
+            className="gsapContainerDummyTitulosOrfanatoSobrenos stb-item"
+          >
+            <div className="elipseTituloOrfanatoSobreNos ">
+              <img
+                src="/imgs/tituloElipseRotacionando1.png"
+                className="imagemElipseContornoTitulosOrfanatoSobreNos"
+              />
+              <div className="primeiroTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="segundoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="descricaoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum dolor <br /> sit amet conse
+              </div>
+            </div>
+          </a>
+          <a
+            href="#"
+            className="gsapContainerDummyTitulosOrfanatoSobrenos stb-item"
+          >
+            <div className="elipseTituloOrfanatoSobreNos ">
+              <img
+                src="/imgs/tituloElipseRotacionando1.png"
+                className="imagemElipseContornoTitulosOrfanatoSobreNos"
+              />
+              <div className="primeiroTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="segundoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="descricaoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum dolor <br /> sit amet conse
+              </div>
+            </div>
+          </a>
+          <a
+            href="#"
+            className="gsapContainerDummyTitulosOrfanatoSobrenos stb-item"
+          >
+            <div className="elipseTituloOrfanatoSobreNos ">
+              <img
+                src="/imgs/tituloElipseRotacionando1.png"
+                className="imagemElipseContornoTitulosOrfanatoSobreNos"
+              />
+              <div className="primeiroTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="segundoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="descricaoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum dolor <br /> sit amet conse
+              </div>
+            </div>
+          </a>
+          <a
+            href="#"
+            className="gsapContainerDummyTitulosOrfanatoSobrenos stb-item"
+          >
+            <div className="elipseTituloOrfanatoSobreNos ">
+              <img
+                src="/imgs/tituloElipseRotacionando1.png"
+                className="imagemElipseContornoTitulosOrfanatoSobreNos"
+              />
+              <div className="primeiroTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="segundoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="descricaoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum dolor <br /> sit amet conse
+              </div>
+            </div>
+          </a>
+          <a
+            href="#"
+            className="gsapContainerDummyTitulosOrfanatoSobrenos stb-item"
+          >
+            <div className="elipseTituloOrfanatoSobreNos ">
+              <img
+                src="/imgs/tituloElipseRotacionando1.png"
+                className="imagemElipseContornoTitulosOrfanatoSobreNos"
+              />
+              <div className="primeiroTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="segundoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="descricaoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum dolor <br /> sit amet conse
+              </div>
+            </div>
+          </a>
+          <a
+            href="#"
+            className="gsapContainerDummyTitulosOrfanatoSobrenos stb-item"
+          >
+            <div className="elipseTituloOrfanatoSobreNos ">
+              <img
+                src="/imgs/tituloElipseRotacionando1.png"
+                className="imagemElipseContornoTitulosOrfanatoSobreNos"
+              />
+              <div className="primeiroTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="segundoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="descricaoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum dolor <br /> sit amet conse
+              </div>
+            </div>
+          </a>
+          <a
+            href="#"
+            className="gsapContainerDummyTitulosOrfanatoSobrenos stb-item"
+          >
+            <div className="elipseTituloOrfanatoSobreNos ">
+              <img
+                src="/imgs/tituloElipseRotacionando1.png"
+                className="imagemElipseContornoTitulosOrfanatoSobreNos"
+              />
+              <div className="primeiroTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="segundoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="descricaoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum dolor <br /> sit amet conse
+              </div>
+            </div>
+          </a>
+          <a
+            href="#"
+            className="gsapContainerDummyTitulosOrfanatoSobrenos stb-item"
+          >
+            <div className="elipseTituloOrfanatoSobreNos ">
+              <img
+                src="/imgs/tituloElipseRotacionando1.png"
+                className="imagemElipseContornoTitulosOrfanatoSobreNos"
+              />
+              <div className="primeiroTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="segundoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="descricaoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum dolor <br /> sit amet conse
+              </div>
+            </div>
+          </a>
+          <a
+            href="#"
+            className="gsapContainerDummyTitulosOrfanatoSobrenos stb-item"
+          >
+            <div className="elipseTituloOrfanatoSobreNos ">
+              <img
+                src="/imgs/tituloElipseRotacionando1.png"
+                className="imagemElipseContornoTitulosOrfanatoSobreNos"
+              />
+              <div className="primeiroTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="segundoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="descricaoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum dolor <br /> sit amet conse
+              </div>
+            </div>
+          </a>
+          <a
+            href="#"
+            className="gsapContainerDummyTitulosOrfanatoSobrenos stb-item"
+          >
+            <div className="elipseTituloOrfanatoSobreNos ">
+              <img
+                src="/imgs/tituloElipseRotacionando1.png"
+                className="imagemElipseContornoTitulosOrfanatoSobreNos"
+              />
+              <div className="primeiroTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="segundoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="descricaoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum dolor <br /> sit amet conse
+              </div>
+            </div>
+          </a>
+          <a
+            href="#"
+            className="gsapContainerDummyTitulosOrfanatoSobrenos stb-item"
+          >
+            <div className="elipseTituloOrfanatoSobreNos ">
+              <img
+                src="/imgs/tituloElipseRotacionando1.png"
+                className="imagemElipseContornoTitulosOrfanatoSobreNos"
+              />
+              <div className="primeiroTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="segundoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="descricaoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum dolor <br /> sit amet conse
+              </div>
+            </div>
+          </a>
+          <a
+            href="#"
+            className="gsapContainerDummyTitulosOrfanatoSobrenos stb-item"
+          >
+            <div className="elipseTituloOrfanatoSobreNos ">
+              <img
+                src="/imgs/tituloElipseRotacionando1.png"
+                className="imagemElipseContornoTitulosOrfanatoSobreNos"
+              />
+              <div className="primeiroTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="segundoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="descricaoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum dolor <br /> sit amet conse
+              </div>
+            </div>
+          </a>
+          <a
+            href="#"
+            className="gsapContainerDummyTitulosOrfanatoSobrenos stb-item"
+          >
+            <div className="elipseTituloOrfanatoSobreNos ">
+              <img
+                src="/imgs/tituloElipseRotacionando1.png"
+                className="imagemElipseContornoTitulosOrfanatoSobreNos"
+              />
+              <div className="primeiroTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="segundoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="descricaoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum dolor <br /> sit amet conse
+              </div>
+            </div>
+          </a>
+          <a
+            href="#"
+            className="gsapContainerDummyTitulosOrfanatoSobrenos stb-item"
+          >
+            <div className="elipseTituloOrfanatoSobreNos ">
+              <img
+                src="/imgs/tituloElipseRotacionando1.png"
+                className="imagemElipseContornoTitulosOrfanatoSobreNos"
+              />
+              <div className="primeiroTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="segundoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="descricaoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum dolor <br /> sit amet conse
+              </div>
+            </div>
+          </a>
+          <a
+            href="#"
+            className="gsapContainerDummyTitulosOrfanatoSobrenos stb-item"
+          >
+            <div className="elipseTituloOrfanatoSobreNos ">
+              <img
+                src="/imgs/tituloElipseRotacionando1.png"
+                className="imagemElipseContornoTitulosOrfanatoSobreNos"
+              />
+              <div className="primeiroTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="segundoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="descricaoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum dolor <br /> sit amet conse
+              </div>
+            </div>
+          </a>
+          <a
+            href="#"
+            className="gsapContainerDummyTitulosOrfanatoSobrenos stb-item"
+          >
+            <div className="elipseTituloOrfanatoSobreNos ">
+              <img
+                src="/imgs/tituloElipseRotacionando1.png"
+                className="imagemElipseContornoTitulosOrfanatoSobreNos"
+              />
+              <div className="primeiroTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="segundoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="descricaoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum dolor <br /> sit amet conse
+              </div>
+            </div>
+          </a>
+          <a
+            href="#"
+            className="gsapContainerDummyTitulosOrfanatoSobrenos stb-item"
+          >
+            <div className="elipseTituloOrfanatoSobreNos ">
+              <img
+                src="/imgs/tituloElipseRotacionando1.png"
+                className="imagemElipseContornoTitulosOrfanatoSobreNos"
+              />
+              <div className="primeiroTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="segundoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="descricaoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum dolor <br /> sit amet conse
+              </div>
+            </div>
+          </a>
+          <a
+            href="#"
+            className="gsapContainerDummyTitulosOrfanatoSobrenos stb-item"
+          >
+            <div className="elipseTituloOrfanatoSobreNos ">
+              <img
+                src="/imgs/tituloElipseRotacionando1.png"
+                className="imagemElipseContornoTitulosOrfanatoSobreNos"
+              />
+              <div className="primeiroTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="segundoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="descricaoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum dolor <br /> sit amet conse
+              </div>
+            </div>
+          </a>
+          <a
+            href="#"
+            className="gsapContainerDummyTitulosOrfanatoSobrenos stb-item"
+          >
+            <div className="elipseTituloOrfanatoSobreNos ">
+              <img
+                src="/imgs/tituloElipseRotacionando1.png"
+                className="imagemElipseContornoTitulosOrfanatoSobreNos"
+              />
+              <div className="primeiroTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="segundoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="descricaoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum dolor <br /> sit amet conse
+              </div>
+            </div>
+          </a>
+          <a
+            href="#"
+            className="gsapContainerDummyTitulosOrfanatoSobrenos stb-item"
+          >
+            <div className="elipseTituloOrfanatoSobreNos ">
+              <img
+                src="/imgs/tituloElipseRotacionando1.png"
+                className="imagemElipseContornoTitulosOrfanatoSobreNos"
+              />
+              <div className="primeiroTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="segundoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum
+              </div>
+              <div className="descricaoTituloHeadingOrfanatoSobreNos">
+                Lorem ipsum dolor <br /> sit amet conse
+              </div>
+            </div>
+          </a>
         </div>
         <div className="containerHeadingBootomTitulosOrfanatoSobreNos">
           <h1 className="titulosHeadingBottom">Títulos.</h1>

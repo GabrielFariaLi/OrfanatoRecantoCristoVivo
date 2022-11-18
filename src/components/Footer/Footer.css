@@ -82,6 +82,60 @@
 .direitosAutoraisFooter {
   font-size: 14px;
 }
+
+@media (max-width: 1100px) {
+  .containerConteudosFooter {
+    display: flex;
+    width: 100vw;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 54px;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 630px) {
+  .sobreNosTituloFooter {
+    margin-bottom: 15px;
+  }
+  .containerConteudosFooter {
+    padding-top: 10px;
+    flex-direction: column;
+    width: 100vw;
+    background: linear-gradient(90deg, #018fbf 0%, #015673 111.49%);
+    align-items: center;
+  }
+
+  .direitosAutoraisFooter {
+    text-align: center;
+
+    background: linear-gradient(90deg, #018fbf 0%, #015673 111.49%);
+    padding-bottom: 50px;
+  }
+
+  .faleConoscoButtonFooterZap {
+    align-self: center;
+  }
+  .miniMenuFooter {
+    max-width: 242px;
+    flex-direction: row;
+  }
+
+  .contactenosFooter {
+    width: 100vw;
+  }
+
+  .sobreNosFooter {
+    min-width: 242px;
+    margin-bottom: 40px;
+  }
+
+  .divisoriaFooterMiniMenu {
+    width: 80%;
+    margin-bottom: 40px;
+  }
+}
+
 @media (max-width: 480px) {
   .sobreNosTituloFooter {
     margin-bottom: 15px;

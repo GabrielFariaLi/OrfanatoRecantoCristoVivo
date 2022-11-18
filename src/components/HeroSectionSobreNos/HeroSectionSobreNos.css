@@ -35,6 +35,17 @@
   font-size: 48px;
   font-weight: 600;
 }
+@media (max-width: 1220px) {
+  .containerPrincipalHeroSectionSobreNos {
+    background-size: cover;
+  }
+}
+
+@media (max-width: 700px) {
+  .segundoTituloHeroSectionSobreNos {
+    padding-right: 50px;
+  }
+}
 
 @media (max-width: 480px) {
   .containerPrincipalHeroSectionSobreNos {

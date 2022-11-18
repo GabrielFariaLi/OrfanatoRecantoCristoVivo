@@ -23,8 +23,10 @@ const ConhecaAlgunsProjetosSobreNos = () => {
 
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1200,
         settings: {
+          slidesToShow: 2,
+
           /*        slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
@@ -32,8 +34,10 @@ const ConhecaAlgunsProjetosSobreNos = () => {
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 602,
+
         settings: {
+          slidesToShow: 1,
           /*        slidesToShow: 2,
           slidesToScroll: 2,
           initialSlide: 2, */
