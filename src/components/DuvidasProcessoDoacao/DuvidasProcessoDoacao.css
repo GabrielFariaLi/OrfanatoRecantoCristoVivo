@@ -55,6 +55,58 @@
   margin-left: 120px;
 }
 
+@media (max-width: 1200px) {
+  .containerPrincipalDuvidasProcessoDoacao {
+    flex-direction: column;
+    height: 100vh;
+  }
+  .tituloDuvidasProcessoDoacao {
+    margin-top: 30px;
+  }
+
+  .buttonDuvidasProcessoDoacao {
+    margin-bottom: 90px;
+  }
+  .containerImagemDuvidasProcessoDoacao {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 588px) {
+  .tituloDuvidasProcessoDoacao {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 33.5px;
+  }
+  .containerTextoDuvidasProcessoDoacao {
+    padding: 0px 30px;
+    min-width: 100vw;
+    max-width: 100vw;
+    text-align: center;
+    color: var(--text-black);
+  }
+
+  .buttonDuvidasProcessoDoacao {
+    justify-self: center;
+    margin: auto;
+  }
+
+  .containerPrincipalDuvidasProcessoDoacao {
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .containerImagemDuvidasProcessoDoacao {
+    height: 50%;
+    margin: 50px auto;
+  }
+
+  .imagemDuvidasProcessoDoacao {
+    width: 293px;
+    height: 283px;
+  }
+}
+
 @media (max-width: 480px) {
   .tituloDuvidasProcessoDoacao {
     font-weight: 600;

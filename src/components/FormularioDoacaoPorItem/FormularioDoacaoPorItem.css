@@ -113,6 +113,34 @@
   transition: 0.3s ease-in-out;
 }
 
+@media (max-width: 1180px) {
+  .containerInformacoesPessoaisFormulario {
+    min-width: 369px;
+  }
+
+  .containerOqueGostariaDeDoarFormulario {
+    width: 369px;
+  }
+}
+@media (max-width: 800px) {
+  .containerInformacoesPessoaisFormulario {
+    min-width: 269px;
+  }
+
+  .containerOqueGostariaDeDoarFormulario {
+    width: 269px;
+  }
+}
+@media (max-width: 600px) {
+  .containerInformacoesPessoaisFormulario {
+    min-width: 169px;
+  }
+
+  .containerOqueGostariaDeDoarFormulario {
+    width: 169px;
+  }
+}
+
 @media (max-width: 480px) {
   .tituloFormularioDoacaoItem {
     max-width: 100vw;
@@ -122,23 +150,46 @@
   }
 
   .containerFormularioDoacaoItemFlex {
-    padding-left: 10%;
-
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     max-width: 100vw;
   }
 
   .inputFormularioInfoPessoaisDoacaoItem {
-    max-width: 350px;
-    margin-right: 45%;
+    width: 350px;
+    justify-self: center;
+    align-self: center;
   }
 
   .containerPrincipalFormularioDoacaoItem {
     height: 200vh;
+    margin-right: auto;
   }
 
   .inputFormularioOqueGostariaDeDoarDoacaoItem {
-    max-width: 350px;
-    margin-right: 45%;
+    width: 350px;
+    align-self: center;
+  }
+
+  .containerInformacoesPessoaisFormulario {
+    min-width: 100vw;
+
+    align-content: center;
+    justify-items: center;
+    margin: auto;
+  }
+
+  .containerOqueGostariaDeDoarFormulario {
+    min-width: 100vw;
+    margin: auto;
+  }
+
+  .labelInputFormularioDoacaoItem {
+    text-align: center;
+  }
+
+  .buttonEnviarMensagem {
+    align-self: center;
   }
 }

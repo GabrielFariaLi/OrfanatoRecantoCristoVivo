@@ -4,6 +4,8 @@ import DoacaoPorPix from "./pages/DoacaoPorPix";
 import DoacaoPorCartao from "./pages/DoacaoPorCartao";
 import DoacaoItem from "./pages/DoacaoItem.jsx";
 import SobreNos from "./pages/SobreNos.jsx";
+import NossosProjetos from "./pages/NossosProjetos.jsx";
+import DetalhesNossosProjetos from "./pages/DetalhesNossosProjetos.jsx";
 
 //import SobreNos from "./pages/SobreNos"
 import "./App.css";
@@ -12,6 +14,7 @@ import { useState, useEffect } from "react";
 
 //stripe
 import "stripe.js";
+import FaleConosco from "./pages/FaleConosco";
 
 const App = () => {
   // prevenir scroll para o lado
@@ -33,6 +36,12 @@ const App = () => {
         <Route exact path="/doacaoPorCartao" element={<DoacaoPorCartao />} />
         <Route exact path="/doacaoItem" element={<DoacaoItem />} />
         <Route exact path="/sobreNos" element={<SobreNos />} />
+        <Route exact path="/nossosProjetos" element={<NossosProjetos />} />
+        <Route
+          path="/detalhesNossosProjetos/:id"
+          element={<DetalhesNossosProjetos />}
+        />
+        <Route path="/faleConosco" element={<FaleConosco />} />
       </Routes>
     </Router>
   );

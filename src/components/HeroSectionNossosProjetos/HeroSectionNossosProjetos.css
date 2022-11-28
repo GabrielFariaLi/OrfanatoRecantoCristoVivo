@@ -1,0 +1,53 @@
+.containerIndividualProjetoHeroSectionNossosProjetos {
+  width: 100%;
+}
+
+.containerSliderImagensHeroSectionNossosProjetos {
+  position: relative;
+}
+
+.imagemHeroSectionNossosProjetos {
+  width: 100%;
+  position: relative;
+}
+
+.customPagingHeroSectionSobreNos {
+  width: 100vw;
+
+  color: var(--text-black);
+
+  display: flex;
+  color: #9c9c9c;
+
+  margin-top: -100px;
+  margin-left: 35vw;
+  font-size: 20px;
+}
+
+.customPagingDivisoriaHeroSectionSobreNos {
+  margin-top: 5px;
+}
+
+.containerInfosHeroSectionNossosProjetos {
+  position: absolute;
+  bottom: 0;
+  margin-left: 190px;
+
+  margin-bottom: 54px;
+  display: flex;
+}
+
+.tituloInfoHeroSectionNossosProjetos {
+  color: var(--text-white);
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.buttonVejaMaisHeroSectionNossosProjetos {
+  margin-bottom: 6px;
+  margin-left: 37px;
+}
+
+.slick-dots .slick-active {
+  font-weight: 900;
+}

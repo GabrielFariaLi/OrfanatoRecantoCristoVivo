@@ -45,6 +45,11 @@
 }
 /* - FIM - TEXTOS HERO SECTION ----------------------------------------*/
 
+@media (max-width: 1380px) {
+  .containerBackgroundHeroSectionDoacao {
+    background-size: cover;
+  }
+}
 @media (max-width: 480px) {
   .containerBackgroundHeroSectionDoacao {
     background-size: cover;

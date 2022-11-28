@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
-import "./HeroSectionDoacaoPorPix.css";
-import { $, TimelineMax, Linear } from "jquery";
+import { React, useEffect } from "react";
 import gsap from "gsap";
 
-const HeroSectionDoacaoPorPix = () => {
+import "./FormularioFaleConosco.css";
+
+const FormularioFaleConosco = () => {
   useEffect(() => {
     gsap.utils.toArray(".stb_line_single").forEach((line, i) => {
       const links = line.querySelectorAll("a"),
@@ -26,19 +26,19 @@ const HeroSectionDoacaoPorPix = () => {
     });
 
     /*
-    This helper function makes a group of elements animate along the x-axis in a seamless, responsive loop.
-    
-    Features:
-     - Uses xPercent so that even if the widths change (like if the window gets resized), it should still work in most cases.
-     - When each item animates to the left or right enough, it will loop back to the other side
-     - Optionally pass in a config object with values like "speed" (default: 1, which travels at roughly 100 pixels per second), paused (boolean),  repeat, reversed, and paddingRight.
-     - The returned timeline will have the following methods added to it:
-       - next() - animates to the next element using a timeline.tweenTo() which it returns. You can pass in a vars object to control duration, easing, etc.
-       - previous() - animates to the previous element using a timeline.tweenTo() which it returns. You can pass in a vars object to control duration, easing, etc.
-       - toIndex() - pass in a zero-based index value of the element that it should animate to, and optionally pass in a vars object to control duration, easing, etc. Always goes in the shortest direction
-       - current() - returns the current index (if an animation is in-progress, it reflects the final index)
-       - times - an Array of the times on the timeline where each element hits the "starting" spot. There's also a label added accordingly, so "label1" is when the 2nd element reaches the start.
-     */
+        This helper function makes a group of elements animate along the x-axis in a seamless, responsive loop.
+        
+        Features:
+         - Uses xPercent so that even if the widths change (like if the window gets resized), it should still work in most cases.
+         - When each item animates to the left or right enough, it will loop back to the other side
+         - Optionally pass in a config object with values like "speed" (default: 1, which travels at roughly 100 pixels per second), paused (boolean),  repeat, reversed, and paddingRight.
+         - The returned timeline will have the following methods added to it:
+           - next() - animates to the next element using a timeline.tweenTo() which it returns. You can pass in a vars object to control duration, easing, etc.
+           - previous() - animates to the previous element using a timeline.tweenTo() which it returns. You can pass in a vars object to control duration, easing, etc.
+           - toIndex() - pass in a zero-based index value of the element that it should animate to, and optionally pass in a vars object to control duration, easing, etc. Always goes in the shortest direction
+           - current() - returns the current index (if an animation is in-progress, it reflects the final index)
+           - times - an Array of the times on the timeline where each element hits the "starting" spot. There's also a label added accordingly, so "label1" is when the 2nd element reaches the start.
+         */
     function horizontalLoop(items, config) {
       items = gsap.utils.toArray(items);
       config = config || {};
@@ -143,25 +143,19 @@ const HeroSectionDoacaoPorPix = () => {
   }, []);
   return (
     <>
-      <div className="containerPrincipalHeroSectionDoacaoPorPix">
-        <div className="containerTextoHeroSectionDoacaoPorPix">
-          <p className="paragrafoDoacaoPorPixHero">
-            Doe qualquer valor para o nosso pix
-          </p>
-          <h1 className="h1DoacaoPorPixHero">Sua doação</h1>
-          <h1 className="h1DoacaoPorPixHero italic">muda vidas.</h1>
-        </div>
-        <div className="containerIphoneHeroSectionDoacaoPorPix vibrate-1">
-          <img src="/imgs/iPhonePixHeroSection.png" />
-        </div>
-        <div className="horizontalTextoInfinitoAnimacao">
+      <div className="containerPrincipalFormularioFaleConosco">
+        <div className="horizontalTextoInfinitoAnimacaoFaleConosco">
           <div className="containerTextoInfinito">
             <div className="stb_line_single">
-              <a href="#" className="textoHorizontalInfinitoDoacao stb-item">
+              <a
+                href="#"
+                className="textoHorizontalInfinitoFaleConosco stb-item"
+              >
                 <span>
-                  DOE PELO PIX{" "}
-                  <span className="elipseDivisoriaTextoInfinito">
+                  FALE CONOSCO{" "}
+                  <span className="elipseDivisoriaTextoInfinitoFaleConosco">
                     <svg
+                      className="elipseDivisoriaTextoInfinitoFaleConosco"
                       width="17"
                       height="17"
                       viewBox="0 0 17 17"
@@ -172,18 +166,22 @@ const HeroSectionDoacaoPorPix = () => {
                         cx="8.5"
                         cy="8.5"
                         r="8.04464"
-                        stroke="#F2F2F2"
-                        strokeWidth="0.910714"
+                        stroke="#015673"
+                        stroke-width="0.910714"
                       />
                     </svg>
                   </span>
                 </span>
               </a>
-              <a href="#" className="textoHorizontalInfinitoDoacao stb-item">
+              <a
+                href="#"
+                className="textoHorizontalInfinitoFaleConosco stb-item"
+              >
                 <span>
-                  DOE PELO PIX{" "}
-                  <span className="elipseDivisoriaTextoInfinito">
+                  FALE CONOSCO{" "}
+                  <span className="elipseDivisoriaTextoInfinitoFaleConosco">
                     <svg
+                      className="elipseDivisoriaTextoInfinitoFaleConosco"
                       width="17"
                       height="17"
                       viewBox="0 0 17 17"
@@ -194,18 +192,22 @@ const HeroSectionDoacaoPorPix = () => {
                         cx="8.5"
                         cy="8.5"
                         r="8.04464"
-                        stroke="#F2F2F2"
-                        strokeWidth="0.910714"
+                        stroke="#015673"
+                        stroke-width="0.910714"
                       />
                     </svg>
                   </span>
                 </span>
               </a>
-              <a href="#" className="textoHorizontalInfinitoDoacao stb-item">
+              <a
+                href="#"
+                className="textoHorizontalInfinitoFaleConosco stb-item"
+              >
                 <span>
-                  DOE PELO PIX{" "}
-                  <span className="elipseDivisoriaTextoInfinito">
+                  FALE CONOSCO{" "}
+                  <span className="elipseDivisoriaTextoInfinitoFaleConosco">
                     <svg
+                      className="elipseDivisoriaTextoInfinitoFaleConosco"
                       width="17"
                       height="17"
                       viewBox="0 0 17 17"
@@ -216,18 +218,22 @@ const HeroSectionDoacaoPorPix = () => {
                         cx="8.5"
                         cy="8.5"
                         r="8.04464"
-                        stroke="#F2F2F2"
-                        strokeWidth="0.910714"
+                        stroke="#015673"
+                        stroke-width="0.910714"
                       />
                     </svg>
                   </span>
                 </span>
               </a>
-              <a href="#" className="textoHorizontalInfinitoDoacao stb-item">
+              <a
+                href="#"
+                className="textoHorizontalInfinitoFaleConosco stb-item"
+              >
                 <span>
-                  DOE PELO PIX{" "}
-                  <span className="elipseDivisoriaTextoInfinito">
+                  FALE CONOSCO{" "}
+                  <span className="elipseDivisoriaTextoInfinitoFaleConosco">
                     <svg
+                      className="elipseDivisoriaTextoInfinitoFaleConosco"
                       width="17"
                       height="17"
                       viewBox="0 0 17 17"
@@ -238,18 +244,22 @@ const HeroSectionDoacaoPorPix = () => {
                         cx="8.5"
                         cy="8.5"
                         r="8.04464"
-                        stroke="#F2F2F2"
-                        strokeWidth="0.910714"
+                        stroke="#015673"
+                        stroke-width="0.910714"
                       />
                     </svg>
                   </span>
                 </span>
               </a>
-              <a href="#" className="textoHorizontalInfinitoDoacao stb-item">
+              <a
+                href="#"
+                className="textoHorizontalInfinitoFaleConosco stb-item"
+              >
                 <span>
-                  DOE PELO PIX{" "}
-                  <span className="elipseDivisoriaTextoInfinito">
+                  FALE CONOSCO{" "}
+                  <span className="elipseDivisoriaTextoInfinitoFaleConosco">
                     <svg
+                      className="elipseDivisoriaTextoInfinitoFaleConosco"
                       width="17"
                       height="17"
                       viewBox="0 0 17 17"
@@ -260,18 +270,22 @@ const HeroSectionDoacaoPorPix = () => {
                         cx="8.5"
                         cy="8.5"
                         r="8.04464"
-                        stroke="#F2F2F2"
-                        strokeWidth="0.910714"
+                        stroke="#015673"
+                        stroke-width="0.910714"
                       />
                     </svg>
                   </span>
                 </span>
               </a>
-              <a href="#" className="textoHorizontalInfinitoDoacao stb-item">
+              <a
+                href="#"
+                className="textoHorizontalInfinitoFaleConosco stb-item"
+              >
                 <span>
-                  DOE PELO PIX{" "}
-                  <span className="elipseDivisoriaTextoInfinito">
+                  FALE CONOSCO{" "}
+                  <span className="elipseDivisoriaTextoInfinitoFaleConosco">
                     <svg
+                      className="elipseDivisoriaTextoInfinitoFaleConosco"
                       width="17"
                       height="17"
                       viewBox="0 0 17 17"
@@ -282,18 +296,22 @@ const HeroSectionDoacaoPorPix = () => {
                         cx="8.5"
                         cy="8.5"
                         r="8.04464"
-                        stroke="#F2F2F2"
-                        strokeWidth="0.910714"
+                        stroke="#015673"
+                        stroke-width="0.910714"
                       />
                     </svg>
                   </span>
                 </span>
               </a>
-              <a href="#" className="textoHorizontalInfinitoDoacao stb-item">
+              <a
+                href="#"
+                className="textoHorizontalInfinitoFaleConosco stb-item"
+              >
                 <span>
-                  DOE PELO PIX{" "}
-                  <span className="elipseDivisoriaTextoInfinito">
+                  FALE CONOSCO{" "}
+                  <span className="elipseDivisoriaTextoInfinitoFaleConosco">
                     <svg
+                      className="elipseDivisoriaTextoInfinitoFaleConosco"
                       width="17"
                       height="17"
                       viewBox="0 0 17 17"
@@ -304,18 +322,22 @@ const HeroSectionDoacaoPorPix = () => {
                         cx="8.5"
                         cy="8.5"
                         r="8.04464"
-                        stroke="#F2F2F2"
-                        strokeWidth="0.910714"
+                        stroke="#015673"
+                        stroke-width="0.910714"
                       />
                     </svg>
                   </span>
                 </span>
               </a>
-              <a href="#" className="textoHorizontalInfinitoDoacao stb-item">
+              <a
+                href="#"
+                className="textoHorizontalInfinitoFaleConosco stb-item"
+              >
                 <span>
-                  DOE PELO PIX{" "}
-                  <span className="elipseDivisoriaTextoInfinito">
+                  FALE CONOSCO{" "}
+                  <span className="elipseDivisoriaTextoInfinitoFaleConosco">
                     <svg
+                      className="elipseDivisoriaTextoInfinitoFaleConosco"
                       width="17"
                       height="17"
                       viewBox="0 0 17 17"
@@ -326,18 +348,22 @@ const HeroSectionDoacaoPorPix = () => {
                         cx="8.5"
                         cy="8.5"
                         r="8.04464"
-                        stroke="#F2F2F2"
-                        strokeWidth="0.910714"
+                        stroke="#015673"
+                        stroke-width="0.910714"
                       />
                     </svg>
                   </span>
                 </span>
               </a>
-              <a href="#" className="textoHorizontalInfinitoDoacao stb-item">
+              <a
+                href="#"
+                className="textoHorizontalInfinitoFaleConosco stb-item"
+              >
                 <span>
-                  DOE PELO PIX{" "}
-                  <span className="elipseDivisoriaTextoInfinito">
+                  FALE CONOSCO{" "}
+                  <span className="elipseDivisoriaTextoInfinitoFaleConosco">
                     <svg
+                      className="elipseDivisoriaTextoInfinitoFaleConosco"
                       width="17"
                       height="17"
                       viewBox="0 0 17 17"
@@ -348,18 +374,22 @@ const HeroSectionDoacaoPorPix = () => {
                         cx="8.5"
                         cy="8.5"
                         r="8.04464"
-                        stroke="#F2F2F2"
-                        strokeWidth="0.910714"
+                        stroke="#015673"
+                        stroke-width="0.910714"
                       />
                     </svg>
                   </span>
                 </span>
               </a>
-              <a href="#" className="textoHorizontalInfinitoDoacao stb-item">
+              <a
+                href="#"
+                className="textoHorizontalInfinitoFaleConosco stb-item"
+              >
                 <span>
-                  DOE PELO PIX{" "}
-                  <span className="elipseDivisoriaTextoInfinito">
+                  FALE CONOSCO{" "}
+                  <span className="elipseDivisoriaTextoInfinitoFaleConosco">
                     <svg
+                      className="elipseDivisoriaTextoInfinitoFaleConosco"
                       width="17"
                       height="17"
                       viewBox="0 0 17 17"
@@ -370,30 +400,8 @@ const HeroSectionDoacaoPorPix = () => {
                         cx="8.5"
                         cy="8.5"
                         r="8.04464"
-                        stroke="#F2F2F2"
-                        strokeWidth="0.910714"
-                      />
-                    </svg>
-                  </span>
-                </span>
-              </a>
-              <a href="#" className="textoHorizontalInfinitoDoacao stb-item">
-                <span>
-                  DOE PELO PIX{" "}
-                  <span className="elipseDivisoriaTextoInfinito">
-                    <svg
-                      width="17"
-                      height="17"
-                      viewBox="0 0 17 17"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <circle
-                        cx="8.5"
-                        cy="8.5"
-                        r="8.04464"
-                        stroke="#F2F2F2"
-                        strokeWidth="0.910714"
+                        stroke="#015673"
+                        stroke-width="0.910714"
                       />
                     </svg>
                   </span>
@@ -402,9 +410,61 @@ const HeroSectionDoacaoPorPix = () => {
             </div>
           </div>
         </div>
+
+        <div className="containerEfetivoFormularioFaleConosco">
+          <div className="primeiraLinhaNomeSobrenomeFormularioFaleConosco">
+            <div className="indicadorNumero1FormularioFaleConosco">01</div>
+            <input
+              placeholder="Nome e sobrenome"
+              type="text"
+              className="inputNomeSobrenomeFormularioFaleConosco"
+            />
+          </div>
+          <div className="segundaLinhaEmailFormularioFaleConosco">
+            {" "}
+            <div className="indicadorNumero2FormularioFaleConosco">02</div>
+            <input
+              placeholder="Seu e-mail"
+              type="text"
+              className="inputEmailFormularioFaleConosco"
+            />
+          </div>
+          <div className="terceiraLinhaSuaMensagemFormularioFaleConosco">
+            {" "}
+            <div className="indicadorNumero3FormularioFaleConosco">03</div>
+            <textarea
+              type="text"
+              placeholder="Sua mensagem"
+              className="inputSuaMensagemFormularioFaleConosco"
+            />
+          </div>
+          <div className="buttonEnviarMensagemFormularioFaleConosco">
+            Enviar Mensagem
+          </div>
+        </div>
+        <div className="footerDivisoriaJuntosMudamosVidaHome">
+          <svg
+            className="linhaDivisoriaJuntosMudamosVidasHome"
+            width="1155"
+            height="3"
+            viewBox="0 0 1155 3"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              x1="1.5"
+              y1="1.5"
+              x2="1153.5"
+              y2="1.5"
+              stroke="#E6E6E6"
+              strokeWidth="3"
+              strokeLinecap="round"
+            />
+          </svg>
+        </div>
       </div>
     </>
   );
 };
 
-export default HeroSectionDoacaoPorPix;
+export default FormularioFaleConosco;

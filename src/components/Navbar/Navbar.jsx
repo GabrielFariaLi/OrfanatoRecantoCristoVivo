@@ -43,11 +43,14 @@ const Navbar = () => {
                 <h1 className="itemMiniMenuMobile">Faça sua doação</h1>
               </Link>
 
-              <h1 className="itemMiniMenuMobile">Projetos</h1>
-
+              <Link to="/nossosProjetos">
+                <h1 className="itemMiniMenuMobile">Projetos</h1>
+              </Link>
               <h1 className="itemMiniMenuMobile">Nossa infraestrutura</h1>
 
-              <h1 className="itemMiniMenuMobile">Fale conosco</h1>
+              <Link to="/faleConosco">
+                <h1 className="itemMiniMenuMobile">Fale conosco</h1>
+              </Link>
             </div>
           </div>
         </>
@@ -102,13 +105,16 @@ const Navbar = () => {
             </li>
 
             <li>
-              <a href="#">Projetos</a>
+              <Link to="/nossosProjetos">
+                <a href="#">Projetos</a>
+              </Link>
             </li>
             <li>
               <a href="#">Nossa infraestrutura</a>
             </li>
-
-            <button className="ctaNavbar">Fale conosco</button>
+            <Link to="/faleConosco">
+              <button className="ctaNavbar">Fale conosco</button>
+            </Link>
           </ul>
         </div>
       </nav>

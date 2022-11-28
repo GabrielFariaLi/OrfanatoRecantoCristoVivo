@@ -75,6 +75,20 @@
   margin: 0px 0px 0px 66px;
 }
 
+@media (max-width: 1020px) {
+  .containerPrincipalOpcoesDoacaoPorPix {
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .containerOpcaoChavePix {
+    margin-bottom: 20px;
+  }
+  .containerOpcaoQRCodePix {
+    margin-top: 20px;
+  }
+}
+
 @media (max-width: 480px) {
   .containerPrincipalOpcoesDoacaoPorPix {
     flex-direction: column;

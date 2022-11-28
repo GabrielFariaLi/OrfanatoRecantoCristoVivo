@@ -1,0 +1,54 @@
+.containerPrincipalInfosFaleConosco {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  gap: 235px;
+}
+
+.containerLeftPrincipaisInfosFaleConosco {
+  color: var(--text-black);
+  max-width: 426px;
+}
+
+.tituloPrincipaisInfosFaleConosco {
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.enderecoCompletoInfosFaleConosco {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.enderecoCompletoInfosFaleConosco,
+.cepInfosFaleConosco,
+.emailInfosFaleConosco,
+.telefoneInfosFaleConosco {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.cepInfosFaleConosco {
+  margin-bottom: 30px;
+}
+
+.buttonFaleConoscoWhatsapp {
+  margin-top: 30px;
+  /* Auto layout */
+
+  display: flex;
+  gap: 8px;
+
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+
+  width: 240px;
+
+  /* Azul/Azul MAIN */
+  color: #018fbf;
+  border: 1px solid #018fbf;
+  border-radius: 50px;
+}

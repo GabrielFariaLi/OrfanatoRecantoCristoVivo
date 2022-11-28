@@ -1,0 +1,132 @@
+.containerPrincipalFormularioFaleConosco {
+  height: 1200px;
+  overflow: hidden;
+  /* Gradientes/Gradiente Azul Escuro */
+
+  background: linear-gradient(90deg, #018fbf 0%, #015673 111.49%);
+}
+
+/*  MARQUE ------------------------*/
+
+.horizontalTextoInfinitoAnimacaoFaleConosco {
+  width: 100%;
+  padding-top: 65px;
+
+  color: var(--text-white);
+  bottom: -7px;
+}
+
+.textoHorizontalInfinitoFaleConosco {
+  font-weight: 700;
+  font-size: 77.95px;
+  line-height: 32.95px;
+  color: #015673;
+}
+
+.containerTextoInfinito {
+  z-index: 1;
+}
+
+.stb_line_single {
+  white-space: nowrap;
+  padding: 0;
+  will-change: transform;
+}
+.stb-item {
+  padding: 0;
+  cursor: auto;
+  display: inline-block;
+  margin-right: 2.5rem;
+}
+.stb-item:hover {
+}
+
+.elipseDivisoriaTextoInfinitoFaleConosco {
+  margin-bottom: 19px;
+  margin-left: 12px;
+}
+
+/* FORMULARIO -----------------------------------------------*/
+
+.containerEfetivoFormularioFaleConosco {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  margin-top: 160px;
+  margin-left: 10%;
+  margin-right: 10%;
+  max-height: 928px;
+}
+
+.primeiraLinhaNomeSobrenomeFormularioFaleConosco,
+.segundaLinhaEmailFormularioFaleConosco,
+.terceiraLinhaSuaMensagemFormularioFaleConosco {
+  max-width: 1168px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 92px;
+}
+
+.indicadorNumero1FormularioFaleConosco,
+.indicadorNumero2FormularioFaleConosco,
+.indicadorNumero3FormularioFaleConosco {
+  margin-top: 15px;
+  align-self: start;
+  width: 80px;
+  height: 43.35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24.77px;
+  font-weight: 700;
+  border: 2px solid #cccccc;
+  border-radius: 21.6774px;
+}
+
+.inputNomeSobrenomeFormularioFaleConosco,
+.inputEmailFormularioFaleConosco,
+.inputSuaMensagemFormularioFaleConosco {
+  margin-bottom: 80px;
+  padding-bottom: 24px;
+
+  width: 1010px;
+
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #cccccc;
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.inputNomeSobrenomeFormularioFaleConosco::placeholder,
+.inputEmailFormularioFaleConosco::placeholder,
+.inputSuaMensagemFormularioFaleConosco::placeholder {
+  color: var(--text-white);
+}
+
+.inputSuaMensagemFormularioFaleConosco {
+  height: 368px;
+  margin-bottom: 160px;
+}
+
+.buttonEnviarMensagemFormularioFaleConosco {
+  margin-bottom: 160px;
+  /* Auto layout */
+
+  display: flex;
+  color: var(--primary-blue);
+  font-size: 14px;
+  font-weight: 600;
+
+  justify-content: center;
+  align-items: center;
+  padding: 12px 50px;
+  min-height: 52px;
+  /* Brancos, cinzas e preto/Branco MAIN */
+
+  background: #f2f2f2;
+  border-radius: 70px;
+}
