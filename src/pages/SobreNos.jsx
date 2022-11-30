@@ -1,4 +1,4 @@
-import React from "react";
+import { React, useEffect } from "react";
 import styled from "styled-components";
 import Navbar from "../components/Navbar/Navbar";
 import HeroSectionSobreNos from "../components/HeroSectionSobreNos/HeroSectionSobreNos";
@@ -15,6 +15,9 @@ const DivSobreNosPrincipal = styled.div`
   background: var(--text-white);
 `;
 const SobreNos = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <DivSobreNosPrincipal>
       <Navbar />

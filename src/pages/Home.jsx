@@ -1,4 +1,4 @@
-import React from "react";
+import { React, useEffect } from "react";
 import Navbar from "../components/Navbar/Navbar";
 import HeroLandingPage from "../components/HeroLandingPage/HeroLandingPage";
 import styled from "styled-components";
@@ -15,6 +15,9 @@ const DivHomePrincipal = styled.div`
 `;
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <DivHomePrincipal>
       <Navbar />

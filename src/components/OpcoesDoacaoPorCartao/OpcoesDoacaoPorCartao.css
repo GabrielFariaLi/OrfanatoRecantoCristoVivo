@@ -58,6 +58,12 @@
   border-radius: 59.9472px;
 }
 
+.containerButtonSelecionarValorCartao:hover {
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  background: var(--primary-red);
+}
+
 @media (max-width: 940px) {
   .containerCaixasOpcoes {
     width: 100%;

@@ -1,4 +1,4 @@
-import React from "react";
+import { React, useEffect } from "react";
 import styled from "styled-components";
 
 import Navbar from "../components/Navbar/Navbar";
@@ -12,6 +12,9 @@ const DivNossosProjetosPrincipal = styled.div`
   background: var(--text-white);
 `;
 const NossosProjetos = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <DivNossosProjetosPrincipal>
       <Navbar />

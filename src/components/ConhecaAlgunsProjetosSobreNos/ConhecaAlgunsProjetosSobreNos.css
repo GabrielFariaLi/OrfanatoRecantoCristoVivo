@@ -69,6 +69,7 @@
 }
 
 .molduraCardConhecaAlgunsProjetosSobreNos {
+  cursor: pointer;
   min-height: 508px;
   min-width: 285px;
   max-height: 508px;

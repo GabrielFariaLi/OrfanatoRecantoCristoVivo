@@ -1,4 +1,4 @@
-import React from "react";
+import { React, useEffect } from "react";
 import styled from "styled-components";
 
 import Navbar from "../components/Navbar/Navbar";
@@ -13,6 +13,9 @@ const DivHomePrincipal = styled.div`
 `;
 
 const FacaSuaDoacao = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <DivHomePrincipal>
       <Navbar />

@@ -1,4 +1,4 @@
-import React from "react";
+import { React, useEffect } from "react";
 import styled from "styled-components";
 
 import Navbar from "../components/Navbar/Navbar";
@@ -22,6 +22,9 @@ const ContainerDoacaoPorItem = styled.div`
 `;
 
 const DoacaoPorItem = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <ContainerDoacaoPorItem>
       <Navbar />

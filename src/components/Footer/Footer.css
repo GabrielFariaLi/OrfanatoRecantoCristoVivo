@@ -63,10 +63,55 @@
   transition: 0.5s ease-in-out;
   cursor: pointer;
 }
+.whatsappiconFooterPath,
+.facebookIconSVGInsideFooterPath {
+  fill: #f2f2f2;
+  transition: 0.3s ease-in-out;
+}
+
+.facebookIconSVGInsideFooterPath:hover {
+  fill: #0c27e9;
+  transform: scale(1.2);
+}
+
+.whatsappiconInsideFooterPath {
+  fill: #018fbf;
+}
+
+.instagramziniconInsideFooterPath,
+.youtubeziniconPATHInsideFooterPath {
+  stroke: #e6e6e6;
+}
+
+.instagramziniconSVGInsideFooterPath:hover {
+  transition: 0.3s ease-in-out;
+  transform: scale(1.2);
+}
+.instagramziniconSVGInsideFooterPath:hover .instagramziniconInsideFooterPath {
+  transition: 0.3s ease-in-out;
+  stroke: #bc318f;
+}
+
+.youtubeziniconSVGInsideFooterPath:hover {
+  transition: 0.3s ease-in-out;
+  transform: scale(1.2);
+}
+
+.youtubeziniconSVGInsideFooterPath:hover .youtubeziniconPATHInsideFooterPath {
+  fill: #ff0000;
+}
 
 .faleConoscoButtonFooterZap:hover {
   border: 2px solid limegreen;
   color: limegreen;
+}
+
+.faleConoscoButtonFooterZap:hover .whatsappiconFooterPath {
+  fill: limegreen;
+}
+
+.faleConoscoButtonFooterZap:hover .whatsappiconInsideFooterPath {
+  fill: #f2f2f2;
 }
 
 .containerRedesSociaisFooter {

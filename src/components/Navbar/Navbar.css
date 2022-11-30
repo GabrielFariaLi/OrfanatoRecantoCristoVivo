@@ -213,6 +213,7 @@
 }
 
 .ctaNavbar {
+  cursor: pointer;
   width: 191px;
   height: 52px;
   border-radius: 70px;
@@ -221,6 +222,12 @@
   font-size: 14px;
   color: var(--text-white);
   background-color: var(--primary-blue);
+}
+
+.ctaNavbar:hover {
+  transition: 0.3s ease-in-out;
+  color: var(--text-white);
+  background-color: var(--primary-red);
 }
 
 .navigation {

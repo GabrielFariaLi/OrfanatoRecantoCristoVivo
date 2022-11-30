@@ -1,4 +1,4 @@
-import React from "react";
+import { React, useEffect } from "react";
 import Footer from "../components/Footer/Footer";
 import Navbar from "../components/Navbar/Navbar";
 import "../components/DetalhesNossosProjetos/DetalhesNossosProjetos.css";
@@ -15,6 +15,9 @@ const DivPrincipalDetalhesNossosProjetos = styled.div`
   background: var(--text-white);
 `;
 const DetalhesNossosProjetos = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   var settings = {
     infinite: true,
     slidesToShow: 2.5,

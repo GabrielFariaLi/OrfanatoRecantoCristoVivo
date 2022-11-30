@@ -47,6 +47,8 @@
 }
 
 .buttonDuvidasProcessoDoacao:hover {
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
   background: var(--primary-red);
 }
 

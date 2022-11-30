@@ -15,6 +15,7 @@ import { useState, useEffect } from "react";
 //stripe
 import "stripe.js";
 import FaleConosco from "./pages/FaleConosco";
+import NossaEstrutura from "./pages/NossaEstrutura";
 
 const App = () => {
   // prevenir scroll para o lado
@@ -37,6 +38,7 @@ const App = () => {
         <Route exact path="/doacaoItem" element={<DoacaoItem />} />
         <Route exact path="/sobreNos" element={<SobreNos />} />
         <Route exact path="/nossosProjetos" element={<NossosProjetos />} />
+        <Route exact path="/nossaEstrutura" element={<NossaEstrutura />} />
         <Route
           path="/detalhesNossosProjetos/:id"
           element={<DetalhesNossosProjetos />}

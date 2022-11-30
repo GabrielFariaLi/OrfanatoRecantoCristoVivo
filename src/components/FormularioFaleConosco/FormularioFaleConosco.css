@@ -113,6 +113,7 @@
 }
 
 .buttonEnviarMensagemFormularioFaleConosco {
+  cursor: pointer;
   margin-bottom: 160px;
   /* Auto layout */
 
@@ -129,4 +130,104 @@
 
   background: #f2f2f2;
   border-radius: 70px;
+}
+
+.buttonEnviarMensagemFormularioFaleConosco:hover {
+  transition: 0.3s ease-in-out;
+  background: var(--primary-red);
+  color: var(--text-white);
+}
+@media (max-width: 1100px) {
+  .inputNomeSobrenomeFormularioFaleConosco {
+    width: 700px;
+  }
+
+  .inputEmailFormularioFaleConosco {
+    width: 700px;
+  }
+
+  .inputSuaMensagemFormularioFaleConosco {
+    width: 700px;
+  }
+}
+
+@media (max-width: 900px) {
+  .inputNomeSobrenomeFormularioFaleConosco {
+    width: 400px;
+  }
+
+  .inputEmailFormularioFaleConosco {
+    width: 400px;
+  }
+
+  .inputSuaMensagemFormularioFaleConosco {
+    width: 400px;
+  }
+
+  .inputNomeSobrenomeFormularioFaleConosco,
+  .inputEmailFormularioFaleConosco,
+  .inputSuaMensagemFormularioFaleConosco {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .inputNomeSobrenomeFormularioFaleConosco {
+    width: 300px;
+  }
+
+  .inputEmailFormularioFaleConosco {
+    width: 300px;
+  }
+
+  .inputSuaMensagemFormularioFaleConosco {
+    width: 300px;
+  }
+
+  .inputNomeSobrenomeFormularioFaleConosco,
+  .inputEmailFormularioFaleConosco,
+  .inputSuaMensagemFormularioFaleConosco {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .inputNomeSobrenomeFormularioFaleConosco::placeholder,
+  .inputEmailFormularioFaleConosco::placeholder,
+  .inputSuaMensagemFormularioFaleConosco::placeholder {
+    text-align: center;
+  }
+
+  .inputSuaMensagemFormularioFaleConosco {
+    height: 200px;
+  }
+  .containerEfetivoFormularioFaleConosco {
+    flex-direction: column;
+    margin-top: 400px;
+  }
+
+  .primeiraLinhaNomeSobrenomeFormularioFaleConosco,
+  .segundaLinhaEmailFormularioFaleConosco,
+  .terceiraLinhaSuaMensagemFormularioFaleConosco {
+    flex-direction: column;
+  }
+
+  .indicadorNumero3FormularioFaleConosco,
+  .indicadorNumero2FormularioFaleConosco,
+  .indicadorNumero1FormularioFaleConosco {
+    align-self: center;
+  }
+
+  .containerPrincipalFormularioFaleConosco {
+    height: 1700px;
+  }
+
+  .buttonEnviarMensagemFormularioFaleConosco {
+  }
+}
+
+@media (max-width: 628px) {
+  .linhaDivisoriaJuntosMudamosVidasHome {
+    display: none;
+  }
 }

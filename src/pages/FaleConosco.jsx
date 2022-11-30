@@ -1,4 +1,4 @@
-import React from "react";
+import { React, useEffect } from "react";
 import FaleConoscoPrincipasInfosSection from "../components/FaleConoscoPrincipasInfosSection/FaleConoscoPrincipasInfosSection";
 import FormularioFaleConosco from "../components/FormularioFaleConosco/FormularioFaleConosco";
 
@@ -11,6 +11,9 @@ const DivPrincipalFaleConosco = styled.div`
 `;
 
 const FaleConosco = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <DivPrincipalFaleConosco>
       <Navbar />

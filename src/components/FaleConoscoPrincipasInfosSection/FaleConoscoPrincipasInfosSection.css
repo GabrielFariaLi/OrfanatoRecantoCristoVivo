@@ -35,6 +35,9 @@
 }
 
 .buttonFaleConoscoWhatsapp {
+  height: 44px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
   margin-top: 30px;
   /* Auto layout */
 
@@ -51,4 +54,45 @@
   color: #018fbf;
   border: 1px solid #018fbf;
   border-radius: 50px;
+}
+.whatsappiconPrincipaisInfosFaleConosco {
+  fill: #018fbf;
+  transition: 0.3s ease-in-out;
+}
+
+.buttonFaleConoscoWhatsapp:hover {
+  color: var(--primary-red);
+  border: 1px solid var(--primary-red);
+}
+.buttonFaleConoscoWhatsapp:hover .whatsappiconPrincipaisInfosFaleConosco {
+  fill: var(--primary-red);
+}
+
+@media (max-width: 1101px) {
+  .containerPrincipalInfosFaleConosco {
+    height: 1660px;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 571px) {
+  .imagemPrincipaisInfosFaleConosco {
+    width: 80vw;
+  }
+
+  .containerLeftPrincipaisInfosFaleConosco {
+    width: 80vw;
+    text-align: center;
+  }
+
+  .emailInfosFaleConosco {
+    font-size: 20px;
+  }
+
+  .buttonFaleConoscoWhatsapp {
+    margin: auto;
+    justify-self: center;
+    align-self: center;
+    margin-top: 50px;
+  }
 }

@@ -102,3 +102,105 @@
   background: #018fbf;
   border-radius: 113.793px;
 }
+
+@media (max-width: 1170px) {
+  .containerPrincipalGaleriaProjetosNossosProjetos {
+    height: fit-content;
+  }
+
+  .cardIndividualProjetoGaleriaNossosProjetos {
+    width: 386.5px;
+  }
+
+  .containerSubTituloGaleriaProjetosNossosProjetos {
+    margin: 0;
+    text-align: center;
+  }
+}
+@media (max-width: 1020px) {
+  .containerPrincipalFiltroGaleriaProjetosNossosProjetos {
+    margin-top: 90px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+@media (max-width: 800px) {
+  .containerPrincipalFiltroGaleriaProjetosNossosProjetos {
+    flex-direction: column;
+    margin-top: 90px;
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 573px;
+  }
+
+  .containerSubTituloGaleriaProjetosNossosProjetos {
+    order: 1;
+  }
+  .containerFiltroLeftGaleriaProjetosNossosProjetos {
+    order: 2;
+    justify-content: start;
+    align-items: start;
+    margin-top: 70px;
+    width: 573px;
+  }
+
+  .containerPrincipalGaleriaProjetosNossosProjetos {
+    height: fit-content;
+  }
+
+  .cardIndividualProjetoGaleriaNossosProjetos {
+    width: 573px;
+  }
+}
+
+@media (max-width: 600px) {
+  .containerPrincipalFiltroGaleriaProjetosNossosProjetos {
+    width: 473px;
+  }
+
+  .containerFiltroLeftGaleriaProjetosNossosProjetos {
+    width: 473px;
+  }
+
+  .cardIndividualProjetoGaleriaNossosProjetos {
+    width: 473px;
+  }
+}
+
+@media (max-width: 490px) {
+  .containerPrincipalFiltroGaleriaProjetosNossosProjetos {
+    width: 373px;
+    margin: auto;
+    margin-top: 90px;
+  }
+
+  .containerFiltroLeftGaleriaProjetosNossosProjetos {
+    width: 373px;
+  }
+
+  .cardIndividualProjetoGaleriaNossosProjetos {
+    width: 373px;
+  }
+  .tituloCardIndividualProjetoGaleriaNossosProjetos {
+    font-size: 27px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 400px) {
+  .tituloGaleriaProjetosNossosProjetos {
+    font-size: 66px;
+  }
+  .containerPrincipalFiltroGaleriaProjetosNossosProjetos {
+    width: 343px;
+  }
+
+  .containerFiltroLeftGaleriaProjetosNossosProjetos {
+    width: 343px;
+  }
+
+  .cardIndividualProjetoGaleriaNossosProjetos {
+    width: 343px;
+  }
+}

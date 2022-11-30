@@ -142,7 +142,7 @@ const ComoDoarHome = () => {
               </svg>
             </div>
           </Link>
-          <Link to="/doacaoPorPix">
+          <Link to="/doacaoItem">
             <div
               onMouseOver={() => sethoverDoacaoFlag(2)}
               className="opcoesDoacaoHomePage3"

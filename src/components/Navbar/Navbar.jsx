@@ -46,8 +46,9 @@ const Navbar = () => {
               <Link to="/nossosProjetos">
                 <h1 className="itemMiniMenuMobile">Projetos</h1>
               </Link>
-              <h1 className="itemMiniMenuMobile">Nossa infraestrutura</h1>
-
+              <Link to="/nossaEstrutura">
+                <h1 className="itemMiniMenuMobile">Nossa infraestrutura</h1>
+              </Link>
               <Link to="/faleConosco">
                 <h1 className="itemMiniMenuMobile">Fale conosco</h1>
               </Link>
@@ -110,7 +111,9 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <a href="#">Nossa infraestrutura</a>
+              <Link to="/nossaEstrutura">
+                <a href="#">Nossa infraestrutura</a>
+              </Link>
             </li>
             <Link to="/faleConosco">
               <button className="ctaNavbar">Fale conosco</button>

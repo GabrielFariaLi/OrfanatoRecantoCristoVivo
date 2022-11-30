@@ -1,0 +1,254 @@
+.heroSectionNossaEstruturaContainer {
+  height: 85vh;
+  width: 100vw;
+  background: linear-gradient(
+      359.49deg,
+      #018fbf 17.74%,
+      rgba(1, 143, 191, 0) 94.46%
+    ),
+    url("../../../public/imgs/heroSectionNossaEstrutura.jpg") center center;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.primeiroTituloHeroSectionNossaEstrutura {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 27px;
+}
+
+.segundoTituloHeroSectionNossaEstrutura {
+  font-size: 56px;
+  text-align: center;
+  font-weight: 700;
+  max-width: 709px;
+  margin-bottom: 32px;
+}
+
+.descTituloHeroSectionNossaEstrutura {
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 616px;
+  text-align: center;
+}
+
+/* primeira info */
+
+.primeiraInfoNossaEstruturaContainer {
+  height: 331px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  color: var(--text-black);
+}
+
+.textoLeftPrimeiraInfoNossaEstrutura {
+  max-width: 523px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.textoRightPrimeiraInfoNossaEstrutura {
+  max-width: 548px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* espaços coletivos */
+
+.espacosColetivosNossaEstruturaContainer {
+  height: 641px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 128px;
+}
+
+.containertextoRightEspacosColetivosNossaEstrutura {
+  max-width: 535px;
+}
+
+.primeiroTituloTextoRightEspacosColetivosNossaEstrutura {
+  color: var(--primary-blue);
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 14px;
+}
+
+.segundoTituloTextoRightEspacosColetivosNossaEstrutura {
+  font-size: 48px;
+  font-weight: 600;
+  color: var(--text-black);
+  margin-bottom: 32px;
+}
+
+.descricaoTituloTextoRightEspacosColetivosNossaEstrutura {
+  font-size: 16px;
+  font-weight: 400;
+  width: 405px;
+  color: var(--text-black);
+  margin-bottom: 32px;
+}
+
+.buttonConhecaNossosProjetosEspacosColetivosNossaEstrutura {
+  /* Auto layout */
+  color: var(--primary-blue);
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  padding: 12px 50px;
+
+  height: 52px;
+  width: 290px;
+  /* Azul/Azul MAIN */
+
+  border: 2px solid #018fbf;
+  border-radius: 50px;
+}
+
+.buttonConhecaNossosProjetosEspacosColetivosNossaEstrutura:hover {
+  transition: 0.3s ease-in-out;
+  color: var(--primary-red);
+  cursor: pointer;
+  border: 2px solid var(--primary-red);
+  border-radius: 50px;
+}
+/* ACOMODAÇÕES */
+
+.acomodacoesNossaEstruturaContainer {
+  height: 641px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containertextoLeftAcomodacoesNossaEstrutura {
+  max-width: 535px;
+}
+
+.primeiroTituloTextoLeftAcomodacoesNossaEstrutura {
+  color: var(--primary-blue);
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 14px;
+}
+
+.segundoTituloTextoLeftAcomodacoesNossaEstrutura {
+  font-size: 48px;
+  font-weight: 600;
+  color: var(--text-black);
+  margin-bottom: 32px;
+}
+
+.descricaoTituloTextoLeftAcomodacoesNossaEstrutura {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-black);
+  width: 405px;
+}
+
+/* VIDEO DRONE DIVISORIA */
+
+.containerDivisoriaVideoDroneNossaEstrutura {
+  position: relative;
+  height: 700px;
+  width: 100vw;
+  margin-top: 70px;
+}
+
+.videoDivisoriaVideoDroneNossaEstrutura {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+
+  z-index: 3;
+}
+
+/* CTA AJUDAR DOACOES */
+
+.ctaAjudaComDoacoesNossaEstruturaContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 306px;
+  margin: 70px 0px;
+  color: var(--text-black);
+}
+
+.tituloCtaAjudaComDoacoesNossaEstrutura {
+  font-size: 48px;
+  font-weight: 600;
+  max-width: 635px;
+  text-align: center;
+  margin-bottom: 41px;
+}
+
+.descricaoCtaAjudaComDoacoesNossaEstrutura {
+  text-align: center;
+  max-width: 445px;
+  margin-bottom: 32px;
+}
+
+.buttonCtaFacaUmaDoacaoNossaEstruturaAjuda {
+  /* Auto layout */
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  padding: 12px 50px;
+
+  height: 52px;
+  color: var(--text-white);
+  font-size: 14px;
+  font-weight: 600;
+  /* Azul/Azul MAIN */
+
+  background: #018fbf;
+  border-radius: 70px;
+}
+
+.buttonCtaFacaUmaDoacaoNossaEstruturaAjuda:hover {
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  background: var(--primary-red);
+}
+
+/* GALERIA */
+
+.sliderImagensGaleriaNossaEstrutura {
+  display: flex;
+  gap: 30px;
+}
+.imagemEfetivaGaleriaNossaEstrutura {
+  height: 580px;
+
+  width: 633px;
+  background-size: cover;
+  padding-right: 30px;
+}
+
+.containerSliderImagensGaleriaNossaEstrutura {
+  margin-bottom: 70px;
+}
+
+.linhaVermelhaNossaEstrutura {
+  margin-left: 15px;
+  margin-bottom: 5px;
+}

@@ -73,65 +73,13 @@ const HeroSectionNossosProjetos = () => {
       {
         breakpoint: 1200,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           autoplay: true,
           autoplaySpeed: 7000,
           /*        slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
           dots: true, */
-        },
-      },
-      {
-        breakpoint: 990,
-        settings: {
-          slidesToShow: 1.5,
-          slidesToScroll: 1,
-          autoplay: true,
-          autoplaySpeed: 7000,
-
-          /*        slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2, */
-        },
-      },
-      {
-        breakpoint: 800,
-        settings: {
-          slidesToShow: 1.1,
-          autoplay: true,
-          autoplaySpeed: 7000,
-
-          /*        slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2, */
-        },
-      },
-      {
-        breakpoint: 650,
-        settings: {
-          slidesToShow: 1.1,
-          autoplay: true,
-          autoplaySpeed: 7000,
-
-          /*        slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2, */
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          autoplay: true,
-          autoplaySpeed: 7000,
-          /*           vertical: false,
-          dots: true,
-          slidesToShow: 1,
-          slidesToScroll: 1,
-
-          touchThreshold: 500,
-          swipeToSlide: false, */
         },
       },
     ],

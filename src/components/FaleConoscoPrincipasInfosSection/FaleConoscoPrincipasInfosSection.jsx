@@ -27,7 +27,7 @@ const FaleConoscoPrincipasInfosSection = () => {
             >
               <path
                 d="M10.5 21.25C16.1609 21.25 20.75 16.6609 20.75 11C20.75 5.33908 16.1609 0.75 10.5 0.75C4.83908 0.75 0.25 5.33908 0.25 11C0.25 16.6609 4.83908 21.25 10.5 21.25Z"
-                fill="#018FBF"
+                className="whatsappiconPrincipaisInfosFaleConosco"
               />
               <path
                 fill-rule="evenodd"
