@@ -113,6 +113,7 @@
 }
 
 .buttonEnviarMensagemFormularioFaleConosco {
+  transition: 0.3s ease-in-out;
   cursor: pointer;
   margin-bottom: 160px;
   /* Auto layout */
@@ -133,7 +134,6 @@
 }
 
 .buttonEnviarMensagemFormularioFaleConosco:hover {
-  transition: 0.3s ease-in-out;
   background: var(--primary-red);
   color: var(--text-white);
 }

@@ -82,9 +82,10 @@
 .youtubeziniconPATHInsideFooterPath {
   stroke: #e6e6e6;
 }
-
-.instagramziniconSVGInsideFooterPath:hover {
+.instagramziniconInsideFooterPath {
   transition: 0.3s ease-in-out;
+}
+.instagramziniconSVGInsideFooterPath:hover {
   transform: scale(1.2);
 }
 .instagramziniconSVGInsideFooterPath:hover .instagramziniconInsideFooterPath {
@@ -92,8 +93,10 @@
   stroke: #bc318f;
 }
 
-.youtubeziniconSVGInsideFooterPath:hover {
+.youtubeziniconSVGInsideFooterPath {
   transition: 0.3s ease-in-out;
+}
+.youtubeziniconSVGInsideFooterPath:hover {
   transform: scale(1.2);
 }
 

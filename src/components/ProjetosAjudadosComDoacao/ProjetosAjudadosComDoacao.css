@@ -121,6 +121,7 @@
 }
 
 .vejaTodosProjetosButton {
+  transition: 0.3s ease-in-out;
   height: 52px;
   color: var(--text-white);
   padding: 12px 50px;
@@ -132,7 +133,6 @@
 .vejaTodosProjetosButton:hover {
   background: var(--primary-red);
   cursor: pointer;
-  transition: 0.3s ease-in-out;
 }
 
 .containerButtonVejaTodosProjetos {

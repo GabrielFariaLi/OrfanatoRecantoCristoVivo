@@ -9,6 +9,7 @@ import Slider from "react-slick";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Link } from "react-router-dom";
 
 const DivPrincipalDetalhesNossosProjetos = styled.div`
   margin: 0px;
@@ -125,7 +126,7 @@ const DetalhesNossosProjetos = () => {
             </div>
           </div>
           <div className="buttonCTADoacaoRightInfoCTADetalhesNossosProjetos">
-            Faça uma doação!
+            <Link to="/facaSuaDoacao">Faça uma doação!</Link>
           </div>
         </div>
       </div>
@@ -204,7 +205,7 @@ const DetalhesNossosProjetos = () => {
             quae ab illo inventore veritatis et{" "}
           </div>
           <div className="buttonCTANossoImpactoDetalhesNossosProjetos">
-            Faça uma doação
+            <Link to="/facaSuaDoacao">Faça uma doação!</Link>
           </div>
         </div>
       </div>

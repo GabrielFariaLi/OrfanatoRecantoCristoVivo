@@ -6,6 +6,7 @@
   justify-content: center;
   background-color: var(--primary-blue);
   width: 100vw;
+
   height: 100vh;
   color: var(--text-white);
   z-index: 9999;
@@ -201,7 +202,7 @@
   z-index: 999;
   width: 100vw;
   display: flex;
-  background-color: rgba(242, 242, 242, 0.6);
+  background-color: rgba(242, 242, 242, 0.8);
   align-items: center;
   justify-content: space-around;
   padding: 20px 190px;
@@ -213,6 +214,7 @@
 }
 
 .ctaNavbar {
+  transition: 0.3s ease-in-out;
   cursor: pointer;
   width: 191px;
   height: 52px;
@@ -225,7 +227,6 @@
 }
 
 .ctaNavbar:hover {
-  transition: 0.3s ease-in-out;
   color: var(--text-white);
   background-color: var(--primary-red);
 }
@@ -237,7 +238,9 @@
 
 .navMenu {
   display: flex;
-  justify-content: space-around;
+  justify-content: end;
+  font-weight: 800;
+  margin-left: auto;
 }
 
 .navbar li {
@@ -245,13 +248,13 @@
   text-align: center;
   top: 50%;
   transform: translateY(30%);
+  margin-right: 30px;
 }
-
 .navMenu li a {
   align-self: center;
   color: var(--primary-blue);
   text-decoration: none;
-  font-size: 14px;
+  font-size: 17px;
   padding: 0 15px;
 }
 .navMenu li a:hover {

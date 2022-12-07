@@ -15,6 +15,7 @@
   width: 100vw;
   height: 100vh;
   z-index: 9999;
+  display: none;
 }
 
 .backgroundVermelho {
@@ -23,6 +24,7 @@
   width: 100vw;
   height: 100vh;
   z-index: 99999;
+  display: none;
 }
 
 .containerTextoPrincipalLoading {
@@ -35,11 +37,13 @@
   font-weight: 500;
   font-size: 16px;
   transform: translate(-50%, -50%);
+  display: none;
 }
 
 .tituloORCVIntro {
   transform: translateY(100%);
   display: inline-block;
+  display: none;
 }
 
 /* lineup class and keyframes */
@@ -82,13 +86,17 @@
   justify-content: center;
   display: flex;
   flex-direction: column;
-  max-width: 558px;
+  max-width: 658px;
+  text-align: center;
 }
 
 .h1TituloLandingPage {
   font-weight: 600;
   line-height: 70px;
   font-size: 89.48px;
+}
+#terceiroTituloLandingPage {
+  line-height: 85px;
 }
 
 .segundoTituloLandingPage > .h1TituloLandingPage {

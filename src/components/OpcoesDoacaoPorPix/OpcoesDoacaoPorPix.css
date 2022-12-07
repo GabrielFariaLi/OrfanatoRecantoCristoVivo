@@ -51,6 +51,7 @@
 }
 
 .buttonChavePixEmail {
+  transition: 0.3s ease-in-out;
   margin-top: 32px;
   padding: 12px 50px;
 
@@ -66,7 +67,6 @@
 .buttonChavePixEmail:hover {
   color: var(--primary-red);
   border: 2px solid var(--primary-red);
-  transition: 0.3s ease-in-out;
 }
 
 .pixQRCodeOpcoes {

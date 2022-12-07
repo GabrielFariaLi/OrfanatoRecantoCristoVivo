@@ -89,7 +89,7 @@
 
 .buttonEnviarMensagem {
   /* Auto layout */
-
+  transition: 0.3s ease-in-out;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -110,7 +110,6 @@
 .buttonEnviarMensagem:hover {
   color: var(--primary-red);
   border: 2px solid var(--primary-red);
-  transition: 0.3s ease-in-out;
 }
 
 @media (max-width: 1180px) {

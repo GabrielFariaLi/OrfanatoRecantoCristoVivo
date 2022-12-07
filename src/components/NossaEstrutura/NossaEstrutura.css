@@ -1,5 +1,5 @@
 .heroSectionNossaEstruturaContainer {
-  height: 85vh;
+  height: 100vh;
   width: 100vw;
   background: linear-gradient(
       359.49deg,
@@ -7,7 +7,7 @@
       rgba(1, 143, 191, 0) 94.46%
     ),
     url("../../../public/imgs/heroSectionNossaEstrutura.jpg") center center;
-  background-size: 100%;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -102,6 +102,7 @@
 }
 
 .buttonConhecaNossosProjetosEspacosColetivosNossaEstrutura {
+  transition: 0.3s ease-in-out;
   /* Auto layout */
   color: var(--primary-blue);
 
@@ -120,7 +121,6 @@
 }
 
 .buttonConhecaNossosProjetosEspacosColetivosNossaEstrutura:hover {
-  transition: 0.3s ease-in-out;
   color: var(--primary-red);
   cursor: pointer;
   border: 2px solid var(--primary-red);
@@ -133,6 +133,7 @@
   width: 100vw;
   display: flex;
   align-items: center;
+  margin-top: 70px;
   justify-content: center;
 }
 

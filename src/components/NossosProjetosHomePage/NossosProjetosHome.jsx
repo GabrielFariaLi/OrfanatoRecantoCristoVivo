@@ -37,10 +37,10 @@ const NossosProjetosHome = () => {
 
     touchThreshold: 100,
     swipeToSlide: true,
-
-    autoplay: true,
+    initialIndex: 3,
+    autoplay: false,
     autoplaySpeed: 7000,
-    slidesToShow: 2,
+    slidesToShow: 3,
 
     centerMode: true,
     arrows: false,

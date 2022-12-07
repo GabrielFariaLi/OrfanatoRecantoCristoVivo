@@ -31,6 +31,7 @@
 }
 .containerCategoriasFiltroGaleriaProjetosNossosProjetos {
   display: flex;
+  margin-top: 10px;
   gap: 40px;
 }
 
@@ -58,12 +59,12 @@
 }
 
 .imagemCardIndividualProjetoGaleriaNossosProjetos {
+  transition: 0.3s ease-in-out;
   width: 100%;
   height: 444px;
 }
 .imagemCardIndividualProjetoGaleriaNossosProjetos:hover {
   border-radius: 0px 0px 70px 0px;
-  transition: 0.3s ease-in-out;
 }
 
 .containerTituloCardIndividualProjetoGaleriaNossosProjetos {
@@ -101,6 +102,12 @@
 
   background: #018fbf;
   border-radius: 113.793px;
+}
+
+.filtrarpormaisbutton {
+  font-size: 24px;
+  margin-bottom: 10px;
+  cursor: pointer;
 }
 
 @media (max-width: 1170px) {

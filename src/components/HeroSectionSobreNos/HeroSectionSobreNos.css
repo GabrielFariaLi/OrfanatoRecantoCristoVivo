@@ -1,5 +1,5 @@
 .containerPrincipalHeroSectionSobreNos {
-  height: 732px;
+  height: 100vh;
   width: 100%;
   display: flex;
 
@@ -11,7 +11,7 @@
       rgba(1, 143, 191, 0) 94.46%
     ),
     url("../../../public/imgs/heroSectionSobreNos.png") center no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .containerTextoHeroSectionSobreNos {

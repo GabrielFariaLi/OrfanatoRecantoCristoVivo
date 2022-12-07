@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./SejaUmVoluntarioHome.css";
 
 const SejaUmVoluntarioHome = () => {
@@ -38,7 +39,7 @@ const SejaUmVoluntarioHome = () => {
               quae ab illo inventore veritatis et
             </div>
             <button className="buttonContainerSejaVoluntarioHome">
-              Faça seu cadastro
+              <Link to="/faleConosco">Faça seu cadastro</Link>
             </button>
           </div>
         </div>

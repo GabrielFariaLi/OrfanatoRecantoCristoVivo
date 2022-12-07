@@ -6,6 +6,8 @@ import styled from "styled-components";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Link } from "react-router-dom";
+import FooterLocalizacaoOrfanato from "../components/FooterLocalizacaoOrfanato/FooterLocalizacaoOrfanato";
 
 const DivPrincipalNossaEstrutura = styled.div`
   background: var(--text-white);
@@ -146,7 +148,7 @@ const NossaEstrutura = () => {
             quae ab illo inventore veritatis et
           </div>
           <div className="buttonConhecaNossosProjetosEspacosColetivosNossaEstrutura">
-            Conheça nossos projetos
+            <Link to="/nossosProjetos">Conheça nossos projetos</Link>
           </div>
         </div>
       </div>
@@ -212,7 +214,7 @@ const NossaEstrutura = () => {
           ab illo inventore veritatis et
         </p>
         <div className="buttonCtaFacaUmaDoacaoNossaEstruturaAjuda">
-          Faça uma doação!
+          <Link to="/facaSuaDoacao">Faça uma doação!</Link>
         </div>
       </div>
       <div className="containerSliderImagensGaleriaNossaEstrutura">
@@ -234,6 +236,8 @@ const NossaEstrutura = () => {
           />
         </Slider>
       </div>
+
+      <FooterLocalizacaoOrfanato />
       <Footer />
     </DivPrincipalNossaEstrutura>
   );

@@ -3,6 +3,7 @@ import "./SobreNosHome.css";
 import { useState, useEffect, useRef, useLayoutEffect } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { gsap } from "gsap";
+import { Link } from "react-router-dom";
 
 const SobreNosHome = () => {
   // store a reference to the box div
@@ -69,8 +70,9 @@ const SobreNosHome = () => {
             accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
             quae ab illo inventore veritatis et
           </div>
+
           <button className="buttonContainerSobreNos">
-            Saiba mais sobre nós!
+            <Link to="/sobreNos">Saiba mais sobre nós!</Link>
           </button>
         </div>
         <div ref={boxRef} className="containerFotosRightHome">

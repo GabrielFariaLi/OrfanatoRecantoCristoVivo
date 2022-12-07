@@ -10,6 +10,7 @@
 }
 
 .buttonNaoSabeOqueDoarHeroDoacaoItem {
+  transition: 0.3s ease-in-out;
   margin-top: 20px;
   padding: 12px 50px;
   font-size: 14px;
@@ -28,7 +29,6 @@
 
 .buttonNaoSabeOqueDoarHeroDoacaoItem:hover {
   border: 2px solid var(--primary-red);
-  transition: 0.3s ease-in-out;
 }
 
 @media (max-width: 480px) {

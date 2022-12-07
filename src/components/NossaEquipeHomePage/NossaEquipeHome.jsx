@@ -6,6 +6,7 @@ import Slider from "react-slick";
 import { nossaEquipeItems } from "../../data";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Link } from "react-router-dom";
 
 const NossaEquipeHome = () => {
   var settings = {
@@ -106,7 +107,7 @@ const NossaEquipeHome = () => {
           </Slider>
         </div>
         <button className="buttonContainerNossaEquipeHome">
-          Conheça nossa equipe
+          <Link to="/sobreNos">Saiba mais sobre nós</Link>
         </button>
       </div>
     </>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./HeroSectionCTAFacaSuaDoacaoSobreNos.css";
 const HeroSectionCTAFacaSuaDoacaoSobreNos = () => {
   return (
@@ -10,7 +11,7 @@ const HeroSectionCTAFacaSuaDoacaoSobreNos = () => {
             consectetur adipiscing elit.
           </h2>
           <div className="buttonConheçaFormasDoacaoCTASobreNos">
-            Conheça nossas formas de doação
+            <Link to="/facaSuaDoacao">Conheça nossas formas de doação</Link>
           </div>
         </div>
       </div>

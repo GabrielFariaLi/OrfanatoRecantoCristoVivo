@@ -56,10 +56,10 @@
   cursor: pointer;
   background: var(--primary-blue);
   border-radius: 59.9472px;
+  transition: 0.3s ease-in-out;
 }
 
 .containerButtonSelecionarValorCartao:hover {
-  transition: 0.3s ease-in-out;
   cursor: pointer;
   background: var(--primary-red);
 }

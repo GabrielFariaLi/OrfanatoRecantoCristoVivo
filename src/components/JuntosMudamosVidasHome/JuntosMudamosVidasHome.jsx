@@ -1,5 +1,6 @@
 import React from "react";
 import "./JuntosMudamosVidasHome.css";
+import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 // Import css files
 import Slider from "react-slick";
@@ -152,7 +153,9 @@ const JuntosMudamosVidasHome = () => {
           </Slider>
           <div className="containerButtonNosAjude">
             <button className="buttonNosAjude">
-              Nos ajude a transformar mais vidas!
+              <Link to="/facaSuaDoacao">
+                Nos ajude a transformar mais vidas!
+              </Link>
             </button>
           </div>
         </div>

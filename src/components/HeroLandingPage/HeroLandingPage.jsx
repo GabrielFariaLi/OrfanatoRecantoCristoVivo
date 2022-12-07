@@ -23,148 +23,6 @@ const Home = () => {
   const tl = useRef();
   /* GSAP ANIMATIONS AREA */
 
-  useEffect(() => {
-    // -- ANIMATION CODE HERE --
-    const isMobile = !window.matchMedia("(min-width: 768px)").matches;
-
-    let ctx = gsap.context(() => {
-      console.log("creating timeline HERO");
-      gsap.registerPlugin(ScrollTrigger);
-      tl.current && tl.current.progress(0).kill();
-      tl.current = gsap
-        .timeline({
-          /*         scrollTrigger: {
-            trigger: ".primeiroTituloLandingPage",
-            markers: { startColor: "green", endColor: "red", fontSize: "32px" },
-            start: "top top",
-            end: "bottom bottom",
-          }, */
-        })
-
-        .fromTo(
-          ".tituloORCVIntro",
-          {
-            y: 1000,
-          },
-          {
-            y: 0,
-            ease: 1,
-            duration: 1,
-          }
-        )
-        .to(
-          ".tituloORCVIntro",
-
-          {
-            y: -3000,
-            delay: 1,
-
-            duration: 0.5,
-          },
-          "firstMove"
-        )
-        .fromTo(
-          ".backgroundVermelho",
-
-          {
-            y: "100vh",
-          },
-          {
-            y: 150,
-            ease: 1,
-            delay: 0.9,
-            duration: 1,
-          },
-          "firstMove"
-        )
-        /* */
-
-        .to(
-          ".backgroundVermelho",
-
-          {
-            y: "-50vh",
-            ease: 2,
-            duration: 1,
-          },
-          "moveBACKGROUNDS"
-        )
-
-        .to(
-          ".containerIntroWebsite",
-
-          {
-            css: { backgroundColor: "transparent" },
-          },
-          "moveBACKGROUNDS"
-        )
-        .to(
-          ".backgroundVermelho",
-
-          {
-            y: "-100vh",
-
-            duration: 2,
-          },
-          "moveBACKGROUNDS"
-        )
-
-        .set(
-          ".containerIntroWebsite",
-
-          {
-            css: { display: "none" },
-          }
-        )
-
-        .to(
-          ".backgroundVermelho",
-
-          {
-            y: "-100vh",
-
-            duration: 2,
-          },
-          "moveBACKGROUNDS"
-        )
-        .to(
-          "#primeiroTituloLandingPage",
-
-          {
-            css: { animation: "2s anim-lineUp ease-out" },
-            delay: 0.5,
-            duration: 1.5,
-          },
-          "moveBACKGROUNDS"
-        )
-        .to(
-          "#segundoTituloLandingPage",
-
-          {
-            css: { animation: "2s anim-lineUp ease-out" },
-            delay: 0.4,
-            duration: 1.5,
-          },
-          "moveBACKGROUNDS"
-        )
-        .to(
-          "#terceiroTituloLandingPage",
-
-          {
-            css: { animation: "2s anim-lineUp ease-out" },
-            delay: 0.3,
-            duration: 1.5,
-          },
-          "moveBACKGROUNDS"
-        );
-    }, boxRef);
-
-    return () => {
-      // cleanup code (optional)
-      ctx.revert();
-    };
-  }, []); // <- empty dependency Array so it doesn't re-run on every render!
-
   /* - FIM - GSAP ANIMATIONS AREA */
 
   return (
@@ -201,7 +59,7 @@ const Home = () => {
             style={{ fontStyle: "italic" }}
             className="h1TituloLandingPage"
           >
-            Adotar
+            Confiem
           </h1>
           <p className="paragrafoLandingPageRecanto">
             Recanto Cristo Vivo: Amor e Dignidade á Criança Carente.
@@ -209,8 +67,10 @@ const Home = () => {
         </div>
         <div className="segundoTituloLandingPage">
           <h1 id="segundoTituloLandingPage" className="h1TituloLandingPage">
-            uma criança é<br /> dar{" "}
-            <b style={{ fontWeight: "700", fontStyle: "italic" }}>luz</b> a uma
+            sempre no
+            <br />{" "}
+            <b style={{ fontWeight: "700", fontStyle: "italic" }}>senhor</b>,
+            pois ele
           </h1>
         </div>
         <h1
@@ -220,7 +80,8 @@ const Home = () => {
           }}
           className="h1TituloLandingPage"
         >
-          esperança.
+          é o nosso eterno{" "}
+          <b style={{ fontWeight: "700", fontStyle: "italic" }}>abrigo</b>.
         </h1>
         <p
           style={{
@@ -230,7 +91,7 @@ const Home = () => {
             marginTop: "20px",
           }}
         >
-          -Aline Ignácio Pacheco
+          - Isaías 26:4
         </p>
       </div>
     </DivHeroLandingPagePrincipal>

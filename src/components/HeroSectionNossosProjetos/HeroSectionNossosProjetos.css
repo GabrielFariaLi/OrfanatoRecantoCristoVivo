@@ -1,14 +1,19 @@
 .containerIndividualProjetoHeroSectionNossosProjetos {
   width: 100%;
 }
+.containerPrincipalHeroSectionNossosProjetos {
+  height: 100vh;
+}
 
 .containerSliderImagensHeroSectionNossosProjetos {
   position: relative;
+  height: 100vh;
 }
 
 .imagemHeroSectionNossosProjetos {
   width: 100%;
   position: relative;
+  height: 100vh;
 }
 
 .customPagingHeroSectionSobreNos {
@@ -47,6 +52,7 @@
   margin-bottom: 6px;
   margin-left: 37px;
   background: transparent;
+  transition: 0.3s ease-in-out;
 }
 
 .slick-dots .slick-active {
@@ -54,7 +60,6 @@
 }
 
 .buttonVejaMaisHeroSectionNossosProjetos:hover {
-  transition: 0.3s ease-in-out;
   transform: scale(1.1);
   cursor: pointer;
 }

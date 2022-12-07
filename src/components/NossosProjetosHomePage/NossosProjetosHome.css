@@ -63,7 +63,7 @@
   display: flex;
   cursor: url("../../../public/imgs/hoverButtonNossosProjetos.png"), pointer;
   transition: cursor 4s ease-in-out;
-  width: calc(100vw - 35vw);
+  width: 1200px;
   height: 610px;
   box-sizing: border-box;
   justify-content: space-between;

@@ -82,19 +82,21 @@ const ProjetosAjudadosComDoacao = () => {
               {dropdownProjetoFlag[item.id] === true ? (
                 <div className="containerDescricaoUnidadeProjetoDoacao">
                   {item.descricao}
-                  <svg
-                    style={{ marginTop: "32px", marginBottom: "53px" }}
-                    width="57"
-                    height="24"
-                    viewBox="0 0 57 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M56.0607 13.0607C56.6464 12.4749 56.6464 11.5251 56.0607 10.9393L46.5147 1.3934C45.9289 0.807615 44.9792 0.807615 44.3934 1.3934C43.8076 1.97919 43.8076 2.92894 44.3934 3.51472L52.8787 12L44.3934 20.4853C43.8076 21.0711 43.8076 22.0208 44.3934 22.6066C44.9792 23.1924 45.9289 23.1924 46.5147 22.6066L56.0607 13.0607ZM-1.31134e-07 13.5L55 13.5L55 10.5L1.31134e-07 10.5L-1.31134e-07 13.5Z"
-                      fill="#363636"
-                    />
-                  </svg>
+                  <Link to="/detalhesNossosProjetos/1">
+                    <svg
+                      style={{ marginTop: "32px", marginBottom: "53px" }}
+                      width="57"
+                      height="24"
+                      viewBox="0 0 57 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M56.0607 13.0607C56.6464 12.4749 56.6464 11.5251 56.0607 10.9393L46.5147 1.3934C45.9289 0.807615 44.9792 0.807615 44.3934 1.3934C43.8076 1.97919 43.8076 2.92894 44.3934 3.51472L52.8787 12L44.3934 20.4853C43.8076 21.0711 43.8076 22.0208 44.3934 22.6066C44.9792 23.1924 45.9289 23.1924 46.5147 22.6066L56.0607 13.0607ZM-1.31134e-07 13.5L55 13.5L55 10.5L1.31134e-07 10.5L-1.31134e-07 13.5Z"
+                        fill="#363636"
+                      />
+                    </svg>
+                  </Link>
                 </div>
               ) : null}
             </div>
@@ -111,7 +113,7 @@ const ProjetosAjudadosComDoacao = () => {
       </div>
       <div className="containerButtonVejaTodosProjetos">
         <button className="vejaTodosProjetosButton">
-          Veja todos os nossos projetos
+          <Link to="/nossosProjetos">Veja todos os nossos projetos</Link>
         </button>
       </div>
     </>

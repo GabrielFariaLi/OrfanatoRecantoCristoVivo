@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./NossaEstruturaHome.css";
 
 const NossaEstruturaHome = () => {
@@ -36,7 +37,7 @@ const NossaEstruturaHome = () => {
             quae ab illo inventore veritatis et
           </div>
           <button className="buttonContainerNossaEstruturaHome">
-            Conheça nosso espaço
+            <Link to="/nossaEstrutura">Conheça nosso espaço</Link>
           </button>
         </div>
 

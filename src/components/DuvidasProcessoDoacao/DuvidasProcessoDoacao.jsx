@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./DuvidasProcessoDoacao.css";
 
 const DuvidasProcessoDoacao = () => {
@@ -16,7 +17,7 @@ const DuvidasProcessoDoacao = () => {
             quae ab illo inventore veritatis et
           </p>
           <div className="buttonDuvidasProcessoDoacao">
-            Entre em contato conosco
+            <Link to="/faleConosco">Entre em contato conosco</Link>
           </div>
         </div>
         <div className="containerImagemDuvidasProcessoDoacao">
