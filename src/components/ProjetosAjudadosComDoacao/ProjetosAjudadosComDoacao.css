@@ -171,7 +171,8 @@
     width: 301px;
     height: 173px;
     position: absolute;
-    right: 10%;
+    right: 0;
+    margin-right: 0;
   }
 
   .ImagemRightUnidadeProjetoDoacao {

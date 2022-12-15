@@ -181,7 +181,6 @@
 @media (max-width: 480px) {
   .containerPrincipalNossaEstruturaHome {
     flex-direction: column;
-    border: 2px solid red;
   }
 
   .containerTextoRightNossaEstruturaHome {
@@ -206,9 +205,9 @@
     left: 0;
     top: calc(100% - 450px);
     right: calc(100% - 620px);
-
-    margin-top: 0px;
+    margin-top: 200px;
     margin-right: 260px;
+
     text-align: center;
   }
 

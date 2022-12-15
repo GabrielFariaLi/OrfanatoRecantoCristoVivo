@@ -113,8 +113,12 @@
 @media (max-width: 1170px) {
   .containerPrincipalGaleriaProjetosNossosProjetos {
     height: fit-content;
+    padding-top: 84px;
+    padding-bottom: 84px;
   }
-
+  .imagemCardIndividualProjetoGaleriaNossosProjetos {
+    object-fit: cover;
+  }
   .cardIndividualProjetoGaleriaNossosProjetos {
     width: 386.5px;
   }
@@ -124,7 +128,7 @@
     text-align: center;
   }
 }
-@media (max-width: 1020px) {
+@media (max-width: 1200px) {
   .containerPrincipalFiltroGaleriaProjetosNossosProjetos {
     margin-top: 90px;
     margin-left: 10%;

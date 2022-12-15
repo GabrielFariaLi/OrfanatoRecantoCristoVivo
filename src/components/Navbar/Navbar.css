@@ -173,6 +173,10 @@
   margin-bottom: 15px;
 }
 
+.navMenu li {
+  min-width: fit-content;
+}
+
 .dropdownMiniMenuComoAjudarMobile {
   margin-bottom: 25px;
 }
@@ -298,8 +302,21 @@
 
 .hamburgerMenu:focus .containerIntroWebsite {
 }
-
+.navMenu li {
+  min-width: fit-content;
+}
 /* MEDIA QUERIES -----------------------------------------------*/
+@media (max-width: 1700px) {
+  .navMenu li {
+    min-width: fit-content;
+    margin: 0;
+    padding: 0;
+  }
+  .navMenu li a {
+    margin: 0px 10px;
+    padding: 0;
+  }
+}
 
 @media (max-width: 1324px) {
   .navbar {
@@ -327,7 +344,7 @@
     align-content: center;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 959px) {
   .hamburgerMenu {
     display: inline-block;
     padding-right: 20px;

@@ -1,6 +1,9 @@
 .containerIndividualProjetoHeroSectionNossosProjetos {
   width: 100%;
 }
+.imagemHeroSectionNossosProjetos {
+  object-fit: cover;
+}
 .containerPrincipalHeroSectionNossosProjetos {
   height: 100vh;
 }

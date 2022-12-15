@@ -248,3 +248,30 @@ export const projetosSobreNos = [
     segundoTitulo: "Sed ut perspiciatis unde omnis iste natus error sit ",
   },
 ];
+
+export const projetosNossosPROJETOS = [
+  {
+    id: 1,
+    img: "/imgs/cardIndividualProjetosGaleria.jpg",
+    titulo: "Nome do projeto",
+    desc: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.",
+  },
+  {
+    id: 2,
+    img: "/imgs/cardIndividualProjetosGaleria.jpg",
+    titulo: "Nome do projeto",
+    desc: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.",
+  },
+  {
+    id: 3,
+    img: "/imgs/cardIndividualProjetosGaleria.jpg",
+    titulo: "Nome do projeto",
+    desc: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.",
+  },
+  {
+    id: 4,
+    img: "/imgs/cardIndividualProjetosGaleria.jpg",
+    titulo: "Nome do projeto",
+    desc: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.",
+  },
+];

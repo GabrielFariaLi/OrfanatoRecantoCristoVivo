@@ -15,7 +15,7 @@ const JuntosMudamosVidasHome = () => {
   useEffect(() => {
     if (currentSlide !== -99) {
       setWidthAtual(window.innerWidth);
-      if (widthAtual > 600) {
+      if (widthAtual > 800) {
         if (currentSlide === 8) {
           setcurrentSlide(-1);
         }
@@ -65,7 +65,7 @@ const JuntosMudamosVidasHome = () => {
         testeTrack
           .querySelector(`[data-index="${dIndexPosterior2 - 1}"]`)
           .classList.remove("itemDuasUnidadeDistanciaRoleta");
-      } else if (widthAtual <= 599) {
+      } else if (widthAtual <= 799) {
         if (currentSlide === 8) {
           setcurrentSlide(-1);
         }
@@ -74,6 +74,9 @@ const JuntosMudamosVidasHome = () => {
         let testeTrack = teste.querySelector(".slick-track");
         let dIndex = (parseInt(currentSlide) + 1).toString();
         let dIndexAnterior = parseInt(currentSlide).toString();
+        let dIndexAnterior1 = parseInt(currentSlide - 1).toString();
+        let dIndexAnterior2 = parseInt(currentSlide - 2).toString();
+        let dIndexAnterior3 = parseInt(currentSlide - 3).toString();
 
         let dIndexPosterior2 = (parseInt(currentSlide) + 2).toString();
         let dIndexPosterior3 = (parseInt(currentSlide) + 4).toString();
