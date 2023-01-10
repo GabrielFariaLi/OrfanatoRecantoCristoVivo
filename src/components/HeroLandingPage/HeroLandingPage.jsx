@@ -62,7 +62,15 @@ const Home = () => {
             Confiem
           </h1>
           <p className="paragrafoLandingPageRecanto">
-            Recanto Cristo Vivo: Amor e Dignidade á Criança Carente.
+            Recanto Cristo Vivo:{" "}
+            <span style={{ fontWeight: "800", color: "var(--primary-red)" }}>
+              Amor
+            </span>{" "}
+            e{" "}
+            <span style={{ fontWeight: "800", color: "var(--primary-blue)" }}>
+              Dignidade
+            </span>{" "}
+            á Criança Carente.
           </p>
         </div>
         <div className="segundoTituloLandingPage">
