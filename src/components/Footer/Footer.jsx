@@ -17,10 +17,10 @@ const Footer = () => {
               Recanto <br /> Cristo Vivo
             </h1>
             <div className="descSobreNosFooter">
-              {/*         Somos uma ONG (orgão não governamental), devidamente cadastrada
+              Somos uma ONG (orgão não governamental), devidamente cadastrada
               nos orgãos publicos federais e municipais, que desde a data de sua
               fundação, 1985, sobrevive graças às ofertas, doações e trabalho
-              voluntario de centenas de pessoas que colaboram */}
+              voluntario de centenas de pessoas que colaboram
             </div>
           </div>
           <div className="miniMenuFooter">

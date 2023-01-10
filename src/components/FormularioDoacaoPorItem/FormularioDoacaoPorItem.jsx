@@ -65,6 +65,19 @@ const FormularioDoacaoPorItem = () => {
               id="emailDoacaoItem"
               name="emailDoacaoItem"
             />
+            <p style={{ color: "var(--text-black)", marginBottom: "15px" }}>
+              Tem disponibilidade para entregar o item até a gente?
+            </p>
+            <label class="containerCheckBoxDoeQualquerCoisa">
+              Sim
+              <input type="radio" name="radio" />
+              <span class="checkmark"></span>
+            </label>
+            <label class="containerCheckBoxDoeQualquerCoisa">
+              Não
+              <input type="radio" name="radio" />
+              <span class="checkmark"></span>
+            </label>
             <div className="buttonEnviarMensagem">Enviar mensagem</div>
           </div>
         </div>

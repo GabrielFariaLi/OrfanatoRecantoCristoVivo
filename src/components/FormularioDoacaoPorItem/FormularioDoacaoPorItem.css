@@ -70,7 +70,7 @@
   resize: none;
   padding-top: 12px;
   padding-right: 26px;
-  height: 218.77px;
+  height: 178.77px;
   border: none;
   padding-left: 26px;
   /* Brancos, cinzas e preto/Branco 1 */
@@ -94,6 +94,8 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-left: auto;
+  cursor: pointer;
   align-items: center;
   padding: 12px 50px;
   font-weight: 600;
@@ -111,6 +113,72 @@
 .buttonEnviarMensagem:hover {
   color: var(--primary-red);
   border: 2px solid var(--primary-red);
+}
+
+/* CHECKBOX */
+/* The containerCheckBoxDoeQualquerCoisa */
+.containerCheckBoxDoeQualquerCoisa {
+  display: block;
+  position: relative;
+  color: #000;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 12px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.containerCheckBoxDoeQualquerCoisa input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: var(--text-black);
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.containerCheckBoxDoeQualquerCoisa:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.containerCheckBoxDoeQualquerCoisa input:checked ~ .checkmark {
+  background-color: var(--primary-blue);
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.containerCheckBoxDoeQualquerCoisa input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.containerCheckBoxDoeQualquerCoisa .checkmark:after {
+  top: 5px;
+  left: 5px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--text-white);
 }
 
 @media (max-width: 1180px) {

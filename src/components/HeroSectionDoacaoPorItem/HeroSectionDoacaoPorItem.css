@@ -29,6 +29,7 @@
 
 .buttonNaoSabeOqueDoarHeroDoacaoItem:hover {
   border: 2px solid var(--primary-red);
+  color: var(--primary-red);
 }
 
 @media (max-width: 480px) {

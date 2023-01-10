@@ -125,7 +125,7 @@ const JuntosMudamosVidasHome = () => {
     vertical: true,
 
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 1000,
     beforeChange: (current, next) => {
       setcurrentSlide(current);
       //console.log(currentSlide);
