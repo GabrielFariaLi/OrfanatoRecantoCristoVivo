@@ -38,7 +38,7 @@ const Home = () => {
       </div>
       <video
         className="videoLandingPage"
-        src="/videos/landingPageVideo.mp4"
+        src="/videos/futebolVideo.mp4"
         autoPlay
         loop
         muted

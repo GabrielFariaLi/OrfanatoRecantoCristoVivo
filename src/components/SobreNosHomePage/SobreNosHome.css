@@ -52,9 +52,10 @@
   width: 377.95px;
   height: 689.39px;
   filter: saturate(0);
+
   right: 220px;
   bottom: calc(100% + -39.2rem);
-  background: url("../../../public/imgs/sobreNosHome1.png") center;
+  background: url("../../../public/imgs/sobreNosHome1.jpg") center;
   border-radius: 15.3669px;
   transform: matrix(1, -0.11, 0.09, 0.99, 0, 0);
   z-index: 1;
