@@ -50,12 +50,14 @@ const ProjetosAjudadosComDoacao = () => {
         </svg>
         <div className="containerTituloProjetosAjudados">
           <h1 className="tituloPrincipalProjetosAjudados semibold48 ">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit .
+            Veja como suas doações transformam, na prática, as vidas de nossas
+            crianças
           </h1>
           <p className="descTituloPrincipalProjetosAjudados">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et
+            Buscamos oferecer uma educação mais abrangente, alternativa e
+            inclusiva para as nossas crianças. Isso significa que procuramos
+            valorizar não só o aspecto acadêmico de uma educação mas também e,
+            especialmente, os dons, talentos e habilidades de cada criança.
           </p>
         </div>
       </div>

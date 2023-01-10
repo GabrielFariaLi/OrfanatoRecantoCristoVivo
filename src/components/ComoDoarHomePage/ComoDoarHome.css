@@ -144,7 +144,7 @@
 /*  MOBILE -----------------------------------*/
 .containerComoDoarHomeMobile {
   display: none;
-  height: 100vh;
+  height: 800px;
   background-color: var(--text-white);
   /* border: 2px solid red; */
 }
@@ -206,7 +206,7 @@
     align-self: center;
     justify-self: center;
     width: 90vw;
-    height: 3px;
+    height: 0.5px;
     background: black;
     border: none;
     margin-bottom: 50px;
@@ -280,8 +280,8 @@
     align-self: center;
     justify-self: center;
     width: 90vw;
-    height: 3px;
-    background: black;
+    height: 0.1px;
+
     border: none;
     margin-bottom: 50px;
   }

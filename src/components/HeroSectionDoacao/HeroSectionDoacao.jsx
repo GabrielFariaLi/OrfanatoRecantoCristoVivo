@@ -31,9 +31,8 @@ const HeroSectionDoacao = () => {
             Ajude a <i>transformar</i> o<br /> futuro de nossas criança.
           </h1>
           <p className="descHeroSectionDoacao">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et
+            A sua participação é fundamental para o sustento e manutenção desta
+            obra social.
           </p>
         </div>
         <div className="containerDescaDescubraMais">

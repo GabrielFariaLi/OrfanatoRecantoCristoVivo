@@ -1,4 +1,4 @@
-import { React, useEffect } from "react";
+import { React, useEffect, useState } from "react";
 import Footer from "../components/Footer/Footer";
 import Navbar from "../components/Navbar/Navbar";
 import "../components/DetalhesNossosProjetos/DetalhesNossosProjetos.css";
@@ -59,6 +59,17 @@ const DetalhesNossosProjetos = () => {
         },
       },
     ],
+  };
+
+  const [flagPlay, setFlagPlay] = useState(false);
+
+  const toggleVideo = () => {
+    const vid = document.getElementById("");
+    if (flagPlay) {
+      setFlagPlay(false);
+    } else {
+      setFlagPlay(true);
+    }
   };
   return (
     <DivPrincipalDetalhesNossosProjetos>
@@ -132,7 +143,12 @@ const DetalhesNossosProjetos = () => {
       </div>
       <div className="sectionFotoPrincipalLiderProjetoDetalhesNossosProjetos">
         <div className="containerImagemFotoPrincipalLiderProjetoDetalhesNossosProjetos">
-          <img src="/imgs/fotoPrincipalDetalhesNossosProjetos.png" />
+          <video
+            className="videoPrincipalLiderProjetoDetalhesNossosProjetos"
+            controls
+            type="video/mov"
+            src="/videos/IMG_0284.MOV"
+          />
         </div>
         <div className="containerTituloFotoPrincipalLiderProjetoDetalhesNossosProjetos">
           <h1 className="tituloFotoPrincipalLiderProjetoDetalhesNossosProjetos">

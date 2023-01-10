@@ -76,9 +76,11 @@ const SobreNosHome = () => {
           </button>
         </div>
         <div ref={boxRef} className="containerFotosRightHome">
-          <div className="imagemFundadores"></div>
-          <div className="imagemFundadores2"></div>
-          <div className="imagemFundadores3"></div>
+          <div className="containerFotosRightHomeAlign">
+            <div className="imagemFundadores"></div>
+            <div className="imagemFundadores2"></div>
+            <div className="imagemFundadores3"></div>
+          </div>
         </div>
       </div>
     </>

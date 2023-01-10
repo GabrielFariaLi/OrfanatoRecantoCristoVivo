@@ -15,8 +15,9 @@
 }
 
 .tituloFormularioDoacaoItem {
+  text-align: center;
   justify-self: start;
-  width: 499px;
+  width: 599px;
   color: var(--text-black);
   margin-top: 113px;
   font-weight: 600;

@@ -77,6 +77,17 @@
 .buttonCTADoacaoRightInfoCTADetalhesNossosProjetos:hover {
   background: var(--primary-red);
 }
+.containerImagemFotoPrincipalLiderProjetoDetalhesNossosProjetos {
+  max-width: 1171px;
+  max-height: 520px;
+}
+.videoPrincipalLiderProjetoDetalhesNossosProjetos {
+  max-width: 1171px;
+  max-height: 520px;
+}
+
+.playbuttonvideoPrincipalLiderProjetoDetalhesNossosProjetos {
+}
 
 .containerOutrosProjetosDetalhesNossosProjetos {
   height: 722px;

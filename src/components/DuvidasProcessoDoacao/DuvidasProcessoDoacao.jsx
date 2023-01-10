@@ -12,9 +12,13 @@ const DuvidasProcessoDoacao = () => {
             dúvida sobre o nosso processo de doação?
           </h1>
           <p className="descDuvidasProcessoDoacao">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et
+            Esta entidade é reconhecida pelo governo brasileiro como de
+            Utilidade Pública Federal e Municipal. Prestamos contas de todas as
+            nossas atividades aos órgãos públicos pertinentes e mantemos sempre
+            atualizados os nossos registros contábeis e fiscais de toda e
+            qualquer doação feita, seja em espécie ou em objetos. Emitimos
+            recibos e declarações para efeitos de declaração de IRPF, conforme
+            solicitado.
           </p>
           <div className="buttonDuvidasProcessoDoacao">
             <Link to="/faleConosco">Entre em contato conosco</Link>

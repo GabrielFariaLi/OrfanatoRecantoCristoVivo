@@ -29,12 +29,17 @@ const NossaEstruturaHome = () => {
             </svg>
           </div>
           <div className="subTituloContainerSobreNos">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit .
+            Instalações diversificadas e funcionais
           </div>
           <div style={{ maxWidth: "405px" }} className="descContainerSobreNos">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et
+            As instalações da entidade foram sendo construídas no decorrer dos
+            anos a medida em que conseguíamos recursos suficientes para a
+            construção das mesmas.{" "}
+            {/* <br />
+            <br />
+            Cada construção foi levantada com um objetivo específico de atender
+            a uma área profissionalizante, acadêmica, artes ou de esportes
+            alternativos. */}
           </div>
           <button className="buttonContainerNossaEstruturaHome">
             <Link to="/nossaEstrutura">Conheça nosso espaço</Link>

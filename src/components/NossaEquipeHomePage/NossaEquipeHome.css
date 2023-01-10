@@ -89,6 +89,6 @@
 
 @media (max-width: 480px) {
   .containerPrincipalNossaEquipeHome {
-    height: 100vh;
+    min-height: 1000px !important;
   }
 }

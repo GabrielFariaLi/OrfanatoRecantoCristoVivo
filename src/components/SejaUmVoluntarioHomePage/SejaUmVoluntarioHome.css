@@ -96,6 +96,7 @@
 
 @media (max-width: 480px) {
   .containerSejaVoluntarioHome {
+    height: 800px;
     padding: 0;
     position: relative;
     flex-direction: column;

@@ -101,7 +101,7 @@ const FormasDeDoarDoacao = () => {
             </Link>
             <Link to="/doacaoItem">
               <div className=" containerCardFormasDeDoacao ">
-                <h3 className="tituloFormaDoarDoacao">Doe algum item</h3>
+                <h3 className="tituloFormaDoarDoacao">Doações em geral</h3>
                 <img
                   className="imagemCardFormaDoarDoacao"
                   src="/imgs/doarItemCardFormasDoarDoacao.png"

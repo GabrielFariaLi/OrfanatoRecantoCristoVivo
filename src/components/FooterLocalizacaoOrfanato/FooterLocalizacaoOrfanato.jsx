@@ -7,7 +7,7 @@ const FooterLocalizacaoOrfanato = () => {
         <div className="containerConteudosFooterLocalizacaoOrfanato">
           <div className="containerTextoLocalizacaoOrfanato">
             <div className="containerTituloTextoLocalizacaoOrfanato">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor.
+              Quer visitar pessoalmente o Recanto Cristo Vivo?
             </div>
             <div className="containerInfosLocalizacaoOrfanato">
               <div className="primeiraColunaInfosLocalizacaoOrfanato">
@@ -15,12 +15,13 @@ const FooterLocalizacaoOrfanato = () => {
                   Telefone
                 </p>
                 <p className="efetivaInfoLocalizacaoOrfanato textoCimaInfoLocalizacao2">
-                  (xx) xxxx-xxxx
+                  (61) 3629-2896
                 </p>
 
                 <p className="tituloItemInfoLocalizacaoOrfanato">Endereço</p>
                 <p className="efetivaInfoLocalizacaoOrfanato">
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  BR 040 Km 8 Chácaras Anhanguera 2/3 R Amazonas Quadra 02 Lote
+                  03 <br /> Valparaiso De Goiás GO 72870-000
                 </p>
               </div>
               <div className="segundaColunaInfosLocalizacaoOrfanato">
@@ -28,7 +29,7 @@ const FooterLocalizacaoOrfanato = () => {
                   Whatsapp
                 </p>
                 <p className="efetivaInfoLocalizacaoOrfanato textoCimaInfoLocalizacao2">
-                  (xx) xxxx-xxxx
+                  (61) 99914-6349
                 </p>
 
                 <p className="tituloItemInfoLocalizacaoOrfanato">E-mail</p>

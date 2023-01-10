@@ -7,8 +7,8 @@ const HeroSectionCTAFacaSuaDoacaoSobreNos = () => {
       <div className="containerPrincipalHeroSectionCTASobreNos">
         <div className="containerTextoHeroSectionCTASobreNos">
           <h2 className="textoTituloCTASobreNos">
-            Lorem ipsum dolor sit amet, <br />
-            consectetur adipiscing elit.
+            Quais são as maneiras que você pode <br />
+            ajudar o Recanto Cristo Vivo?
           </h2>
           <div className="buttonConheçaFormasDoacaoCTASobreNos">
             <Link to="/facaSuaDoacao">Conheça nossas formas de doação</Link>

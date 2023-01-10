@@ -2,6 +2,10 @@
 /* html {
   background-color: purple;
 } */
+img {
+  object-fit: contain;
+}
+
 * {
   margin: 0;
   padding: 0;

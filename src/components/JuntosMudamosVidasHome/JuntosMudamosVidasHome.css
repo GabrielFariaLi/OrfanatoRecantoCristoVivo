@@ -114,6 +114,12 @@
 }
 
 @media (max-width: 480px) {
+  .containerGeralJuntosMudamosVidasHome {
+    padding: 54px 10px 0px 10px;
+  }
+
+  .tituloJuntoMudamos {
+  }
   .containerConteudosJuntosMudamosVidas {
     flex-direction: column;
   }

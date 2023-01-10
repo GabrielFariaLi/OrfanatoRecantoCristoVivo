@@ -200,6 +200,24 @@
   }
 }
 
+@media (max-width: 560px) {
+  .imagemFundadores {
+    top: calc(100% + -33.2rem);
+    right: calc(1% + 250px);
+  }
+
+  .imagemFundadores2 {
+    top: calc(100% + -32.2rem);
+    bottom: calc(100% + -41.2rem);
+    right: calc(1% + 150px);
+  }
+
+  .imagemFundadores3 {
+    top: calc(100% + -31.2rem);
+    right: calc(1% + 50px);
+  }
+}
+
 @media (max-width: 480px) {
   .containerSobreNosHome {
     width: 100vw;
@@ -219,5 +237,49 @@
   .imagemFundadores3 {
     top: calc(100% + -31.2rem);
     right: calc(0% + 50px);
+  }
+}
+
+@media (max-width: 420px) {
+  .imagemFundadores {
+    top: calc(100% + -38.2rem);
+    right: calc(0% + 140px);
+  }
+
+  .imagemFundadores2 {
+    top: calc(100% + -35.2rem);
+    bottom: calc(100% + -41.2rem);
+    right: calc(0% + 70px);
+  }
+
+  .imagemFundadores3 {
+    top: calc(100% + -31.2rem);
+    right: calc(0% + 20px);
+  }
+  .containerTextoLeftHome {
+    max-width: 85vw;
+    padding: "0px 15px";
+  }
+}
+@media (max-width: 344px) {
+  .imagemFundadores,
+  .imagemFundadores2,
+  .imagemFundadores3 {
+    transform: scale(0.8);
+  }
+  .imagemFundadores {
+    top: calc(100% + -38.2rem);
+    right: calc(0% + 130px);
+  }
+
+  .imagemFundadores2 {
+    top: calc(100% + -35.2rem);
+    bottom: calc(100% + -41.2rem);
+    right: calc(0% + 60px);
+  }
+
+  .imagemFundadores3 {
+    top: calc(100% + -31.2rem);
+    right: calc(0% + 10px);
   }
 }

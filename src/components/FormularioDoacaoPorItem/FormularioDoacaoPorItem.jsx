@@ -6,7 +6,8 @@ const FormularioDoacaoPorItem = () => {
     <>
       <div className="containerPrincipalFormularioDoacaoItem">
         <div className="tituloFormularioDoacaoItem">
-          Lorem ipsum dolor sit amet, consectetur.
+          A sua doação pode fazer a diferença para melhor <br />
+          na vida de uma criança!
         </div>
         <div className="d-flex containerFormularioDoacaoItemFlex">
           <div className="containerInformacoesPessoaisFormulario">

@@ -125,6 +125,9 @@
 }
 
 @media (max-width: 480px) {
+  .containerPrincipalNossosProjetosHome {
+    height: 800px;
+  }
   .containerCarrouselProjetosHome {
     height: 400px;
     width: 100vw;

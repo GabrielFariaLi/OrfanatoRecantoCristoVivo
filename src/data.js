@@ -132,10 +132,10 @@ export const opcoesComoDoarMobileHome = [
 export const projetosAjudadosComDoacao = [
   {
     id: 0,
-    titulo: "Lorem ipsum dolor",
+    titulo: '"Livro na mão e bola no pé"',
     img: "/imgs/imagemDoarPixMobileHome.png",
     descricao:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et",
+      "O senhor José de Souza Lima Junior, Diretor Geral, fala um pouco sobre um dos projetos implementados nas atividades díarias de nossas crianças, que abrange tanto a area acadêmica quanto a esportiva",
   },
   {
     id: 1,
@@ -186,21 +186,21 @@ export const valoresDoacaoCartao = [
 export const fundadoresSobreNos = [
   {
     id: 0,
-    img: "/imgs/imagemFundadoresSobreNos1.png",
-    nome: "Fernanda Peixoto",
-    funcao: "Função atual",
+    img: "/imgs/imagemFundadoresSobreNos1.jpg",
+    nome: "José de Souza Lima Junior",
+    funcao: "Diretor Geral",
   },
   {
     id: 1,
-    img: "/imgs/imagemFundadoresSobreNos2.png",
-    nome: "Fernando Cardoso",
-    funcao: "Função atual",
+    img: "/imgs/imagemFundadoresSobreNos2.jpg",
+    nome: "Marlene de Souza Lima",
+    funcao: "Diretora Geral",
   },
   {
     id: 2,
-    img: "/imgs/imagemFundadoresSobreNos3.png",
-    nome: "Bruno Ferreira",
-    funcao: "Função atual",
+    img: "/imgs/imagemFundadoresSobreNos3.jpg",
+    nome: "Delvany de  Souza Lima Junior",
+    funcao: "Diretor Geral",
   },
   {
     id: 3,
