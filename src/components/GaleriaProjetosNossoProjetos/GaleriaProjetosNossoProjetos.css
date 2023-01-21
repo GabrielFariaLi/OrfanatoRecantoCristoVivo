@@ -37,7 +37,8 @@
 
 .containerSubTituloGaleriaProjetosNossosProjetos {
   color: var(--text-black);
-  font-size: 48px;
+  text-align: center;
+  font-size: 28px;
   font-weight: 600;
   max-width: 520px;
   margin-left: 119px;

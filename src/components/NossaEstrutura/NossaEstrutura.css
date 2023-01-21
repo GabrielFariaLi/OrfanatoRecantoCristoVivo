@@ -67,6 +67,7 @@
 /* espaços coletivos */
 
 .espacosColetivosNossaEstruturaContainer {
+  margin-top: 50px;
   height: 641px;
   width: 100vw;
   display: flex;
@@ -87,7 +88,7 @@
 }
 
 .segundoTituloTextoRightEspacosColetivosNossaEstrutura {
-  font-size: 48px;
+  font-size: 28px;
   font-weight: 600;
   color: var(--text-black);
   margin-bottom: 32px;
@@ -187,7 +188,7 @@
   flex-direction: column;
   align-items: center;
   width: 100vw;
-  height: 306px;
+  height: 406px;
   margin: 70px 0px;
   color: var(--text-black);
 }
@@ -202,7 +203,7 @@
 
 .descricaoCtaAjudaComDoacoesNossaEstrutura {
   text-align: center;
-  max-width: 445px;
+  max-width: 545px;
   margin-bottom: 32px;
 }
 
@@ -243,13 +244,46 @@
   width: 633px;
   background-size: cover;
   padding-right: 30px;
+  position: relative;
 }
 
 .containerSliderImagensGaleriaNossaEstrutura {
   margin-bottom: 70px;
 }
 
+.containerFotosInfraestruturaSlider {
+  position: relative;
+}
+
 .linhaVermelhaNossaEstrutura {
   margin-left: 15px;
   margin-bottom: 5px;
+}
+
+.containerInfoGaleriaNossaEstruturaFooter {
+  text-align: center;
+  padding: 15px 30px;
+  background-color: white;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  max-width: 50%;
+  left: 15.5%;
+  transition: all 0.3s ease;
+  color: black;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 4px;
+}
+.tituloInfoGaleriaNossaEstruturaFooter {
+  margin-bottom: 10px;
+  font-weight: 800;
+}
+
+.imagemEfetivaGaleriaNossaEstrutura:hover
+  + .containerInfoGaleriaNossaEstruturaFooter {
+  opacity: 1;
+}
+
+.containerInfoGaleriaNossaEstruturaFooter:hover {
+  opacity: 1;
 }

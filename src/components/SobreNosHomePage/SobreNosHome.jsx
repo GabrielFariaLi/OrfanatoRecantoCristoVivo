@@ -63,12 +63,12 @@ const SobreNosHome = () => {
             </svg>
           </div>
           <div className="subTituloContainerSobreNos">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit .
+            Conheça mais sobre nós, nossa história e nossos projetos
           </div>
           <div className="descContainerSobreNos">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et
+            Veja o porquê essa obra surgiu e como se manteve durante os últimos
+            36 anos através do trabalho voluntario e da dedicação de pessoas que
+            decidiram se envolver neste trabalho social
           </div>
 
           <button className="buttonContainerSobreNos">

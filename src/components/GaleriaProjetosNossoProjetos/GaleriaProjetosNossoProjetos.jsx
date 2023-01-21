@@ -82,7 +82,9 @@ const GaleriaProjetosNossoProjetos = () => {
               </div>
             </div>
             <div className="containerSubTituloGaleriaProjetosNossosProjetos">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit .
+              Existem varios projetos desenvolvidos para atender as diferentes
+              necessidades e habilidades de nossas crianças. Saiba aqui quais
+              são eles e quais as formas que você pode ajudar
             </div>
           </div>
         </div>

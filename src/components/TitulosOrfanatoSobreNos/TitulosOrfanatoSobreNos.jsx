@@ -154,7 +154,7 @@ const TitulosOrfanatoSobreNos = () => {
                 className="imagemElipseContornoTitulosOrfanatoSobreNos"
               />
               <div className="primeiroTituloHeadingOrfanatoSobreNos">
-                Lorem ipsum
+                Certificação das entidades beneficientes de assistencia social
               </div>
               <div className="segundoTituloHeadingOrfanatoSobreNos">
                 Lorem ipsum
@@ -175,7 +175,7 @@ const TitulosOrfanatoSobreNos = () => {
                 className="imagemElipseContornoTitulosOrfanatoSobreNos"
               />
               <div className="primeiroTituloHeadingOrfanatoSobreNos">
-                Lorem ipsum
+                Secretaria Municipal de desenvolvimento social
               </div>
               <div className="segundoTituloHeadingOrfanatoSobreNos">
                 Lorem ipsum

@@ -34,7 +34,7 @@ const FooterLocalizacaoOrfanato = () => {
 
                 <p className="tituloItemInfoLocalizacaoOrfanato">E-mail</p>
                 <p className="efetivaInfoLocalizacaoOrfanato">
-                  recantocristovivo@gmail.com
+                  delvany@hotmail.com
                 </p>
               </div>
             </div>

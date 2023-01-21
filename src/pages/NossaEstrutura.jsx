@@ -7,6 +7,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
+import { fotosInfraestruturaFooter } from "../data";
 import FooterLocalizacaoOrfanato from "../components/FooterLocalizacaoOrfanato/FooterLocalizacaoOrfanato";
 
 const DivPrincipalNossaEstrutura = styled.div`
@@ -83,30 +84,34 @@ const NossaEstrutura = () => {
           </svg>
         </div>
         <div className="segundoTituloHeroSectionNossaEstrutura">
-          Lorem ipsum dolor sit amet consectetor
+          Venha nos visitar e conhecer as nossas instalações
         </div>
         <div className="descTituloHeroSectionNossaEstrutura">
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et
+          Veja o local aonde atendemos as nossas crianças para o atendimento de
+          suas diferentes necessidades e fornecemos variados tipos de
+          assistência social.
         </div>
       </div>
       <div className="primeiraInfoNossaEstruturaContainer">
         <div className="textoLeftPrimeiraInfoNossaEstrutura">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod
-          tempor.
+          Nossa Historia
         </div>
         <div className="textoRightPrimeiraInfoNossaEstrutura">
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et.
+          Desde a fundação desta entidade em 12 de outubro de 1985 o Recanto
+          Cristo Vivo está instalado em sua sede propria, na região do entorno
+          de brasilia na cidade de valparaiso/GO
           <br />
           <br />
-          Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-          consectetur, adipisci velit, sed quia non numquam eius modi tempora
-          incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut
-          enim ad minima veniam, quis nostrum exercitationem ullam corporis
-          suscipit laboriosam,
+          Começamos esse trabalho de uma forma simples e com todas as
+          dificuldades a serem enfrentadas para fornecer uma infraestrutura
+          minima que pudesse atender com{" "}
+          <span style={{ color: "var(--primary-blue)" }}>dignidade</span>{" "}
+          através assitencia social multidisciplinar e alimentação díaria para
+          as crianças carentes que vinham das mais variadas regiões do país.
+          Atualmente temos uma infraestrutura completa capaz de oferecer
+          atendimento não só as crianças mas também as suas familias assistidas.
+          Dando cumprimento ao nosso objetivo de dar assistencia a criança no
+          seio de sua familia de origem
         </div>
       </div>
       <div className="espacosColetivosNossaEstruturaContainer">
@@ -140,12 +145,12 @@ const NossaEstrutura = () => {
             </svg>
           </div>
           <div className="segundoTituloTextoRightEspacosColetivosNossaEstrutura">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit .
+            Nossa estrutura foi desenhada e construida com o objetivo de atender
+            diferentes areas de necessidades das crianças
           </div>
           <div className="descricaoTituloTextoRightEspacosColetivosNossaEstrutura">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et
+            Tendo isso em vista, atualmente nos contamos com uma variedade
+            grande de espaços funcionais, areas de lazer e refeitorios
           </div>
           <div className="buttonConhecaNossosProjetosEspacosColetivosNossaEstrutura">
             <Link to="/nossosProjetos">Conheça nossos projetos</Link>
@@ -155,7 +160,7 @@ const NossaEstrutura = () => {
       <div className="acomodacoesNossaEstruturaContainer">
         <div className="containertextoLeftAcomodacoesNossaEstrutura">
           <div className="primeiroTituloTextoLeftAcomodacoesNossaEstrutura">
-            Acomodações
+            Espaço cultural e entretenimento
             <svg
               width="57"
               className="linhaVermelhaNossaEstrutura"
@@ -176,12 +181,22 @@ const NossaEstrutura = () => {
             </svg>
           </div>
           <div className="segundoTituloTextoLeftAcomodacoesNossaEstrutura">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit .
+            Valorizamos os espaços destinados a prática esportiva e cultural
           </div>
           <div className="descricaoTituloTextoLeftAcomodacoesNossaEstrutura">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et
+            Dentre alguns podemos citar, o centro desportivo com um campo de
+            futebol, campo de vólei, piscina, e amplas áreas de lazer
+            arborizadas
+            <br />
+            <br />
+            Na área cultural temos uma biblioteca com acervo de 2,500 livros e
+            obras literárias devidamente catalogados e organizados.
+            <br />
+            <br />
+            Um centro histórico da entidade com fotos das nossas primeiras
+            crianças assistidas, nossos voluntários pioneiros, relatos e
+            documentos da época da fundação e dos primeiros anos desse trabalho
+            como orfanato
           </div>
         </div>
         <div className="containerImagemRightAcomodacoesNossaEstrutura">
@@ -206,34 +221,44 @@ const NossaEstrutura = () => {
 
       <div className="ctaAjudaComDoacoesNossaEstruturaContainer">
         <h1 className="tituloCtaAjudaComDoacoesNossaEstrutura">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit .
+          Como você pode ajudar no sustento e na manutenção desta obra social
         </h1>
         <p className="descricaoCtaAjudaComDoacoesNossaEstrutura">
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et
+          A maioria das ONGs trabalha com recursos financeiros limitados,
+          portanto, a colaboração de voluntários e doações é fundamental para
+          seu funcionamento. O Recanto Cristo Vivo é uma entidade sem fins
+          lucrativos, reconhecida pelo orgãos governamentais como de útilidade
+          pública federal que investe todos os recursos arrecadados e doados
+          para a melhoria da condição de vida das crianças assistidas
         </p>
         <div className="buttonCtaFacaUmaDoacaoNossaEstruturaAjuda">
           <Link to="/facaSuaDoacao">Faça uma doação!</Link>
         </div>
       </div>
+
       <div className="containerSliderImagensGaleriaNossaEstrutura">
         <Slider {...settings} className="sliderImagensGaleriaNossaEstrutura">
-          <img
-            src="/imgs/imagensGaleriaNossaEstrutura1.jpg"
-            alt=""
-            className="imagemEfetivaGaleriaNossaEstrutura"
-          />
-          <img
-            src="/imgs/imagensGaleriaNossaEstrutura2.jpg"
-            alt=""
-            className="imagemEfetivaGaleriaNossaEstrutura"
-          />
-          <img
-            src="/imgs/imagensGaleriaNossaEstrutura3.jpg"
-            alt=""
-            className="imagemEfetivaGaleriaNossaEstrutura"
-          />
+          {fotosInfraestruturaFooter.map((item) => {
+            return (
+              <div className="containerFotosInfraestruturaSlider">
+                <img
+                  key={item.titulo}
+                  src={item.img}
+                  alt=""
+                  className="imagemEfetivaGaleriaNossaEstrutura"
+                />
+
+                <div className="containerInfoGaleriaNossaEstruturaFooter">
+                  <div className="tituloInfoGaleriaNossaEstruturaFooter">
+                    {item.titulo}
+                  </div>
+                  <div className="descInfoGaleriaNossaEstruturaFooter">
+                    {item.desc}
+                  </div>
+                </div>
+              </div>
+            );
+          })}
         </Slider>
       </div>
 

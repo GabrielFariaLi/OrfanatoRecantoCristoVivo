@@ -36,13 +36,14 @@ const Home = () => {
         </div>
         <div className="backgroundVermelho"></div>
       </div>
-      <video
+      <img className="videoLandingPage" src="/imgs/fotoPrimeiraPagina.jfif" />
+      {/*       <video
         className="videoLandingPage"
         src="/videos/futebolVideo.mp4"
         autoPlay
         loop
         muted
-      />
+      /> */}
       <div className="containerDescaDescubraMais">
         <img className="descaSaibaMaisRodela" src="/imgs/descaSaibaMais.png" />
         <img

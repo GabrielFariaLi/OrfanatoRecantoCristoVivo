@@ -34,9 +34,11 @@ const SejaUmVoluntarioHome = () => {
               <br /> voluntário do <br /> Recanto Cristo Vivo!
             </div>
             <div className="descContainerSejaVoluntarioHome">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et
+              Os voluntários são fundamentais para o funcionamento das ONGs, já
+              que muitas delas dependem de recursos financeiros limitados. Os
+              voluntários podem desempenhar muitas funções diferentes, desde
+              ajudar na administração da ONG até trabalhar diretamente com as
+              crianças.
             </div>
             <button className="buttonContainerSejaVoluntarioHome">
               <Link to="/faleConosco">Faça seu cadastro</Link>

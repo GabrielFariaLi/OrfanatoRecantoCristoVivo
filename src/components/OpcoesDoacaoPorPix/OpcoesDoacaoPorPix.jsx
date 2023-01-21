@@ -7,9 +7,9 @@ const OpcoesDoacaoPorPix = () => {
       <div className="containerPrincipalOpcoesDoacaoPorPix">
         <div className="containerOpcaoChavePix">
           <p className="paragrafoOpcoesDoarPix">
-            Copie aqui <br /> nossa chave pix
+            Copie aqui <br /> nossa chave pix (CNPJ)
           </p>
-          <div className="buttonChavePixEmail">recantocristovivo@gmail.com</div>
+          <div className="buttonChavePixEmail">03603701000103</div>
         </div>
         <div className="containerOUdivisoria">OU</div>
         <div className="containerOpcaoQRCodePix">

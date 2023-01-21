@@ -75,7 +75,8 @@
   visibility: hidden;
   opacity: 0;
   max-width: 254px;
-  margin: 250px auto 68px auto;
+  margin: 150px auto 68px auto;
+
   transition: 0.3s ease-in-out;
 }
 

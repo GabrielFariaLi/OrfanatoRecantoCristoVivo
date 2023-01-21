@@ -55,7 +55,9 @@ const Footer = () => {
           <div className="contactenosFooter">
             {" "}
             <button className="faleConoscoButtonFooterZap">
-              <p style={{ marginRight: "5px" }}>Fale conosco!</p>
+              <a href="https://wa.link/o2ph8b">
+                <p style={{ marginRight: "5px" }}>Fale conosco!</p>
+              </a>
               <svg
                 width="21"
                 height="22"

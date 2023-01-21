@@ -120,17 +120,13 @@ const FundadoresSobreNos = () => {
                 {item.id % 2 ? (
                   <div className="molduraImagemNossosFundadoresSobreNos molduraAzulFundadoresSobreNos">
                     <p className="textoDescImagemNossosFundadoresSobreNos">
-                      “Sed ut perspiciatis unde omnis iste natus error sit
-                      voluptatem accusantium doloremque laudantium, totam rem
-                      aperiam”
+                      “{item.depoimento}”
                     </p>
                   </div>
                 ) : (
                   <div className="molduraImagemNossosFundadoresSobreNos molduraVermelhoFundadoresSobreNos">
                     <p className="textoDescImagemNossosFundadoresSobreNos">
-                      “Sed ut perspiciatis unde omnis iste natus error sit
-                      voluptatem accusantium doloremque laudantium, totam rem
-                      aperiam”
+                      “{item.depoimento}”
                     </p>
                   </div>
                 )}
